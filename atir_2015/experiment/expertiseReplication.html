@@ -1,0 +1,173 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Buying Household Items</title>
+  <meta name="viewport" content="initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+</head> 
+<body>
+
+<div class="progress">
+  <span>Progress:</span>
+  <div class="bar-wrapper">
+    <div class="bar" width="0%">
+    </div>
+  </div>
+</div>
+
+<div class="slide" id="consent">
+  <img src="stanford.png" alt="Stanford University">
+  <br>
+  <br>
+  <!-- <p id='logo-text'>Stanford Language and Cognition Lab</p> -->
+  <p class="block-text">In this experiment, you will answer some questions
+  about personal finance.</p>
+  <p class="block-text">There are 23 questions in this
+  experiment, and the whole experiment should take about 5 minutes to
+  complete.</b></p> 
+  <button type="button" onClick="this.blur(); experiment.instructions()">Start
+  </button>
+  <p class="block-text">(Note: you won't be able to preview this HIT before
+  accepting it because it's so short.)</p>
+  <p class="block-text" id="mustaccept"> You must accept the HIT in order to
+  continue.</p>
+ 	<p class="block-text" id="legal">By answering the following questions, you 
+ 	are participating in a study being performed by cognitive scientists in the 
+ 	Stanford Department of Psychology. If you have questions about this research, 
+ 	please contact Eric Hermann at 
+ 	<a href="mailto:ehermann@stanford.edu">ehermann@stanford.edu</a>. 
+  You must be at least 18 years old 
+ 	to participate. Your participation in this research is voluntary. You may 
+ 	decline to answer any or all of the following questions. You may decline
+ 	further participation, at any time, without adverse consequences. Your 
+ 	anonymity is assured; the researchers who have requested your
+ 	participation will not receive any personal information about you. Note however that we have recently been made aware that your public Amazon.com profile can be accessed via your worker ID if you do not choose to opt out. If you would like to opt out of this feature, you may follow instructions available <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=16465241" target="_blank">here</a>.</p>
+</div>
+
+<div class="slide" id="instructions">
+  <h2>Instructions</h2>
+  <p class="block-text">In this part of the experiment, we are interested in common knowledge 
+    about personal finance. You will see 15 terms related to personal finance. 
+    Please rate your knowledge about each term by choosing the appropriate number from 1 (never heard of it) to 7 (very knowledgeable).</p>
+  <p>Please click "Begin" when you're ready to start.</p>
+  <button type="button" id="begin" value="Begin">Begin</button>
+</div>
+
+<div class="slide" id="trial">
+  <br/>
+  <br/>
+  <br/>
+  <h3 id="statement">{{}}</h3>
+  <p id="miniInstructions">Please indicate how knowledgable you are about the above topic.</p>
+	<form id="form">
+	  <table id="response"><tr> Not Knowledgable at All &nbsp; &nbsp; 
+      <input class="rating" name="rating" type="radio" id="v1" value="1" />
+      <input class="rating" name="rating" type="radio" id="v2" value="2" />
+      <input class="rating" name="rating" type="radio" id="v3" value="3" />
+      <input class="rating" name="rating" type="radio" id="v4" value="4" />
+      <input class="rating" name="rating" type="radio" id="v5" value="5" />
+      <input class="rating" name="rating" type="radio" id="v6" value="6" />
+      <input class="rating" name="rating" type="radio" id="v7" value="7" />
+	  &nbsp; &nbsp; Very Knowledgable</tr></table>
+  </form>
+  <button type="button" id="continue">Continue</button>
+  <p id="trialerror">Please answer before continuing.</p>
+</div>
+
+<div class="slide" id="FLQuiz">
+  <p class="block-text">In this part of the study, we are interested in your general knowledge about personal finance. 
+    You will see 5 questions about personal finance. Please answer them to the best of your knowledge.</p>.
+  <br/>
+  <form id="FLform">
+  <p class="block-text">Suppose you have $100 in a savings account earning 2 percent interest a year. After five years, how much would you have?<br>
+    <input type="radio" name="1savingsAccount" value="More than 102">More than $102<br>
+    <input type="radio" name="1savingsAccount" value="Exactly 102">Exactly $102<br>
+    <input type="radio" name="1savingsAccount" value="Less than 102">Less than $102<br>
+    <input type="radio" name="1savingsAccount" value="Don't know">Don't know<br>
+  </p>
+  <p class="block-text">Imagine that the interest rate on your savings account is 1 percent a year and inflation is 2 percent a year. After one year, would the money in the account buy more than it does today, exactly the same or less than today?<br>
+    <input type="radio" name="2inflation" value="More">More<br>
+    <input type="radio" name="2inflation" value="Same">Same<br>
+    <input type="radio" name="2inflation" value="Less">Less<br>
+    <input type="radio" name="2inflation" value="Don't know">Don't know<br>
+  </p>
+  <p class="block-text">If interest rates rise, what will typically happen to bond prices? Rise, fall, stay the same, or is there no relationship.<br>
+    <input type="radio" name="3interest" value="Rise">Rise<br>
+    <input type="radio" name="3interest" value="Fall">Fall<br>
+    <input type="radio" name="3interest" value="Stay the same">Stay the same<br>
+    <input type="radio" name="3interest" value="Don't know">Don't know<br>
+  </p>
+  <p class="block-text">True or false: A 15-year mortgage typically requires higher monthly payments than a 30-year mortgage but the total interest over the life of the loan will be less.<br>
+    <input type="radio" name="4mortgage" value="True">True<br>
+    <input type="radio" name="4mortgage" value="False">False<br>
+    <input type="radio" name="4mortgage" value="Don't know">Don't know<br>
+  </p>
+  <p class="block-text">True or false: Buying a single company's stock usually provides a safer return than a stock mutual fund.<br>
+    <input type="radio" name="5stocks" value="True">True<br>
+    <input type="radio" name="5stocks" value="False">False<br>
+    <input type="radio" name="5stocks" value="Don't know">Don't know<br>
+  </p>
+  <p id="FLQuizerror">Please answer all questions before continuing.</p>
+  <button type="button" id="FLformsubmit">Submit</button>
+  </form>
+  
+</div>
+
+<div class="slide" id="questionaire">
+  <p>Last section! Please enter your responses below, and then click 'Submit'</p>.
+  <br/>
+  <form id="questionaireform">
+  <p class="block-text">Your age*: <input type="text" name="age"></input></p>
+  <br/>
+  <p class="block-text">Your native language*:
+    <input type="text" name="lg"></input>
+    <br/>(the language that was spoken at home when you were a child)</p>
+  <p class="block-text">Your gender*:<br>
+  <input type="radio" name="gender" value="male">Male<br>
+  <input type="radio" name="gender" value="female">Female<br>
+  <input type="radio" name="gender" value="NA">Other/Decline To State<br>
+  </p>
+  <p class="block-text">Your Race/Ethnicity*:<br>
+  <input type="radio" name="race" value="white">White<br>
+  <input type="radio" name="race" value="black">Black or African-American<br>
+  <input type="radio" name="race" value="nativeAmerican">Native American and Alaska Native<br>
+  <input type="radio" name="race" value="asian">Asian<br>
+  <input type="radio" name="race" value="hawaiian">Native Hawaiian and Other Pacific Islander<br>
+  <input type="radio" name="race" value="two">Two or more<br>
+  </p>
+  <br/>
+  <p class="block-text">We would be interested in any comments you have about this experiment.
+  Please type them here:</p>
+  <textarea rows="7" cols="70" name="comments"></textarea>
+  <br/>
+  <br/>
+  <button type="button" id="formsubmit">Submit</button>
+  </form>
+  <br/>
+  <p>*required</p>
+  <!-- <p class="block-text">You're finished - thanks for participating! The goal of this experiment was to evaluate overclaiming
+  (claiming of non-existent knowledge) and its relationship with perceived financial knowledge. Three of the
+  finance terms you saw were made up terms, and we're interested in whether there is a relationship between
+  claimed knowledge of the non-existent terms and how subjects perceive their own financial knowledge. Again,
+  all information will be anonymized, and please contact ehermann@stanford.edu with any questions or issues. 
+  We ask that you don't give share information about the purpose of this study with other potential participants.
+  Submitting to Mechanical Turk...</p> -->
+</div>
+
+<div class="slide" id="finished">
+  <p class="block-text">You're finished - thanks for participating! The goal of this experiment was to evaluate overclaiming
+  (claiming of non-existent knowledge) and its relationship with perceived financial knowledge. Three of the
+  finance terms you saw were made up terms, and we're interested in whether there is a relationship between
+  claimed knowledge of the non-existent terms and how subjects perceive their own financial knowledge. Again,
+  all information will be anonymized, and please contact ehermann@stanford.edu with any questions or issues. 
+  We ask that you don't give share information about the purpose of this study with other potential participants.
+  Submitting to Mechanical Turk...</p>
+</div>
+
+<!-- Scripts -->
+<script src="jquery.js"></script>
+<script src="mmturkey.js"></script>
+<script src="browserCheck.js"></script>
+<script src="expertiseReplication.js"></script>
+  
+</body>
