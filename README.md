@@ -9,6 +9,7 @@ Fully working:
 Approximately working:
 * Critcher 2012: working jsPsych, but old version and need to switch where the data goes
 
+* Sheppes 2011: Approximately working jsPsych (version 6); note that images can't be shared publicly so aren't committed.
 
 Needs work:
 * Atir 2015: raw html at https://github.com/StanfordPsych254/ehermannProject/tree/master/HTML
@@ -24,11 +25,6 @@ Would want to recode as jsPsych using https://www.jspsych.org/7.0/plugins/html-k
 
 * Sloman 2016: Materials summary at https://osf.io/a8c57
 Could code in qualtrics or jsPsych; each person sees 2 in each condition, fully counterbalanced (maybe easiest to do in jsPsych)
-
-
-
-
-* Sheppes 2011: Waiting on image stimuli from Kate ( https://github.com/psych251/sheppes2011/blob/main/experiment/experiment.html Have jsPsych code, will need to test or fill in gaps) 
 
 * Chopra 2019: waiting on materials from Ben
 

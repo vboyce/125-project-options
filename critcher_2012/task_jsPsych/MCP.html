@@ -1,0 +1,183 @@
+<html>
+<head>
+	<title>Moral Character and Personality</title>
+    <!-- jQuery -->
+    <script src="mmturkey.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/black-tie/jquery-ui.min.css" rel="stylesheet" type="text/css"></link>
+	<link rel="stylesheet" href="style.css"/>
+
+	<!-- jsPsych -->
+	<script src="jsPsych-4.0.1/jspsych.js"></script>
+	<script src="jsPsych-4.0.1/plugins/jspsych-survey-likert.js"></script>
+    <script src="jsPsych-4.0.1/plugins/jspsych-survey-text.js"></script>
+	<script src="jsPsych-4.0.1/plugins/jspsych-single-stim.js"></script>
+	<script src="jsPsych-4.0.1/plugins/jspsych-text.js"></script>
+    <script src="jsPsych-4.0.1/plugins/jspsych-html.js"></script>
+	<!-- style -->
+	<link href="jsPsych-4.0.1/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+
+</head>
+<body>
+<div class="slide" id="instructions">
+    <p id='logo-text'>Evaluating Moral Character and Personality</p>
+    <p class="block-text">In this experiment, you will read a story about two different individuals. You will then be asked to evaluate their moral character and personality. 
+    </p>
+    <button type="button" onclick="this.blur(); experiment.task()">Start</button>
+
+    <p class="block-text" id="legal">Legal information: By answering the following questions, you are participating in a study being performed by cognitive scientists in the Stanford Department of Psychology. If you have questions about this research, please contact Yuan Chang Leong at <a href="mailto://ycleong@stanford.edu">ycleong@stanford.edu</a>. You must be at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</p>
+</div>
+<script src="experiment.js"></script>
+</body>
+
+<div class = "slide" id="task">
+<div id="jspsych_target"> </div>
+</div>
+</html>
+
+<script type="text/javascript">
+if (Math.random() < 0.5){
+    var cond = 'moral';
+}
+else {
+     var cond = 'immoral';
+}
+
+
+/*if (Math.random() < 0.5){
+    var version = 'original';
+}
+else {
+    var version = 'new';
+}
+*/
+
+var version = 'original'
+
+var the_experiment = [];
+
+var inst = {
+    type:'text', 
+    text: ['<br><center><p>Please read the following story carefully</p><p>Press ENTER to continue</p></center>'],
+    timing_post_trial:0,
+    cont_key: 13};
+the_experiment.push(inst);
+
+
+var background ="<p>Justin and Nate were walking to separate cars in the parking lot of Andronico's, a local grocery store, where they each spotted a different lost wallet next to the cars. Upon picking up the wallet and looking inside, each found several hundred dollars in cash. Each man considered whether he should return the wallet and money to the Customer Service desk at Andronico's, or pocket the money and drive away.</p>"
+
+if (version =="original"){
+
+    if (cond == 'moral') {
+        decision = '<p> Justin saw his decision as an easy one and was <i> able to decide quickly. He did not steal the money </i> and instead left the wallet with Customer Service</p><p> In contrast, Nate saw his decision as difficult and <i> was only able to decide after long and careful deliberation</i>. After several minutes of thinking in his car, <i> he too decided not to steal the money </i> and instead left the wallet with customer service. </i><br> </p>'
+    }
+    else {
+        decision ='<p> Justin saw his decision as an easy one and was <i> able to decide quickly. He pocketed the money and drove off. </i></p><p> In contrast, Nate saw his decision as difficult and <i> was only able to decide after long and careful deliberation</i>. After several minutes of thinking in his car, <i> he too decided to pocket the money and drive off</i></p>'
+    }
+}
+
+else {
+    if (cond == 'moral') {
+        decision = '<p>Justin was <i>able to decide quickly. He did not steal the money</i> and instead left the wallet with Customer Service.</p><p> In contrast, Nate <i>was only able to decide after thinking for a long time. He too decided not to steal the money </i> and instead left the wallet with customer service. </i><br> </p>'
+    }
+    else {
+        decision ='<p>Justin was <i>able to decide quickly. He pocketed the money and drove off. </i></p><p> In contrast, Nate <i>was only able to decide after thinking for a long time. He too decided to pocket the money and drive off</i></p>'
+    }
+}
+
+var vignette = background + decision;
+
+// Manipulation Check
+var MC_question = [vignette + "<br><br>How quickly did Justin make his decision?", "How quickly did Nate make his decision?"];
+var scale_1 = ["Very Slowly","Very Quickly"];
+
+var MC = {
+            type: 'survey-likert',
+            questions: [MC_question],
+            labels: [[scale_1,scale_1]], // need one scale for every question on a page
+            intervals: [[7,7]] // note the the intervals and labels don't necessarily need to match.
+        };
+the_experiment.push(MC);
+
+var Justin_Speed = "<p>Justin was able to decide quickly. " 
+
+var Nate_Speed = "<p>Nate was only able to decide after thinking for a long time. "
+
+var Moral_Decision = "He decided not to steal the money. </p> "
+
+var Immoral_Decision = "He decided to pocket the money and drive off. </p>"
+
+if (cond == "moral"){
+    Justin_Opening = Justin_Speed + Moral_Decision
+    Nate_Opening = Nate_Speed + Moral_Decision
+}
+else {
+    Justin_Opening = Justin_Speed + Immoral_Decision
+    Nate_Opening = Nate_Speed + Immoral_Decision
+}
+
+var Justin_Questions = [Justin_Opening + "<br>Do you think Justin felt conflicted when making his decision?", "Do you think Justin had reservations when making his decision?","Do you think Justin felt certain in his decision?","How far do you think Justin was from choosing the alternate course of action?","Do you think Justin has good or bad moral principles?","Do you think deep down Justin has the moral principles and knowledge to do the right thing?","Do you think Justin has good or bad moral standards?","To what extent do you think Justin remained calm and emotionally contained when making his decision?","To what extent do you think Justin became upset and acted without thinking?"]
+
+var s1 = ["Very Conflicted","Not Conflicted"];
+var s2 = ["No Reservations","Many Reservations"];
+var s3 = ["Very Certain","Not Certain"]; 
+var s4 = ["Very Far","Not Far"];
+var s5 = ["Very Bad","Very Good"];
+var s6 = ["Very Unlikely","Very Likely"];
+var s7 = ["Very Bad","Very Good"];
+var s8 = ["To a small extent","To a large extent"]
+var s9 = ["To a small extent","To a large extent"]
+
+var survey_Justin = {
+            type: 'survey-likert',
+            questions: [Justin_Questions],
+            labels:[[s1,s2,s3,s4,s5,s6,s7,s8,s9]], // need one scale for every question on a page
+            intervals:[[7,7,7,7,7,7,7,7,7]], // note the the intervals and labels don't necessarily need to match.
+        };
+the_experiment.push(survey_Justin);
+
+var Nate_Questions = [Nate_Opening + "<br>Do you think Nate felt conflicted when making his decision?", "Do you think Nate had reservations when making his decision?","Do you think Nate felt certain in his decision?","How far do you think Nate was from choosing the alternate course of action?","Do you think Nate has good or bad moral principles?","Do you think deep down Nate has the moral principles and knowledge to do the right thing?","Do you think Nate has good or bad moral standards?","To what extent do you think Nate remained calm and emotionally contained when making his decision?","To what extent do you think Nate became upset and acted without thinking?"]
+
+var survey_Nate = {
+            type: 'survey-likert',
+            questions: [Nate_Questions],
+            labels:[[s1,s2,s3,s4,s5,s6,s7,s8,s9]], // need one scale for every question on a page
+            intervals:[[7,7,7,7,7,7,7,7,7]], // note the the intervals and labels don't necessarily need to match.
+        };
+the_experiment.push(survey_Nate);
+
+
+var final_MC_question = ["How quickly did Justin make his decision?", "How quickly did Nate make his decision?"];
+var scale_1 = ["Very Slowly","Very Quickly"];
+
+var final_MC = {
+            type: 'survey-likert',
+            questions: [final_MC_question],
+            labels: [[scale_1,scale_1]], // need one scale for every question on a page
+            intervals: [[7,7]] // note the the intervals and labels don't necessarily need to match.
+        };
+
+the_experiment.push(final_MC);
+
+var comments = ["(Optional) Please leave any comments or suggestions regarding this HIT:"]
+
+var debriefing = {
+    type: 'survey-text',
+    questions: [comments],
+};
+
+the_experiment.push(debriefing);
+
+jsPsych.init({
+    display_element: $('#jspsych_target'),
+    experiment_structure: the_experiment,
+    on_finish: function() {
+        var alldata = jsPsych.data.getData();
+        alldata.push({condition: cond})
+        alldata.push({version: version})          
+        turk.submit(alldata)
+
+}
+});
+</script>

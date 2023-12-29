@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <title>style.css</title>
+  <link rel="stylesheet" href="http://jashkenas.github.com/docco/resources/docco.css">
+</head>
+<body>
+<div id='container'>
+  <div id="background"></div>
+  <div id="jump_to">
+    Jump To &hellip;
+    <div id="jump_wrapper">
+      <div id="jump_page">
+          <a class="source" href="even-odd.html">even-odd.html</a>
+          <a class="source" href="experiment.html">experiment.js</a>
+          <a class="source" href="style.html">style.css</a>
+      </div>
+    </div>
+  </div>
+  <table cellspacing=0 cellpadding=0>
+  <thead>
+    <tr>
+      <th class=docs><h1>style.css</h1></th>
+      <th class=code></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr id='section-General_styles'>
+      <td class=docs>
+        <div class="pilwrap">
+          <a class="pilcrow" href="#section-General_styles">&#182;</a>
+        </div>
+        <h2>General styles</h2>
+
+<p>This stuff can be ported from experiment to experiment.</p>
+      </td>
+      <td class=code>
+        <div class='highlight'><pre></pre></div>
+      </td>
+    </tr>
+    <tr id='section-2'>
+      <td class=docs>
+        <div class="pilwrap">
+          <a class="pilcrow" href="#section-2">&#182;</a>
+        </div>
+        <p>We want the page to sit flush inside the browser window &ndash; that means no margins or padding. Also, use a nice-looking serif font.</p>
+      </td>
+      <td class=code>
+        <div class='highlight'><pre><span class="nt">body</span> <span class="p">{</span>
+  <span class="k">padding</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="k">font-family</span><span class="o">:</span> <span class="n">Palatino</span> <span class="n">Linotype</span><span class="o">,</span> <span class="n">Bookman</span> <span class="n">Antiqua</span><span class="o">,</span> <span class="n">Palatino</span><span class="o">,</span> <span class="k">serif</span><span class="p">;</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">16px</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">20px</span><span class="p">;</span>
+<span class="p">}</span></pre></div>
+      </td>
+    </tr>
+    <tr id='section-3'>
+      <td class=docs>
+        <div class="pilwrap">
+          <a class="pilcrow" href="#section-3">&#182;</a>
+        </div>
+        <p>We manage display using &ldquo;slides&rdquo;. A slide is a <code>div</code> that takes up the entire page. Only one slide should be visible at a time. Navigation between slides is most sensibly accomplished using using buttons, rather than keyboard events.</p>
+      </td>
+      <td class=code>
+        <div class='highlight'><pre><span class="nc">.slide</span> <span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">95</span><span class="o">%</span><span class="p">;</span>
+  <span class="k">height</span><span class="o">:</span> <span class="m">95</span><span class="o">%</span><span class="p">;</span>
+  <span class="k">display</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
+  <span class="k">position</span><span class="o">:</span> <span class="k">absolute</span><span class="p">;</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="k">padding</span><span class="o">:</span> <span class="m">2</span><span class="o">%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">input</span><span class="o">,</span> <span class="nt">select</span><span class="o">,</span> <span class="nt">button</span> <span class="p">{</span><span class="k">font-family</span><span class="o">:</span> <span class="n">Georgia</span><span class="o">,</span> <span class="k">serif</span><span class="p">;</span> <span class="k">font-size</span><span class="o">:</span> <span class="m">14px</span><span class="p">;}</span>
+
+<span class="nt">button</span> <span class="p">{</span>
+  <span class="k">background</span><span class="o">:</span> <span class="sx">url(images/button-gradient.png)</span><span class="p">;</span>
+  <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#999</span><span class="p">;</span>
+  <span class="k">border-top</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#e0e0e0</span><span class="p">;</span>
+  <span class="k">border-left</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#e0e0e0</span><span class="p">;</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">10px</span><span class="p">;</span>
+  <span class="k">padding-left</span><span class="o">:</span> <span class="m">5px</span><span class="p">;</span>
+  <span class="k">padding-right</span><span class="o">:</span> <span class="m">5px</span><span class="p">;</span>
+  <span class="k">height</span><span class="o">:</span> <span class="m">29px</span><span class="p">;</span>
+  <span class="k">min-width</span><span class="o">:</span> <span class="m">70px</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">button</span><span class="nd">:active</span> <span class="p">{</span>
+  <span class="k">border-left</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#c9c9c9</span><span class="p">;</span>
+  <span class="k">border-top</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#c9c9c9</span><span class="p">;</span>
+  <span class="k">background</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
+  <span class="k">background-color</span><span class="o">:</span> <span class="m">#c9c9c9</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">button</span><span class="o">[</span><span class="nt">disabled</span><span class="o">]</span> <span class="p">{</span>
+  <span class="k">background</span><span class="o">:</span> <span class="sx">url(zen-button.png)</span><span class="p">;</span>
+  <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#999</span><span class="p">;</span>
+  <span class="k">border-top</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#e0e0e0</span><span class="p">;</span>
+  <span class="k">border-left</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#e0e0e0</span><span class="p">;</span>
+  <span class="k">cursor</span><span class="o">:</span> <span class="n">not</span><span class="o">-</span><span class="n">allowed</span><span class="p">;</span>
+<span class="p">}</span></pre></div>
+      </td>
+    </tr>
+    <tr id='section-Experiment-specific_styles'>
+      <td class=docs>
+        <div class="pilwrap">
+          <a class="pilcrow" href="#section-Experiment-specific_styles">&#182;</a>
+        </div>
+        <h2>Experiment-specific styles</h2>
+
+<p>This stuff will vary by experiment.</p>
+
+      </td>
+      <td class=code>
+        <div class='highlight'><pre><span class="nf">#logo-text</span> <span class="p">{</span>
+  <span class="k">font-weight</span><span class="o">:</span> <span class="k">bold</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#instructions</span> <span class="p">{</span>
+  <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#odd-key</span><span class="o">,</span> <span class="nf">#even-key</span> <span class="p">{</span>
+  <span class="k">background-color</span><span class="o">:</span> <span class="m">#e3e3e3</span><span class="p">;</span>
+  <span class="k">padding</span><span class="o">:</span> <span class="m">2px</span><span class="p">;</span>
+  <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">outset</span> <span class="m">#cccccc</span><span class="p">;</span>
+  <span class="k">font-family</span><span class="o">:</span> <span class="n">Courier</span> <span class="n">New</span><span class="p">;</span>
+  <span class="k">font-weight</span><span class="o">:</span> <span class="k">bold</span><span class="p">;</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.block-text</span> <span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">500px</span><span class="p">;</span>
+  <span class="k">text-align</span><span class="o">:</span> <span class="k">justify</span><span class="p">;</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="k">auto</span><span class="p">;</span>
+  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">1em</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#legal</span> <span class="p">{</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="k">auto</span><span class="p">;</span>
+  <span class="k">margin-top</span><span class="o">:</span> <span class="m">1.5em</span><span class="p">;</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">0.8em</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#number</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">42px</span><span class="p">;</span>
+  <span class="k">font-family</span><span class="o">:</span> <span class="n">Arial</span><span class="o">,</span> <span class="k">sans-serif</span><span class="p">;</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="k">auto</span><span class="p">;</span>
+  <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">100px</span><span class="p">;</span>
+<span class="p">}</span></pre></div>
+      </td>
+    </tr>
+  </table>
+</div>
+</body>
