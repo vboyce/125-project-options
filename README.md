@@ -9,19 +9,25 @@ Fully working:
 Approximately working:
 * Critcher 2012: working jsPsych, but old version and need to switch where the data goes
 
-* Sheppes 2011: Approximately working jsPsych (version 6); note that images can't be shared publicly so aren't committed.
+* Sheppes 2011: Approximately working jsPsych (version 6), need to update and deal with where data goes; note that images can't be shared publicly so aren't committed.
 
-Needs work:
-* Atir 2015: raw html at https://github.com/StanfordPsych254/ehermannProject/tree/master/HTML
+* Atir 2015: working raw html, will need to deal with where data goes and may need to jsPsych-ify
 
-* Long 2017: 
+* Long 2017: working in html with images pulling non-locally...; would be good to move to jsPsych
 Experiment design:
 https://github.com/brialorelle/TexformSizeStroop/tree/master/2-Stimuli has stims
 https://github.com/psych251/long2017/blob/master/experiment/sizeStroop_experiment_biggerSmaller.html and https://github.com/psych251/long2017/blob/master/experiment/sizeStroop_experiment_smallerBigger.html are raw html/js
 Which seem to work: http://web.stanford.edu/~ekubota/SizeStroop/sizeStroop_experiment_biggerSmaller.html# so could just rehost as ghpages??
 Would want to recode as jsPsych using https://www.jspsych.org/7.0/plugins/html-keyboard-response/
 
-* Jordan 2017: Data at https://osf.io/2r8ab Would need to be qualtrics or jsPsychified
+* Jordan 2017: Approximately working; needs checking; needs aesthetics; needs data checks; consider space versus continue for consistency issues
+
+Needs work:
+
+
+
+
+
 
 * Sloman 2016: Materials summary at https://osf.io/a8c57
 Could code in qualtrics or jsPsych; each person sees 2 in each condition, fully counterbalanced (maybe easiest to do in jsPsych)
