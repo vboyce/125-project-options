@@ -6,6 +6,10 @@
 Fully working:
 * Vasilyeva 2018: fully working Qualtrics
 
+* Jordan 2017: Approximately working -- needs consent and end expt and checking
+
+* Sloman 2016: Note, their attention check is bad and is not being included. Consider a different attention check. Consider also minimum view time on text. 
+
 Approximately working:
 * Critcher 2012: working jsPsych, but old version and need to switch where the data goes
 
@@ -20,19 +24,10 @@ https://github.com/psych251/long2017/blob/master/experiment/sizeStroop_experimen
 Which seem to work: http://web.stanford.edu/~ekubota/SizeStroop/sizeStroop_experiment_biggerSmaller.html# so could just rehost as ghpages??
 Would want to recode as jsPsych using https://www.jspsych.org/7.0/plugins/html-keyboard-response/
 
-* Jordan 2017: Approximately working; needs checking; needs aesthetics; needs data checks; consider space versus continue for consistency issues
-
 Needs work:
 
-
-
-
-
-
-* Sloman 2016: Materials summary at https://osf.io/a8c57
-Could code in qualtrics or jsPsych; each person sees 2 in each condition, fully counterbalanced (maybe easiest to do in jsPsych)
-
 * Chopra 2019: waiting on materials from Ben
+
 
 # Projects
 

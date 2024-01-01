@@ -58,9 +58,9 @@ const scenarios=VIGNETTES.filter(item => {return (item.item_type==type)})
 shuffle(scenarios)
 
 let welcome_screen = {
-    type : jsPsychHtmlKeyboardResponse,
+    type : jsPsychHtmlButtonResponse,
     stimulus : WELCOME_INSTRUCTION,
-    choices : [KEY_CODE_SPACE],
+    choices : ["Continue"],
     response_ends_trial : true,
     on_finish: function (data) {
         data.rt = Math.round(data.rt);
@@ -69,9 +69,9 @@ let welcome_screen = {
 
 
 let instructions_screen = {
-    type : jsPsychHtmlKeyboardResponse,
+    type : jsPsychHtmlButtonResponse,
     stimulus : PRE_TEST_INSTRUCTION,
-    choices : [KEY_CODE_SPACE],
+    choices : ["Continue"],
     response_ends_trial : true,
     on_finish: function (data) {
         data.rt = Math.round(data.rt);
@@ -93,9 +93,9 @@ let end_experiment = {
 }
 
 let display_scenario ={
-    type : jsPsychHtmlKeyboardResponse,
+    type : jsPsychHtmlButtonResponse,
     stimulus : jsPsych.timelineVariable('text'),
-    choices : [KEY_CODE_SPACE],
+    choices : ["Continue"],
     response_ends_trial : true,
     on_finish: function (data) {
         data.rt = Math.round(data.rt);
@@ -106,17 +106,25 @@ let question = {
     type: jsPsychHtmlSliderResponse,
     stimulus: jsPsych.timelineVariable('text'),
     labels: [jsPsych.timelineVariable("l"), jsPsych.timelineVariable("r")],
-    require_movement: true
+    require_movement: true,
+    slider_width: 400
 }
 
+let send_data ={
+    type: jsPsychCallFunction,
+    async: true,
+    func: function(done){
+            proliferate.submit({"trials": jsPsych.data.get().values()});
+          }
+    }
 
 function getTimeline() {
     //////////////// timeline /////////////////////////////////
     let timeline = [];
 
-    //timeline.push(welcome_screen);
+    timeline.push(welcome_screen);
 
-    //timeline.push(instructions_screen);
+    timeline.push(instructions_screen);
     for (let i = 0; i < scenarios.length; i++) {
         let mini_timeline={
             timeline: [display_scenario],
@@ -131,6 +139,7 @@ function getTimeline() {
         timeline.push(question_timeline);
     }
 
+    timeline.push(send_data);
     timeline.push(end_experiment);
     return timeline;
 }
@@ -140,7 +149,6 @@ function main() {
     // Make sure you have updated your key in globals.js
 
     let timeline=getTimeline()
-    console.log(timeline)
     jsPsych.run(timeline);
 
 }
