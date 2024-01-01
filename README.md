@@ -10,10 +10,11 @@ Fully working:
 
 * Sloman 2016: Note, their attention check is bad and is not being included. Consider a different attention check. Consider also minimum view time on text. 
 
-Approximately working:
-* Critcher 2012: working jsPsych, but old version and need to switch where the data goes
+* Sheppes 2011: Updated to jsPsych 7, will need consent, end expt and data check. Note that images can't be publicly shared and so are not committed. 
 
-* Sheppes 2011: Approximately working jsPsych (version 6), need to update and deal with where data goes; note that images can't be shared publicly so aren't committed.
+* Critcher 2012: needs consent and debrief and data checks
+
+Approximately working:
 
 * Atir 2015: working raw html, will need to deal with where data goes and may need to jsPsych-ify
 
