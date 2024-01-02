@@ -74,10 +74,10 @@ function get_images_to_preload(){
 }
 
 
-let preset_stims = make_stim_pairs(BIG_STIM.slice(1,5), SMALL_STIM.slice(1,5), "preset")
+let preset_stims = make_stim_pairs(BIG_STIM, SMALL_STIM, "preset")
 shuffle(BIG_STIM)
 shuffle(SMALL_STIM)
-let random_stims=make_stim_pairs(BIG_STIM.slice(1,5),SMALL_STIM.slice(1,5), "random")
+let random_stims=make_stim_pairs(BIG_STIM,SMALL_STIM, "random")
 
 let all_stims =preset_stims.concat(random_stims)
 
