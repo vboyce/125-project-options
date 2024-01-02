@@ -3,27 +3,20 @@
 
 # Status of experiment implementatations
 
-Fully working:
+Mostly working:
 * Vasilyeva 2018: fully working Qualtrics
 
 * Jordan 2017: Approximately working -- needs consent and end expt and checking
 
 * Sloman 2016: Note, their attention check is bad and is not being included. Consider a different attention check. Consider also minimum view time on text. 
 
-* Sheppes 2011: Updated to jsPsych 7, will need consent, end expt and data check. Note that images can't be publicly shared and so are not committed. 
+* Sheppes 2011: Updated to jsPsych 7, will need consent, end expt and data check. Note that images can't be publicly shared and so are not committed. Will need manual image preloading if it doesn't have it already.
 
 * Critcher 2012: needs consent and debrief and data checks
 
-Approximately working:
+* Atir 2015: needs consent and debrief and data checks
 
-* Atir 2015: working raw html, will need to deal with where data goes and may need to jsPsych-ify
-
-* Long 2017: working in html with images pulling non-locally...; would be good to move to jsPsych
-Experiment design:
-https://github.com/brialorelle/TexformSizeStroop/tree/master/2-Stimuli has stims
-https://github.com/psych251/long2017/blob/master/experiment/sizeStroop_experiment_biggerSmaller.html and https://github.com/psych251/long2017/blob/master/experiment/sizeStroop_experiment_smallerBigger.html are raw html/js
-Which seem to work: http://web.stanford.edu/~ekubota/SizeStroop/sizeStroop_experiment_biggerSmaller.html# so could just rehost as ghpages??
-Would want to recode as jsPsych using https://www.jspsych.org/7.0/plugins/html-keyboard-response/
+* Long 2017: is jsPsych -- will need consent, debrief -- **make sure the right data is recording, will need to add trial data**
 
 Needs work:
 
