@@ -3,8 +3,14 @@
 
 # Status of experiment implementatations
 
+* Add consent to everything: By answering the following questions, you are participating in a study being performed as part of a class by cognitive scientists in the Stanford Department of Psychology. If you have questions about this research, please contact us at vero.boyce@gmail.com. You must be at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any information about you other than what you provide here.
+
+
+* Add debrief to everything
+* Hook up with proliferate 
+
 Mostly working:
-* Vasilyeva 2018: fully working Qualtrics
+* Vasilyeva 2018: fully working Qualtrics (https://stanforduniversity.qualtrics.com/survey-builder/SV_eDNm7BlSrGokins/edit) -- need to test data recording, but should be good!
 
 * Jordan 2017: Approximately working -- needs consent and end expt and checking
 

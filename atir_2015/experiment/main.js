@@ -69,9 +69,9 @@ let finance_instructions = {
 };
 
 let end_experiment = {
-    type : jsPsychHtmlKeyboardResponse,
+    type : jsPsychHtmlButtonResponse,
     stimulus : POST_TEST_INSTRUCTION,
-    choices : []
+    choices : ["Continue"]
 }
 
 let display_scenario ={
@@ -88,6 +88,7 @@ let personal_finance = {
     type: jsPsychHtmlSliderResponse,
     stimulus: jsPsych.timelineVariable('text'),
     labels: jsPsych.timelineVariable('options'),
+    data:{stimulus: jsPsych.timelineVariable('text')},
     min: 1,
     max: 7,
     slider_start: 4, 
@@ -99,6 +100,7 @@ let finance_terms = {
     type: jsPsychHtmlSliderResponse,
     stimulus: jsPsych.timelineVariable('text'),
     labels: ["1 <br> (never heard of it)", "2", "3", "4", "5", "6", "7 <br> (very knowledgeable)"],
+    data:{stimulus: jsPsych.timelineVariable('text')},
     require_movement: true,
     min: 1,
     max: 7,
@@ -165,9 +167,8 @@ function getTimeline() {
         timeline.push(finance_terms_timeline)
     }
     timeline.push(FLquiz)
-
-    timeline.push(send_data);
     timeline.push(end_experiment);
+    timeline.push(send_data);
     return timeline;
 }
 

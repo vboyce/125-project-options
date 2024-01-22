@@ -1,5 +1,5 @@
 
-const WELCOME_INSTRUCTION = "<p> welcome and consent go here </p>"
+const WELCOME_INSTRUCTION = "<p> By answering the following questions, you are participating in a study being performed as part of a class by cognitive scientists in the Stanford Department of Psychology. If you have questions about this research, please contact us at vero.boyce@gmail.com. You must be at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any information about you other than what you provide here. </p>"
 
 const BIG_PRACTICE = "<p> <b> Practice: </b> Which image is <b>bigger</b>?</p> <br> <p> Press <b>c</b> for image on left, and <b>m</b> for image on right as quickly and accurately as possible. </p> <p> Press space to continue.</p>"
 
