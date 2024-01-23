@@ -1,0 +1,37 @@
+---
+title: "Analysis for Atir2015"
+output: html_document
+date: "2024-01-23"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(jsonlite)
+
+
+dat_loc <- "jordan_2017/data"
+raw <- read_csv(here(dat_loc, "pilot_A.csv")) 
+
+
+processed <- raw |> group_by(workerid) |> filter(!is.na(vignette)) |> 
+  mutate(condition=ifelse(trial_type=="html-button-response", item_type, NA),
+         item_type=ifelse(trial_type=="html-button-response", "vignette", item_type)) |> 
+  fill(condition) |> 
+  select(workerid, condition, vignette, item_type, response, rt, stimulus, trial_index)
+
+```
+
+```{r}
+
+#filter out the vignette and hypocrisy measures
+# then create a composite of the remaining 4 measures
+
+#calculate the means and sds in the 3 conditions
+
+# graph the 3 conditions 
+
+# run anova
+
+# run pairwise comparisons
+```
