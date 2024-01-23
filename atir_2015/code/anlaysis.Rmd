@@ -1,0 +1,106 @@
+---
+title: "Analysis for Atir2015"
+output: html_document
+date: "2024-01-23"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(jsonlite)
+
+ParseJSONColumn <- function(x) {
+ str_replace_all(x,"'",'"') |> 
+    fromJSON(flatten = T)
+}
+dat_loc <- "atir_2015/data"
+raw <- read_csv(here(dat_loc, "pilot_A.csv")) 
+
+
+processed <- raw |> group_by(workerid) |> 
+  filter(type %in% c("finance term", "self-rating", "FLquiz"))
+
+#self-perceived knowledge
+self_rating <- processed |> filter(type=="self-rating") |> 
+  mutate(question=ifelse(str_sub(stimulus,1,5)=="<p>In", "generalKnowledge", "compareAmerican")) |> 
+  select(workerid, response, rt, stimulus, trial_index, type, question)
+
+# fake finance terms
+finance_terms <- processed |> filter(type=="finance term") |> 
+  mutate(question=str_sub(stimulus, 4,-9)) |> 
+  select(workerid, response, rt, stimulus, trial_index, type, question)
+  
+# quiz
+
+quiz <- processed |> filter(type=="FLquiz") |> 
+  mutate(response=map(response, ParseJSONColumn)) |> 
+  unnest(response) |> 
+  mutate(question=names(response)) |> unnest(response) |> 
+    select(workerid, response, rt, stimulus, trial_index, type, question)
+
+all <- finance_terms |> bind_rows(self_rating) |> bind_rows(quiz) |> arrange(workerid) |> 
+  select(workerid, type, question, response, everything())
+```
+
+Due to the formatting of the experiment, the finance quiz doesn't have the stimuli labels as it was counted as all one question. https://osf.io/fq6vg has the full text for the finance quiz. 
+
+```{r}
+grade_quiz <- function(question, response){
+  
+  grade_line <- function(question, response){
+      if (question=="savingsAccount" && response=="More than $102") {return(1)}
+      if (question=="inflation" && response=="Less") {return(1)}
+      if (question=="interest" && response=="Fall") {return(1)}
+      if (question=="mortgage" && response=="True") {return(1)}
+      if (question=="stocks" && response=="False") {return(1)}
+  else {return(0)}
+  }
+  
+  map2(question, response, grade_line) |> unlist()
+}
+
+fake <- c("pre-rated stocks", "fixed-rate deduction", "annualized credit")
+
+raw_data <- all 
+
+# calculate the overclaim rate for each person
+overclaim_score <- raw_data |> 
+  filter(type=="finance term") |>
+  filter(question %in% fake) |> # we want just the finance term ratings for the fake terms 
+  # we want "we computed the proportion of foils rated as 2 or higher, the proportion of foils rated as 3 or higher, and so on for 4, 5, 6, and 7, and then averaged these proportions"
+  #mathematically, this is the same as subtracting 1, averaging, and dividing by 6
+  mutate(response=as.numeric(response),
+         response=response-1) |> 
+  group_by(workerid) |> 
+  summarize(overclaim=mean(response)/6)
+
+# compute an average measure of self-perceived knowledge for each participant
+self_rating <- raw_data |> 
+  filter(type=="self-rating") |> 
+  group_by(workerid) |> 
+  mutate(response=as.numeric(response)) |> 
+  summarize(self_rating=mean(response))
+
+# score the quiz
+quiz <- raw_data |> 
+  filter(type=="FLquiz") |> 
+  mutate(correct=grade_quiz(question,response)) |> 
+  group_by(workerid) |> 
+  summarize(quiz_score=sum(correct))
+
+# join into 1 row per person
+
+combined <- overclaim_score |> left_join(self_rating, by="workerid") |> 
+  left_join(quiz, by="workerid")
+
+# graph the relationships
+
+# run a linear model predicting overclaiming from self-perceived knowledge
+
+# run a linear model predicting overclaiming from quiz scores
+
+# what's the correlation between self-perceived knowledge and quiz scores
+
+# run a linear model with both predictors
+
+```

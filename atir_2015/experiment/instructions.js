@@ -7,6 +7,6 @@ const FL_INSTRUCT = "<p>In this part of the study, we are interested in your gen
 const POST_TEST_INSTRUCTION =
     "<h1>End of the experiment.</h1>"+
     "<h2>Many thanks for participating!</h2>"+
-    "<p>This experiment was about how people's level of financial knowledge and self-reported financial knowledge relate"+
+    "<p>This experiment was about how people's level of financial knowledge and self-reported financial knowledge relate "+
     "to whether people's level of over-claiming, or their likelihood of saying they know what some made-up terms mean.</p>"+
     "<h1>Press continue to be redirected to Prolific. </h1>";
