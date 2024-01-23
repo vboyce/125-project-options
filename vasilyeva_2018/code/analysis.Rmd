@@ -1,0 +1,96 @@
+---
+title: "Analysis for Atir2015"
+output: html_document
+date: "2024-01-23"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(jsonlite)
+
+raw_data_loc <- "vasilyeva_2018/data/"
+raw_raw <- read_csv(here(raw_data_loc, "raw_pilot_A.csv")) |> 
+  filter(StartDate!="Start Date") |> 
+  filter(!str_detect(StartDate, "ImportId")) |> 
+  select(-Status, -IPAddress, -Progress, -Finished, -starts_with("Recipient"),
+         -ExternalReference, -starts_with("Location"), -DistributionChannel, -UserLanguage,
+         -`prolific-id`, -PROLIFIC_PID) |> write_csv(here(raw_data_loc,"anon_pilot_A.csv"))
+```
+```{r data cleaning, include=T}
+raw_dat <- read_csv(here(raw_data_loc, "anon_pilot_A.csv"), col_types=cols(.default="c"))
+#### Data exclusion / filtering
+
+data <- raw_dat %>% 
+  mutate(id = row_number()) %>% #create id row and bring it to the front
+  select(id, everything()) |> 
+  filter(Consent == "2") |> #consenting
+  # filter(Mch.z1 == 1,
+  #        Mch.z2 == 1,
+  #        Mch.d1 == 1,
+  #        Mch.d2 == 1,
+  #        Mch.g1 == 1,
+  #        Mch.g2 == 1,
+  #        Mch.y1 == 1,
+  #        Mch.y2 == 1) %>% #check questions
+  select(-starts_with(c( #getting rid of irrelevant columns, including check questions
+                        "prolific-id",
+                        "PROLIFIC_PID",
+                        "StartDate",
+                        "Duration",
+                        "EndDate",
+                        "RecordedDate",
+                        "Consent",
+                        "ResponseId",
+                        "tableorder",
+                        "cov"))) %>% 
+  pivot_longer(!c(id, task, moderator, starts_with("Comm"), Age, Gender), names_to = "question_type", values_to = "rating") |>  #turn table into longer
+  mutate(presence_of_moderator = case_when(moderator == "drolyuyu" & grepl("d3", question_type) ~ "present", #create column indicating whether it was moderated or not
+         moderator == "drolyuyu" & grepl("d4", question_type) ~ "present",
+         moderator == "drolyuyu" & grepl("y3", question_type) ~ "present",
+         moderator == "drolyuyu" & grepl("y4", question_type) ~ "present",
+         moderator == "zelmogrimond" & grepl("z3", question_type) ~ "present",
+         moderator == "zelmogrimond" & grepl("z4", question_type) ~ "present",
+         moderator == "zelmogrimond" & grepl("Z3", question_type) ~ "present",
+         moderator == "zelmogrimond" & grepl("Z4", question_type) ~ "present",
+         moderator == "zelmogrimond" & grepl("g3", question_type) ~ "present",
+         moderator == "zelmogrimond" & grepl("g4", question_type) ~ "present",
+         TRUE ~ "absent")) %>% 
+  mutate("causalexplanatoryCF" = case_when(grepl("CaTy", question_type) ~ "causal", #change column names
+                                     grepl("ExTy", question_type) ~ "explanatory",
+                                     grepl("CaTo", question_type) ~ "causal",
+                                     grepl("ExTo", question_type) ~ "explanatory",
+                                     grepl("Ty.CF", question_type) ~ "counterfactual",
+                                     grepl("To.CF", question_type) ~ "counterfactual")) %>% 
+  mutate("typetoken" = case_when(grepl("CaTy", question_type) ~ "type", #change column names
+                                     grepl("ExTy", question_type) ~ "type",
+                                     grepl("CaTo", question_type) ~ "token",
+                                     grepl("ExTo", question_type) ~ "token",
+                                     grepl("Ty.CF", question_type) ~ "type",
+                                     grepl("To.CF", question_type) ~ "token"))
+```
+
+Data explanation:
+CommOwn, Comments, Age, Gender are by-participant how they answered some questions at the end
+question_type starting with Mch is the check questions at the end -- the correct answer is always 1
+
+
+From paper, "Experiment 1 had a 2 moderator (moderated vs. non-moderated relationship) x 2 judgment (causal vs. explanatory) x 2 target (type vs. token) mixed design, with moderator manipulated within-subjects. The dependent variables were agreement with causal or explanatory claims, and agreement with counterfactual claims, measured on a 1 (strongly disagree) to 7 (strongly agree) scale."
+the 1-7 is in rating; other values are in presence_of_moderator, causalexplanatoryCF, and typetoken. 
+
+I believe the first letter (g, z, etc) in question type is which scenario it was. 
+
+The paper runs an ANOVA, but you could do the 3-way interaction as a linear model (amounts to the same thing). 
+```{r}
+# determine which participants passed comprehension check
+
+# filter the rest of the data for that
+
+# filter out counterfactuals
+# run model
+
+# look just at counterfactuals
+# run model
+
+# show some graphs
+```
