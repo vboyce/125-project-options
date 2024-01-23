@@ -88,7 +88,7 @@ let personal_finance = {
     type: jsPsychHtmlSliderResponse,
     stimulus: jsPsych.timelineVariable('text'),
     labels: jsPsych.timelineVariable('options'),
-    data:{stimulus: jsPsych.timelineVariable('text')},
+    data:{stimulus: jsPsych.timelineVariable('text'), type: "self-rating"},
     min: 1,
     max: 7,
     slider_start: 4, 
@@ -100,7 +100,7 @@ let finance_terms = {
     type: jsPsychHtmlSliderResponse,
     stimulus: jsPsych.timelineVariable('text'),
     labels: ["1 <br> (never heard of it)", "2", "3", "4", "5", "6", "7 <br> (very knowledgeable)"],
-    data:{stimulus: jsPsych.timelineVariable('text')},
+    data:{stimulus: jsPsych.timelineVariable('text'), type: "finance term"},
     require_movement: true,
     min: 1,
     max: 7,
@@ -111,6 +111,7 @@ let finance_terms = {
 let FLquiz={
     type: jsPsychSurveyMultiChoice,
     preamble: FL_INSTRUCT,
+    data:{type: "FLquiz"},
     questions: [
         {prompt: "Suppose you have $100 in a savings account earning 2 percent interest a year. After five years, how much would you have?",
         name:"savingsAccount",
