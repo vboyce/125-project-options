@@ -157,6 +157,11 @@ let trial = {
             `
         return html2;
     },
+    data:{type:jsPsych.timelineVariable("type"),
+          group:jsPsych.timelineVariable("group"),
+          ask:jsPsych.timelineVariable("ask"),
+          left:jsPsych.timelineVariable("left"),
+          right:jsPsych.timelineVariable("right")},
     choices: ["c", "m"],
     on_finish: function(data){
         if(jsPsych.pluginAPI.compareKeys(data.response, jsPsych.timelineVariable('correct'))){

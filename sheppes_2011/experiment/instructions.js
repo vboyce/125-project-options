@@ -12,8 +12,5 @@ const PRE_TEST_INSTRUCTION =
 "<p>Please go through the following items and select the number from 1 to 7 that best indicates your understanding of the phenomena. There are no right or wrong answers, as the study is about your sense of your own understanding — please give us your first impression. </p>";
 
 const POST_TEST_INSTRUCTION =
-"<h1>End of the experiment.</h1>"+
-"<h2>Many thanks for participating!</h2>"+
-"<p>This experiment was about how well people rate their understanding of a phenomenon "+
-"based on whether they think that other people like scientists understand it or not.</p>"+
-"<h1>Press continue to be redirected to Prolific. </h1>";
+    "<h1>End of the experiment.</h1>"                                   +
+    "<h2>Many thanks for participating</h2>";

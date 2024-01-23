@@ -91,6 +91,7 @@ let end_experiment = {
 let display_scenario ={
     type : jsPsychHtmlButtonResponse,
     stimulus : jsPsych.timelineVariable('text'),
+    data: {item_type: jsPsych.timelineVariable('item_type'),id: jsPsych.timelineVariable('id')},
     choices : ["Continue"],
     response_ends_trial : true,
     on_finish: function (data) {
@@ -101,6 +102,7 @@ let display_scenario ={
 let question = {
     type: jsPsychHtmlSliderResponse,
     stimulus: jsPsych.timelineVariable('question'),
+    data: {item_type: jsPsych.timelineVariable('item_type'),id: jsPsych.timelineVariable('id')},
     min: 1,
     max: 7,
     slider_start: 4,

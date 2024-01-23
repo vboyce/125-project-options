@@ -97,6 +97,7 @@ let display_scenario ={
     type : jsPsychHtmlButtonResponse,
     stimulus : jsPsych.timelineVariable('text'),
     choices : ["Continue"],
+    data:{item: jsPsych.timelineVariable('item'), item_type: jsPsych.timelineVariable('item_type')},
     response_ends_trial : true,
     on_finish: function (data) {
         data.rt = Math.round(data.rt);
@@ -106,7 +107,8 @@ let display_scenario ={
 let question = {
     type: jsPsychHtmlSliderResponse,
     stimulus: jsPsych.timelineVariable('text'),
-    labels: jsPsych.timelineVariable('options'),
+    labels: jsPsych.timelineVariable('options'),,
+    data:{item: jsPsych.timelineVariable('item'), item_type: jsPsych.timelineVariable('item_type')},
     min: 1, 
     max: 7,
     slider_start: 4, 

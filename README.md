@@ -6,7 +6,10 @@
 * Add consent to everything: By answering the following questions, you are participating in a study being performed as part of a class by cognitive scientists in the Stanford Department of Psychology. If you have questions about this research, please contact us at vero.boyce@gmail.com. You must be at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any information about you other than what you provide here.
 
 
-* Add debrief to everything
+* Figure out sheppes (may need to get moved to private repo!)
+* Figure out chopra
+
+
 * Hook up with proliferate 
 
 Mostly working:
