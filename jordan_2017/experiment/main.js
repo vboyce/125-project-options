@@ -140,9 +140,8 @@ function getTimeline() {
         timeline.push(mini_timeline);
         timeline.push(question_timeline);
     }
-
-    timeline.push(send_data);
     timeline.push(end_experiment);
+    timeline.push(send_data);
     return timeline;
 }
 
