@@ -107,7 +107,7 @@ let display_scenario ={
 let question = {
     type: jsPsychHtmlSliderResponse,
     stimulus: jsPsych.timelineVariable('text'),
-    labels: jsPsych.timelineVariable('options'),,
+    labels: jsPsych.timelineVariable('options'),
     data:{item: jsPsych.timelineVariable('item'), item_type: jsPsych.timelineVariable('item_type')},
     min: 1, 
     max: 7,
@@ -148,9 +148,8 @@ function getTimeline() {
         timeline.push(question_timeline);
         timeline.push(mc_question_timeline);
     
-
-    timeline.push(send_data);
     timeline.push(end_experiment);
+    timeline.push(send_data);
     console.log(timeline)
     return timeline;
 }
