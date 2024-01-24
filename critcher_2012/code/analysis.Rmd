@@ -1,0 +1,34 @@
+---
+title: "Analysis for Atir2015"
+output: html_document
+date: "2024-01-23"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(jsonlite)
+
+
+dat_loc <- "critcher_2012/data"
+raw <- read_csv(here(dat_loc, "pilot_A.csv")) 
+
+
+processed <- raw |> group_by(workerid) |> filter(!is.na(item_type)) |>  
+  mutate(condition=ifelse(trial_type=="html-button-response", item_type, NA),
+         item=ifelse(trial_type=="html-button-response", "vignette", item),
+         item=ifelse(is.na(item), item_type, item)) |> 
+  fill(condition) |> 
+  select(workerid, condition, item, response, rt, stimulus, trial_index)
+```
+
+condition refers to whether the participant saw the moral or immoral vignettes;
+item is which question - "vignette" is when they just read the story. 
+response is on a 7 point slider scale (1-7)
+```{r}
+# use the manipulation check outcomes to check that the manipulation worked
+
+# group the measures by moral character, certainty, and impulsivity 
+
+# run model for moral evaluation composite as a function of decision and speed
+```
