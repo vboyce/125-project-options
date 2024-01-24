@@ -123,9 +123,9 @@ let instructions_screen = {
 };
 
 let end_experiment = {
-    type : jsPsychHtmlKeyboardResponse,
+    type : jsPsychHtmlButtonResponse,
     stimulus : POST_TEST_INSTRUCTION,
-    choices : []
+    choices : ["Continue"]
 }
 
 
@@ -291,8 +291,8 @@ function getTimeline() {
         timeline.push(small_4_instructions)
         timeline.push(small_2)
     }
-    timeline.push(send_data);
     timeline.push(end_experiment);
+    timeline.push(send_data);
     return timeline;
 }
 

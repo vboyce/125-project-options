@@ -75,17 +75,9 @@ let instructions_screen = {
 };
 
 let end_experiment = {
-    type : jsPsychHtmlKeyboardResponse,
+    type : jsPsychHtmlButtonResponse,
     stimulus : POST_TEST_INSTRUCTION,
-    choices : [],
-    on_load: function() {
-        //if (consent_given) {
-            //uil.saveData();
-        //}
-        //else {
-            //document.body.innerHTML = FINISHED_NO_CONSENT;
-        //}
-    }
+    choices : ["Continue"]
 }
 
 let display_scenario ={
@@ -135,8 +127,9 @@ function getTimeline() {
     timeline.push(mini_timeline);
     
 
-    timeline.push(send_data);
     timeline.push(end_experiment);
+    timeline.push(send_data);
+
     return timeline;
 }
 

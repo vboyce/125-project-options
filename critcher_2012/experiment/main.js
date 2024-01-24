@@ -80,9 +80,9 @@ let instructions_screen = {
 };
 
 let end_experiment = {
-    type : jsPsychHtmlKeyboardResponse,
+    type : jsPsychHtmlButtonResponse,
     stimulus : POST_TEST_INSTRUCTION,
-    choices : [],
+    choices : ["Continue"],
     on_load: function() {
         //if (consent_given) {
             //uil.saveData();

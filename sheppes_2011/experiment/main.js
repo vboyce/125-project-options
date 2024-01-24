@@ -67,6 +67,15 @@ jsPsych.data.addProperties({
 var images = ['iaps/9921hp.jpg', 'iaps/9145lp.jpg', 'iaps/8231lp.jpg', 'iaps/7521lp.jpg', 'iaps/6940ht.jpg', 'iaps/3181hp.jpg', 'iaps/3022lt.jpg','iaps/3030ht.jpg', 'iaps/3051hp.jpg', 'iaps/2703hp.jpg', 'iaps/2457lt.jpg', 'iaps/2455ht.jpg', 'iaps/2205ht.jpg', 'iaps/2120lp.jpg', 'iaps/3068h.jpg', 'iaps/2278l.jpg', 'iaps/6836l.jpg', 'iaps/9470l.jpg', 'iaps/9102l.JPG', 'iaps/9181h.jpg', 'iaps/9252h.jpg', 'iaps/9410h.JPG', 'iaps/9420h.JPG', 'iaps/9440l.JPG', 'iaps/9120l.JPG', 'iaps/9160l.JPG', 'iaps/7360l.JPG', 'iaps/6831h.jpg', 'iaps/6010l.JPG', 'iaps/6190l.JPG', 'iaps/3530h.JPG', 'iaps/3261h.jpg', 'iaps/2800h.JPG', 'iaps/3140h.JPG', 'iaps/3150h.JPG', 'iaps/3180h.JPG', 'iaps/3230h.JPG', 'iaps/3000h.JPG', 'iaps/2490l.JPG', 'iaps/2700l.JPG', 'iaps/2691l.jpg', 'iaps/2053h.JPG', 'iaps/1301l.jpg', 'iaps/2312l.jpg'];
 
 // INTRO AND TRAINING TRIALS:
+let welcome_screen = {
+  type : jsPsychHtmlButtonResponse,
+  stimulus : WELCOME_INSTRUCTION,
+  choices : ["Continue"],
+  response_ends_trial : true,
+  on_finish: function (data) {
+      data.rt = Math.round(data.rt);
+  }
+};
 
 var instructions_general = {
   type: jsPsychHtmlKeyboardResponse,
@@ -370,9 +379,9 @@ var demographics = {
     ]
 }
 let end_experiment = {
-    type : jsPsychHtmlKeyboardResponse,
+    type : jsPsychHtmlButtonResponse,
     stimulus : POST_TEST_INSTRUCTION,
-    choices : []
+    choices : ["Continue"]
 }
 
 
@@ -384,6 +393,7 @@ function getTimeline() {
     //////////////// timeline /////////////////////////////////
     let timeline =  [
         preload,
+        welcome_screen,
         instructions_general, 
         instructions_training, 
         instructions_reappraisal,
@@ -400,8 +410,8 @@ function getTimeline() {
         instructions_experiment, 
         experiment,
         demographics];
+        timeline.push(end_experiment);
     timeline.push(send_data);
-    timeline.push(end_experiment);
     return timeline;
 }
 
