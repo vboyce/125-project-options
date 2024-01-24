@@ -1,0 +1,31 @@
+---
+title: "Analysis for Atir2015"
+output: html_document
+date: "2024-01-23"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(jsonlite)
+
+
+dat_loc <- "sloman_2016/data"
+raw <- read_csv(here(dat_loc, "pilot_A.csv")) 
+
+
+processed <- raw |> group_by(workerid) |> 
+  filter(trial_type=="html-slider-response") |> 
+  select(workerid, vignette=id, item_type, response, rt, trial_index)
+  
+```
+
+
+```{r}
+# visualize score distribution
+
+# log transform responses
+
+# run model / t-test
+# make a plot
+```

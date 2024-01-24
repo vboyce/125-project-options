@@ -1,0 +1,38 @@
+---
+title: "Analysis for Atir2015"
+output: html_document
+date: "2024-01-23"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(jsonlite)
+
+
+dat_loc <- "sheppes_2011/data"
+raw <- read_csv(here(dat_loc, "pilot_A.csv")) |> 
+  select(-starts_with("failed"), -proliferate.condition, -internal_node_id, -error)
+
+
+processed <- raw |> group_by(workerid) |> 
+    filter(grepl("l.jpg|l.JPG|h.jpg|h.JPG", stimulus)) |>
+  filter(grepl("image-button-response", trial_type)) |>
+  mutate(intensity = ifelse(grepl('l.jpg|l.JPG', stimulus), 'low', 'high'),
+         approach=case_when(
+           response=="0" ~ "reappraise",
+           response=="1" ~ "distract",
+           T ~ NA
+         )) |> 
+  select(workerid, intensity, approach, rt, stimulus, trial_index)
+  
+```
+
+
+```{r}
+# calculate per participant ratios
+
+# run F-test
+
+# make a plot
+```

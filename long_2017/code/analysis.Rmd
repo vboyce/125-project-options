@@ -1,0 +1,35 @@
+---
+title: "Analysis for Atir2015"
+output: html_document
+date: "2024-01-23"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(jsonlite)
+
+
+dat_loc <- "long_2017/data"
+raw <- read_csv(here(dat_loc, "pilot_A.csv")) 
+
+
+processed <- raw |> group_by(workerid) |> 
+  mutate(is_practice=case_when(
+    str_detect(stimulus, "Practice")~"practice",
+    str_detect(stimulus,"Block")~"critical",
+    T  ~ NA)) |> 
+  fill(is_practice) |> 
+  filter(!is.na(ask)) |> 
+  select(workerid, is_practice, ask, type, correct, rt, left, right, response, trial_index)
+  
+```
+
+
+```{r}
+# exclude practice trials
+# exclude incorrect answers
+# exclude rt < 200ms and > 1500 ms
+
+# run a 2x2 anova with congruency and task (bigger/smaller)
+```
