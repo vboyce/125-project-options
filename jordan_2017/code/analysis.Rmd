@@ -11,14 +11,14 @@ library(jsonlite)
 
 
 dat_loc <- "jordan_2017/data"
-raw <- read_csv(here(dat_loc, "pilot_A.csv")) |> bind_rows(read_csv(here(dat_loc, "pilot_B.csv")))
+raw <- read_csv(here(dat_loc, "pilot_A.csv")) %>% bind_rows(read_csv(here(dat_loc, "pilot_B.csv")))
 
 
-processed <- raw |> group_by(workerid) |> filter(!is.na(vignette)) |> 
+processed <- raw %>% group_by(workerid) %>% filter(!is.na(vignette)) %>% 
   mutate(condition=ifelse(trial_type=="html-button-response", item_type, NA),
-         item_type=ifelse(trial_type=="html-button-response", "vignette", item_type)) |> 
-  fill(condition) |> 
-  select(workerid, condition, vignette, item_type, response, rt, stimulus, trial_index) |> write_csv(here(dat_loc, "pilot_data.csv"))
+         item_type=ifelse(trial_type=="html-button-response", "vignette", item_type)) %>% 
+  fill(condition) %>% 
+  select(workerid, condition, vignette, item_type, response, rt, stimulus, trial_index) %>% write_csv(here(dat_loc, "pilot_data.csv"))
 
 ```
 
@@ -65,8 +65,8 @@ worse than the ratings of control transgressors."
 ```{r}
 # create a composite measure of the 4 positive attribute measures (called here "honest" "trustworthy" "good" and "like")
 
-aggregate <- processed |> group_by(workerid, vignette, condition) |> 
-  filter(item_type %in% c("honest", "trustworthy", "good", "like")) |> 
+aggregate <- processed %>% group_by(workerid, vignette, condition) %>% 
+  filter(item_type %in% c("honest", "trustworthy", "good", "like")) %>% 
   summarize(agg_score=mean(response))
 ```
 
