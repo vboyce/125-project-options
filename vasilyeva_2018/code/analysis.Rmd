@@ -1,5 +1,5 @@
 ---
-title: "Analysis for Atir2015"
+title: "Analysis for Vasilyeva"
 output: html_document
 date: "2024-01-23"
 ---
@@ -10,15 +10,19 @@ library(here)
 library(jsonlite)
 
 raw_data_loc <- "vasilyeva_2018/data/"
-raw_raw <- read_csv(here(raw_data_loc, "raw_pilot_A.csv")) |> 
+raw_raw <- read_csv(here(raw_data_loc, "raw_pilot_B.csv")) |> 
   filter(StartDate!="Start Date") |> 
   filter(!str_detect(StartDate, "ImportId")) |> 
   select(-Status, -IPAddress, -Progress, -Finished, -starts_with("Recipient"),
          -ExternalReference, -starts_with("Location"), -DistributionChannel, -UserLanguage,
-         -`prolific-id`, -PROLIFIC_PID) |> write_csv(here(raw_data_loc,"anon_pilot_A.csv"))
+         -`prolific-id`, -PROLIFIC_PID) |> 
+  mutate(StartDate=as.Date(StartDate)) |> 
+  #filter(StartDate > as.Date("2024-02-01")) |> 
+  write_csv(here(raw_data_loc,"anon_pilot_B.csv"))
 ```
+
 ```{r data cleaning, include=T}
-raw_dat <- read_csv(here(raw_data_loc, "anon_pilot_A.csv"), col_types=cols(.default="c"))
+raw_dat <- read_csv(here(raw_data_loc, "anon_pilot_B.csv"), col_types=cols(.default="c"))
 #### Data exclusion / filtering
 
 data <- raw_dat %>% 
@@ -67,30 +71,99 @@ data <- raw_dat %>%
                                      grepl("CaTo", question_type) ~ "token",
                                      grepl("ExTo", question_type) ~ "token",
                                      grepl("Ty.CF", question_type) ~ "type",
-                                     grepl("To.CF", question_type) ~ "token"))
+                                     grepl("To.CF", question_type) ~ "token")) |> 
+    mutate(rating=as.numeric(rating))
+
+data |> write_csv(here(raw_data_loc, "pilot_data.csv"))
+```
+
+
+```{r}
+#package installation
+#don't forget Hmisc!
+#source data
+
+theme_set(theme_bw())
 ```
 
 Data explanation:
-CommOwn, Comments, Age, Gender are by-participant how they answered some questions at the end
-question_type starting with Mch is the check questions at the end -- the correct answer is always 1
+* id is a participant id number
+* CommOwn, Comments, Age, Gender are by-participant how they answered some demographic questions at the end
+* question_type starting with Mch is the check questions at the end -- the correct answer is always 1
+* rating is the 1-7 rating
+* presence_of_moderator is whether there was a moderator or not
+* causalexplanatoryCF is what the dependent measure was (causal/explanatory/counterfactual)
+* typetoken is type or token
 
+
+Data clean up:
+
+For the purposes of pilot analysis we should write the code that will do the filtering and check that it works
+but for the goodness of the rest of the code, we'll keep in the junk data just to have more points to work with!
+
+```{r}
+
+# how many participants total
+data |> distinct(id) |> nrow()
+
+#make a data frame of participants who correctly answered all Mch questions
+# we do this by filtering for only the correct answers
+# and then checking if there are 8 rows / person (8 questions)
+all_correct <- data |> filter(str_detect(question_type, "Mch")) |> 
+  filter(rating==1) |> 
+  group_by(id) |> 
+  summarize(count=n()) |> 
+  filter(count==8)
+
+# how many participants kept in?
+all_correct |> nrow()
+  
+
+data_filtered <- data |> #inner_join(all_correct) |> # you will want this in the real data, but to have both explanatory & causal include all the data for now
+  filter(!str_detect(question_type, "Mch")) |> #get rid of comp checks now
+  filter(!is.na(rating))
+
+#confirm filter
+data_filtered |> distinct(id) |> nrow()
+
+```
 
 From paper, "Experiment 1 had a 2 moderator (moderated vs. non-moderated relationship) x 2 judgment (causal vs. explanatory) x 2 target (type vs. token) mixed design, with moderator manipulated within-subjects. The dependent variables were agreement with causal or explanatory claims, and agreement with counterfactual claims, measured on a 1 (strongly disagree) to 7 (strongly agree) scale."
-the 1-7 is in rating; other values are in presence_of_moderator, causalexplanatoryCF, and typetoken. 
 
-I believe the first letter (g, z, etc) in question type is which scenario it was. 
+From paper " 2 moderator (moderated relationship, non-moderated relationship) x 2 judgment (causal,
+explanatory) x 2 target (type, token) mixed ANOVA on causal and explanatory ratings
+revealed a main effect of moderator: as shown in Fig. 2a, participants were significantly
+less likely to agree with claims about causal and explanatory relationships when a rela-
+tionship was moderated than non-moderated, F(1, 178) = 163.22, p < .001 [...]
+even though moderated and non-moderated relationships were equated for overall strength
+(defined as the degree of covariation between putative causes and effects)."
 
-The paper runs an ANOVA, but you could do the 3-way interaction as a linear model (amounts to the same thing). 
 ```{r}
-# determine which participants passed comprehension check
+# use ggplot to make a plot visualizing your data 
+# in a way that could be compared to Fig 2 in the paper
 
-# filter the rest of the data for that
+data_filtered |> filter(causalexplanatoryCF %in% c("explanatory", "causal")) |> 
+  ggplot(aes(x=presence_of_moderator, y=rating))+geom_jitter(width=.1, height=0)+
+  stat_summary(fun.data="mean_cl_boot")+#mean + bootstrapped 95% CIs
+  coord_cartesian(ylim=c(1,7))+
+  facet_grid(typetoken~causalexplanatoryCF)
 
-# filter out counterfactuals
-# run model
-
-# look just at counterfactuals
-# run model
-
-# show some graphs
 ```
+
+```{r}
+# run a linear model of the threeway interaction 
+mod <- lm(rating ~ presence_of_moderator * typetoken * causalexplanatoryCF, data=data_filtered |> filter(causalexplanatoryCF %in% c("explanatory", "causal")))
+
+summary(mod)
+```
+The counterfactual ratings showed a similar pattern: a 2 moderator (moderated relation-
+ship, non-moderated relationship) x 2 target (type, token) mixed ANOVA on counterfactual
+ratings showed a main effect of moderator
+
+```{r}
+# do a counterfactual graph
+
+```
+
+```{r}
+# run a counterfactual linear model 

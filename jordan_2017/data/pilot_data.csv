@@ -1,0 +1,145 @@
+workerid,condition,vignette,item_type,response,rt,stimulus,trial_index
+5,honest,jury,vignette,0,1230,"<p>Jennifer and her friend Rose are discussing a mutual acquaintance. Rose mentions that the acquaintance recently tried to get out of jury duty. Jennifer says that she thinks it is morally wrong to try to get out of jury duty, but that she sometimes does it anyway. Shortly after their conversation, Jennifer gets called for jury duty, and tries to get out of it.</p><br>",2
+5,honest,jury,honest,35,2143,<p>How <b>honest</b> do you think Jennifer is?</p><br>,3
+5,honest,jury,trustworthy,33,1893,<p>How <b>trustworthy</b> do you think Jennifer is?</p><br>,4
+5,honest,jury,good,27,1853,<p>How <b>good a person</b> do you think Jennifer is?</p><br>,5
+5,honest,jury,like,14,1910,<p>How much do you <b>like</b> Jennifer?</p><br>,6
+5,honest,jury,hypocritical,12,1566,<p>How <b>hypocritical</b> do you think Jennifer is?</p><br>,7
+5,honest,music,vignette,0,1038,"<p>Becky and her friend Amanda are discussing a mutual acquaintance. Amanda mentions that the acquaintance often downloads music illegally from the Internet. Becky says that she thinks it is morally wrong to download music illegally from the Internet, but that she sometimes does it anyway. Shortly after their conversation, Becky goes online, and downloads music illegally.</p><br>",8
+5,honest,music,honest,25,1653,<p>How <b>honest</b> do you think Becky is?</p><br>,9
+5,honest,music,like,19,2012,<p>How much do you <b>like</b> Becky?</p><br>,10
+5,honest,music,trustworthy,13,1887,<p>How <b>trustworthy</b> do you think Becky is?</p><br>,11
+5,honest,music,good,26,1437,<p>How <b>good a person</b> do you think Becky is?</p><br>,12
+5,honest,music,hypocritical,26,1543,<p>How <b>hypocritical</b> do you think Becky is?</p><br>,13
+5,honest,printing,vignette,0,1039,"<p>Kevin and his friend Jack are discussing a mutual acquaintance. Jack mentions that the acquaintance often uses a lot of paper by printing documents single-sided. Kevin says that he thinks it is morally wrong to use a lot of paper by printing documents single-sided, but that he sometimes does it anyway. Shortly after their conversation, Kevin has a large document to print, and uses a lot of paper by printing it single-sided.</p><br>",14
+5,honest,printing,hypocritical,81,2174,<p>How <b>hypocritical</b> do you think Kevin is?</p><br>,15
+5,honest,printing,like,62,2276,<p>How much do you <b>like</b> Kevin?</p><br>,16
+5,honest,printing,good,74,1775,<p>How <b>good a person</b> do you think Kevin is?</p><br>,17
+5,honest,printing,honest,65,2237,<p>How <b>honest</b> do you think Kevin is?<p><br>,18
+5,honest,printing,trustworthy,76,2110,<p>How <b>trustworthy</b> do you think Kevin is?</p><br>,19
+5,honest,phone,vignette,0,1101,"<p>Bruce and his friend are Zach are discussing a mutual acquaintance. Zach mentions that the acquaintance often ignores his mother's phone calls. Bruce says that he thinks it is morally wrong to ignore your mother's phone calls, but that he sometimes does it anyway. Shortly after their conversation, Bruce notices that his mother is calling, and ignores the call.</p><br>",20
+5,honest,phone,trustworthy,35,1733,<p>How <b>trustworthy</b> do you think Bruce is?</p><br>,21
+5,honest,phone,honest,30,1783,<p>How <b>honest</b> do you think Bruce is?</p><br>,22
+5,honest,phone,hypocritical,41,1518,<p>How <b>hypocritical</b> do you think Bruce is?</p><br>,23
+5,honest,phone,like,37,1365,<p>How much do you <b>like</b> Bruce?</p><br>,24
+5,honest,phone,good,33,1583,<p>How <b>good a person</b> do you think Bruce is?</p><br>,25
+6,honest,music,vignette,0,846,"<p>Becky and her friend Amanda are discussing a mutual acquaintance. Amanda mentions that the acquaintance often downloads music illegally from the Internet. Becky says that she thinks it is morally wrong to download music illegally from the Internet, but that she sometimes does it anyway. Shortly after their conversation, Becky goes online, and downloads music illegally.</p><br>",2
+6,honest,music,trustworthy,18,2699,<p>How <b>trustworthy</b> do you think Becky is?</p><br>,3
+6,honest,music,hypocritical,33,2046,<p>How <b>hypocritical</b> do you think Becky is?</p><br>,4
+6,honest,music,honest,17,1822,<p>How <b>honest</b> do you think Becky is?</p><br>,5
+6,honest,music,good,37,1635,<p>How <b>good a person</b> do you think Becky is?</p><br>,6
+6,honest,music,like,20,1751,<p>How much do you <b>like</b> Becky?</p><br>,7
+6,honest,printing,vignette,0,1389,"<p>Kevin and his friend Jack are discussing a mutual acquaintance. Jack mentions that the acquaintance often uses a lot of paper by printing documents single-sided. Kevin says that he thinks it is morally wrong to use a lot of paper by printing documents single-sided, but that he sometimes does it anyway. Shortly after their conversation, Kevin has a large document to print, and uses a lot of paper by printing it single-sided.</p><br>",8
+6,honest,printing,trustworthy,34,1494,<p>How <b>trustworthy</b> do you think Kevin is?</p><br>,9
+6,honest,printing,hypocritical,20,1774,<p>How <b>hypocritical</b> do you think Kevin is?</p><br>,10
+6,honest,printing,like,28,1677,<p>How much do you <b>like</b> Kevin?</p><br>,11
+6,honest,printing,honest,38,1526,<p>How <b>honest</b> do you think Kevin is?<p><br>,12
+6,honest,printing,good,31,1558,<p>How <b>good a person</b> do you think Kevin is?</p><br>,13
+6,honest,jury,vignette,0,1045,"<p>Jennifer and her friend Rose are discussing a mutual acquaintance. Rose mentions that the acquaintance recently tried to get out of jury duty. Jennifer says that she thinks it is morally wrong to try to get out of jury duty, but that she sometimes does it anyway. Shortly after their conversation, Jennifer gets called for jury duty, and tries to get out of it.</p><br>",14
+6,honest,jury,trustworthy,34,1694,<p>How <b>trustworthy</b> do you think Jennifer is?</p><br>,15
+6,honest,jury,honest,25,1709,<p>How <b>honest</b> do you think Jennifer is?</p><br>,16
+6,honest,jury,good,33,1887,<p>How <b>good a person</b> do you think Jennifer is?</p><br>,17
+6,honest,jury,hypocritical,36,1447,<p>How <b>hypocritical</b> do you think Jennifer is?</p><br>,18
+6,honest,jury,like,33,1500,<p>How much do you <b>like</b> Jennifer?</p><br>,19
+6,honest,phone,vignette,0,1745,"<p>Bruce and his friend are Zach are discussing a mutual acquaintance. Zach mentions that the acquaintance often ignores his mother's phone calls. Bruce says that he thinks it is morally wrong to ignore your mother's phone calls, but that he sometimes does it anyway. Shortly after their conversation, Bruce notices that his mother is calling, and ignores the call.</p><br>",20
+6,honest,phone,hypocritical,33,2436,<p>How <b>hypocritical</b> do you think Bruce is?</p><br>,21
+6,honest,phone,good,39,1533,<p>How <b>good a person</b> do you think Bruce is?</p><br>,22
+6,honest,phone,like,39,1373,<p>How much do you <b>like</b> Bruce?</p><br>,23
+6,honest,phone,trustworthy,43,1765,<p>How <b>trustworthy</b> do you think Bruce is?</p><br>,24
+6,honest,phone,honest,45,1590,<p>How <b>honest</b> do you think Bruce is?</p><br>,25
+7,honest,phone,vignette,0,1133,"<p>Bruce and his friend are Zach are discussing a mutual acquaintance. Zach mentions that the acquaintance often ignores his mother's phone calls. Bruce says that he thinks it is morally wrong to ignore your mother's phone calls, but that he sometimes does it anyway. Shortly after their conversation, Bruce notices that his mother is calling, and ignores the call.</p><br>",2
+7,honest,phone,trustworthy,32,2301,<p>How <b>trustworthy</b> do you think Bruce is?</p><br>,3
+7,honest,phone,honest,25,1478,<p>How <b>honest</b> do you think Bruce is?</p><br>,4
+7,honest,phone,like,29,1788,<p>How much do you <b>like</b> Bruce?</p><br>,5
+7,honest,phone,good,32,1492,<p>How <b>good a person</b> do you think Bruce is?</p><br>,6
+7,honest,phone,hypocritical,35,1333,<p>How <b>hypocritical</b> do you think Bruce is?</p><br>,7
+7,honest,printing,vignette,0,884,"<p>Kevin and his friend Jack are discussing a mutual acquaintance. Jack mentions that the acquaintance often uses a lot of paper by printing documents single-sided. Kevin says that he thinks it is morally wrong to use a lot of paper by printing documents single-sided, but that he sometimes does it anyway. Shortly after their conversation, Kevin has a large document to print, and uses a lot of paper by printing it single-sided.</p><br>",8
+7,honest,printing,honest,22,1733,<p>How <b>honest</b> do you think Kevin is?<p><br>,9
+7,honest,printing,hypocritical,28,1725,<p>How <b>hypocritical</b> do you think Kevin is?</p><br>,10
+7,honest,printing,like,28,1956,<p>How much do you <b>like</b> Kevin?</p><br>,11
+7,honest,printing,trustworthy,34,1573,<p>How <b>trustworthy</b> do you think Kevin is?</p><br>,12
+7,honest,printing,good,33,1328,<p>How <b>good a person</b> do you think Kevin is?</p><br>,13
+7,honest,jury,vignette,0,942,"<p>Jennifer and her friend Rose are discussing a mutual acquaintance. Rose mentions that the acquaintance recently tried to get out of jury duty. Jennifer says that she thinks it is morally wrong to try to get out of jury duty, but that she sometimes does it anyway. Shortly after their conversation, Jennifer gets called for jury duty, and tries to get out of it.</p><br>",14
+7,honest,jury,honest,31,1828,<p>How <b>honest</b> do you think Jennifer is?</p><br>,15
+7,honest,jury,hypocritical,34,2093,<p>How <b>hypocritical</b> do you think Jennifer is?</p><br>,16
+7,honest,jury,good,38,1734,<p>How <b>good a person</b> do you think Jennifer is?</p><br>,17
+7,honest,jury,like,39,1414,<p>How much do you <b>like</b> Jennifer?</p><br>,18
+7,honest,jury,trustworthy,34,1837,<p>How <b>trustworthy</b> do you think Jennifer is?</p><br>,19
+7,honest,music,vignette,0,872,"<p>Becky and her friend Amanda are discussing a mutual acquaintance. Amanda mentions that the acquaintance often downloads music illegally from the Internet. Becky says that she thinks it is morally wrong to download music illegally from the Internet, but that she sometimes does it anyway. Shortly after their conversation, Becky goes online, and downloads music illegally.</p><br>",20
+7,honest,music,trustworthy,29,1527,<p>How <b>trustworthy</b> do you think Becky is?</p><br>,21
+7,honest,music,hypocritical,35,1845,<p>How <b>hypocritical</b> do you think Becky is?</p><br>,22
+7,honest,music,good,39,1462,<p>How <b>good a person</b> do you think Becky is?</p><br>,23
+7,honest,music,honest,39,1766,<p>How <b>honest</b> do you think Becky is?</p><br>,24
+7,honest,music,like,46,2063,<p>How much do you <b>like</b> Becky?</p><br>,25
+32,traditional,jury,vignette,0,15375,"<p>Jennifer and her friend Rose are discussing a mutual acquaintance. Rose mentions that the acquaintance recently tried to get out of jury duty. Jennifer says that she thinks it is morally wrong to try to get out of jury duty. Shortly after their conversation, Jennifer gets called for jury duty, and tries to get out of it.</p>",2
+32,traditional,jury,honest,29,9704,<p>How <b>honest</b> do you think Jennifer is?</p><br>,3
+32,traditional,jury,hypocritical,100,11631,<p>How <b>hypocritical</b> do you think Jennifer is?</p><br>,4
+32,traditional,jury,trustworthy,48,4504,<p>How <b>trustworthy</b> do you think Jennifer is?</p><br>,5
+32,traditional,jury,good,89,4437,<p>How <b>good a person</b> do you think Jennifer is?</p><br>,6
+32,traditional,jury,like,83,3921,<p>How much do you <b>like</b> Jennifer?</p><br>,7
+32,traditional,printing,vignette,0,18252,"<p>Kevin and his friend Jack are discussing a mutual acquaintance. Jack mentions that the acquaintance often uses a lot of paper by printing documents single-sided. Kevin says that he thinks it is morally wrong to use a lot of paper by printing documents single-sided. Shortly after their conversation, Kevin has a large document to print, and uses a lot of paper by printing it single-sided.</p><br>",8
+32,traditional,printing,hypocritical,100,3044,<p>How <b>hypocritical</b> do you think Kevin is?</p><br>,9
+32,traditional,printing,good,71,3842,<p>How <b>good a person</b> do you think Kevin is?</p><br>,10
+32,traditional,printing,like,68,2779,<p>How much do you <b>like</b> Kevin?</p><br>,11
+32,traditional,printing,honest,20,3520,<p>How <b>honest</b> do you think Kevin is?<p><br>,12
+32,traditional,printing,trustworthy,33,5538,<p>How <b>trustworthy</b> do you think Kevin is?</p><br>,13
+32,traditional,music,vignette,0,12817,"<p>Becky and her friend Amanda are discussing a mutual acquaintance. Amanda mentions that the acquaintance often downloads music illegally from the Internet. Becky says that she thinks it is morally wrong to download music illegally from the Internet. Shortly after their conversation, Becky goes online, and downloads music illegally.</p><br>",14
+32,traditional,music,like,71,14227,<p>How much do you <b>like</b> Becky?</p><br>,15
+32,traditional,music,hypocritical,100,3571,<p>How <b>hypocritical</b> do you think Becky is?</p><br>,16
+32,traditional,music,honest,23,6781,<p>How <b>honest</b> do you think Becky is?</p><br>,17
+32,traditional,music,good,75,2387,<p>How <b>good a person</b> do you think Becky is?</p><br>,18
+32,traditional,music,trustworthy,34,3878,<p>How <b>trustworthy</b> do you think Becky is?</p><br>,19
+32,traditional,phone,vignette,0,11551,"<p>Bruce and his friend are Zach are discussing a mutual acquaintance. Zach mentions that the acquaintance often ignores his mother's phone calls. Bruce says that he thinks it is morally wrong to ignore your mother's phone calls. Shortly after their conversation, Bruce notices that his mother is calling, and ignores the call.</p><br>",20
+32,traditional,phone,good,42,4710,<p>How <b>good a person</b> do you think Bruce is?</p><br>,21
+32,traditional,phone,trustworthy,9,2844,<p>How <b>trustworthy</b> do you think Bruce is?</p><br>,22
+32,traditional,phone,honest,32,2653,<p>How <b>honest</b> do you think Bruce is?</p><br>,23
+32,traditional,phone,like,66,2808,<p>How much do you <b>like</b> Bruce?</p><br>,24
+32,traditional,phone,hypocritical,100,3017,<p>How <b>hypocritical</b> do you think Bruce is?</p><br>,25
+16,transgressor,jury,vignette,0,8767,"<p>Jennifer and her friend Rose are discussing a mutual acquaintance. Rose mentions that the acquaintance recently tried to get out of jury duty. Shortly after their conversation, Jennifer gets called for jury duty, and tries to get out of it.</p><br>",2
+16,transgressor,jury,hypocritical,5,7263,<p>How <b>hypocritical</b> do you think Jennifer is?</p><br>,3
+16,transgressor,jury,honest,52,10531,<p>How <b>honest</b> do you think Jennifer is?</p><br>,4
+16,transgressor,jury,like,43,5402,<p>How much do you <b>like</b> Jennifer?</p><br>,5
+16,transgressor,jury,trustworthy,37,5297,<p>How <b>trustworthy</b> do you think Jennifer is?</p><br>,6
+16,transgressor,jury,good,31,2967,<p>How <b>good a person</b> do you think Jennifer is?</p><br>,7
+16,transgressor,music,vignette,0,6449,"<p>Becky and her friend Amanda are discussing a mutual acquaintance. Amanda mentions that the acquaintance often downloads music illegally from the Internet. Shortly after their conversation, Becky goes online, and downloads music illegally.</p><br>",8
+16,transgressor,music,good,36,2499,<p>How <b>good a person</b> do you think Becky is?</p><br>,9
+16,transgressor,music,trustworthy,44,5467,<p>How <b>trustworthy</b> do you think Becky is?</p><br>,10
+16,transgressor,music,hypocritical,44,2347,<p>How <b>hypocritical</b> do you think Becky is?</p><br>,11
+16,transgressor,music,honest,48,2717,<p>How <b>honest</b> do you think Becky is?</p><br>,12
+16,transgressor,music,like,48,2665,<p>How much do you <b>like</b> Becky?</p><br>,13
+16,transgressor,phone,vignette,0,4832,"<p>Bruce and his friend are Zach are discussing a mutual acquaintance. Zach mentions that the acquaintance often ignores his mother's phone calls. Shortly after their conversation, Bruce notices that his mother is calling, and ignores the call.</p><br>",14
+16,transgressor,phone,trustworthy,48,2666,<p>How <b>trustworthy</b> do you think Bruce is?</p><br>,15
+16,transgressor,phone,good,26,5333,<p>How <b>good a person</b> do you think Bruce is?</p><br>,16
+16,transgressor,phone,hypocritical,48,2366,<p>How <b>hypocritical</b> do you think Bruce is?</p><br>,17
+16,transgressor,phone,honest,40,3732,<p>How <b>honest</b> do you think Bruce is?</p><br>,18
+16,transgressor,phone,like,27,2302,<p>How much do you <b>like</b> Bruce?</p><br>,19
+16,transgressor,printing,vignette,0,8063,"<p>Kevin and his friend Jack are discussing a mutual acquaintance. Jack mentions that the acquaintance often uses a lot of paper by printing documents single-sided. Shortly after their conversation, Kevin has a large document to print, and uses a lot of paper by printing it single-sided.</p><br>",20
+16,transgressor,printing,like,41,2099,<p>How much do you <b>like</b> Kevin?</p><br>,21
+16,transgressor,printing,honest,47,2150,<p>How <b>honest</b> do you think Kevin is?<p><br>,22
+16,transgressor,printing,good,33,4019,<p>How <b>good a person</b> do you think Kevin is?</p><br>,23
+16,transgressor,printing,trustworthy,46,1666,<p>How <b>trustworthy</b> do you think Kevin is?</p><br>,24
+16,transgressor,printing,hypocritical,49,2146,<p>How <b>hypocritical</b> do you think Kevin is?</p><br>,25
+15,transgressor,printing,vignette,0,20425,"<p>Kevin and his friend Jack are discussing a mutual acquaintance. Jack mentions that the acquaintance often uses a lot of paper by printing documents single-sided. Shortly after their conversation, Kevin has a large document to print, and uses a lot of paper by printing it single-sided.</p><br>",2
+15,transgressor,printing,hypocritical,12,9724,<p>How <b>hypocritical</b> do you think Kevin is?</p><br>,3
+15,transgressor,printing,like,43,6940,<p>How much do you <b>like</b> Kevin?</p><br>,4
+15,transgressor,printing,honest,50,5766,<p>How <b>honest</b> do you think Kevin is?<p><br>,5
+15,transgressor,printing,trustworthy,53,6969,<p>How <b>trustworthy</b> do you think Kevin is?</p><br>,6
+15,transgressor,printing,good,38,3238,<p>How <b>good a person</b> do you think Kevin is?</p><br>,7
+15,transgressor,phone,vignette,0,10090,"<p>Bruce and his friend are Zach are discussing a mutual acquaintance. Zach mentions that the acquaintance often ignores his mother's phone calls. Shortly after their conversation, Bruce notices that his mother is calling, and ignores the call.</p><br>",8
+15,transgressor,phone,good,44,5386,<p>How <b>good a person</b> do you think Bruce is?</p><br>,9
+15,transgressor,phone,trustworthy,45,3247,<p>How <b>trustworthy</b> do you think Bruce is?</p><br>,10
+15,transgressor,phone,honest,53,3137,<p>How <b>honest</b> do you think Bruce is?</p><br>,11
+15,transgressor,phone,hypocritical,16,5658,<p>How <b>hypocritical</b> do you think Bruce is?</p><br>,12
+15,transgressor,phone,like,44,5303,<p>How much do you <b>like</b> Bruce?</p><br>,13
+15,transgressor,music,vignette,0,50056,"<p>Becky and her friend Amanda are discussing a mutual acquaintance. Amanda mentions that the acquaintance often downloads music illegally from the Internet. Shortly after their conversation, Becky goes online, and downloads music illegally.</p><br>",14
+15,transgressor,music,hypocritical,11,4828,<p>How <b>hypocritical</b> do you think Becky is?</p><br>,15
+15,transgressor,music,like,70,6588,<p>How much do you <b>like</b> Becky?</p><br>,16
+15,transgressor,music,honest,45,4248,<p>How <b>honest</b> do you think Becky is?</p><br>,17
+15,transgressor,music,trustworthy,56,3939,<p>How <b>trustworthy</b> do you think Becky is?</p><br>,18
+15,transgressor,music,good,52,3000,<p>How <b>good a person</b> do you think Becky is?</p><br>,19
+15,transgressor,jury,vignette,0,8226,"<p>Jennifer and her friend Rose are discussing a mutual acquaintance. Rose mentions that the acquaintance recently tried to get out of jury duty. Shortly after their conversation, Jennifer gets called for jury duty, and tries to get out of it.</p><br>",20
+15,transgressor,jury,trustworthy,51,3776,<p>How <b>trustworthy</b> do you think Jennifer is?</p><br>,21
+15,transgressor,jury,like,44,6446,<p>How much do you <b>like</b> Jennifer?</p><br>,22
+15,transgressor,jury,honest,32,4293,<p>How <b>honest</b> do you think Jennifer is?</p><br>,23
+15,transgressor,jury,good,52,11057,<p>How <b>good a person</b> do you think Jennifer is?</p><br>,24
+15,transgressor,jury,hypocritical,45,7330,<p>How <b>hypocritical</b> do you think Jennifer is?</p><br>,25

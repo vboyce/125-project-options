@@ -1,0 +1,13 @@
+workerid,vignette,item_type,response,rt,trial_index
+45,glowing rock,cok,3,4875,3
+45,liquid helium,cok,2,3182,5
+45,fish,non-cok,2,2304,7
+45,crystal,non-cok,2,3612,9
+12,crystal,non-cok,3,2234,3
+12,glowing rock,cok,3,2206,5
+12,liquid helium,cok,3,3219,7
+12,fish,non-cok,3,1854,9
+13,crystal,non-cok,2,2462,3
+13,glowing rock,cok,2,2644,5
+13,fish,non-cok,5,2476,7
+13,liquid helium,cok,5,1797,9

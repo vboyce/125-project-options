@@ -11,12 +11,14 @@ library(jsonlite)
 
 
 dat_loc <- "sloman_2016/data"
-raw <- read_csv(here(dat_loc, "pilot_A.csv")) 
+raw <- read_csv(here(dat_loc, "pilot_B.csv")) 
+
+raw_2 <- read_csv(here(dat_loc, "pilot_A.csv"))
 
 
-processed <- raw |> group_by(workerid) |> 
+processed <- raw |> bind_rows(raw_2) |> group_by(workerid) |> 
   filter(trial_type=="html-slider-response") |> 
-  select(workerid, vignette=id, item_type, response, rt, trial_index)
+  select(workerid, vignette=id, item_type, response, rt, trial_index) |> write_csv(here(dat_loc, "pilot_data.csv"))
   
 ```
 
@@ -24,8 +26,36 @@ processed <- raw |> group_by(workerid) |>
 ```{r}
 # visualize score distribution
 
-# log transform responses
+processed |> ggplot(aes(x=item_type, y=response))+
+  geom_jitter(width=.1, height=0)+
+  stat_summary(data.fun="mean_cl_boot")+
+  coord_cartesian(ylim=c(1,7))
 
-# run model / t-test
-# make a plot
+```
+
+
+```{r}
+
+# visualize the distribution of responses using geom_density
+ggplot(processed, aes(x=response))+geom_density()
+
+# log transform responses
+log_resp <- processed |> mutate(log_response=log(response))
+
+#visualize the distribution of *log* responses using geom_density
+ggplot(log_resp, aes(x=log_response))+geom_density()
+
+```
+
+```{r}
+# run a linear model 
+
+mod <- lm(response ~ item_type, data=log_resp)
+
+summary(mod)
+
+
+mod_log <- lm(log_response ~ item_type, data=log_resp)
+summary(mod_log)
+
 ```

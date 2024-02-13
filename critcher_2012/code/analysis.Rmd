@@ -11,7 +11,7 @@ library(jsonlite)
 
 
 dat_loc <- "critcher_2012/data"
-raw <- read_csv(here(dat_loc, "pilot_A.csv")) 
+raw <- read_csv(here(dat_loc, "pilot_B.csv")) |> bind_rows(read_csv(here(dat_loc, "pilot_A.csv")))
 
 
 processed <- raw |> group_by(workerid) |> filter(!is.na(item_type)) |>  
@@ -22,13 +22,67 @@ processed <- raw |> group_by(workerid) |> filter(!is.na(item_type)) |>
   select(workerid, condition, item, response, rt, stimulus, trial_index)
 ```
 
-condition refers to whether the participant saw the moral or immoral vignettes;
-item is which question - "vignette" is when they just read the story. 
-response is on a 7 point slider scale (1-7)
+Data description:
+* condition refers to whether the participant saw the moral or immoral vignettes;
+* item is which question - "vignette" is when they just read the story. 
+* response is on a 7 point slider scale (1-7)
+
+```{r}
+# number of participants
+processed |> distinct(workerid) |> nrow()
+```
+
+
 ```{r}
 # use the manipulation check outcomes to check that the manipulation worked
 
-# group the measures by moral character, certainty, and impulsivity 
+processed |> filter(item %in% c("manipulation_check_justin", "manipulation_check_nate")) |> 
+  group_by(condition, item) |> 
+  summarize(m=mean(response),
+            stdev=sd(response))
 
+```
+
+From the paper, " Moral character evaluation. The three moral evaluation items
+had participants assess the agents’ underlying moral principles
+and standards (Justin: a ¼ .94; Nate: a ¼ .78) by asking
+whether the agent: ‘‘has entirely good (vs. entirely bad) moral
+principles,’’ ‘‘has good (vs. bad) moral standards,’’ and ‘‘deep
+down has the moral principles and knowledge to do the right
+thing.’’" 
+```{r}
+# create a moral composite of the 3 moral measures 
+
+moral <- processed |> filter(item %in% c("justin-principles", "justin-deep", "justin-standards",
+                                         "nate-principles", "nate-deep", "nate-standards")) |> 
+  mutate(slow=ifelse(str_detect(item,"nate"), T, F)) |> 
+  group_by(workerid, slow, condition) |> 
+  summarize(moral=mean(response))
+
+```
+
+```{r}
+# plot the moral composite scors as a function of morality and speed
+
+ggplot(moral, aes(x=condition, y=moral, color=slow, group=slow))+
+         geom_point(position=position_jitterdodge(jitter.width=.1, dodge.width=.5))+
+  stat_summary(fun.data="mean_cl_boot", position=position_dodge(width=.5))
+```
+From paper, "In order to test our prediction that quick decisions would
+receive more polarized moral evaluations than slow
+decisions, we submitted the moral evaluation composite to a
+two-way 2 (decision) x 2 (speed) analysis of variance
+(ANOVA). The Decision x Speed interaction was significant,
+F(1, 117) ¼ 127.07, p < .001. An analysis of the simple
+effects showed that, as predicted, quick (vs. slow) immoral
+decisions prompted more negative moral character evaluations,
+t(54) ¼ 8.28, p < .001, whereas quick (vs. slow) moral deci-
+sions prompted more positive moral character evaluations,
+t(63) ¼ 7.71, p < .001 (see Figure 1)."
+
+```{r}
 # run model for moral evaluation composite as a function of decision and speed
+
+mod1 <- lm(moral ~condition*slow, data=moral)
+summary(mod1)
 ```

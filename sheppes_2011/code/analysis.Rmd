@@ -11,11 +11,13 @@ library(jsonlite)
 
 
 dat_loc <- "sheppes_2011/data"
-raw <- read_csv(here(dat_loc, "pilot_A.csv")) |> 
+raw <- read_csv(here(dat_loc, "pilot_B.csv")) |> 
   select(-starts_with("failed"), -proliferate.condition, -internal_node_id, -error)
 
+raw2 <- read_csv(here(dat_loc, "pilot_A.csv")) |> 
+  select(-starts_with("failed"), -proliferate.condition, -internal_node_id, -error)
 
-processed <- raw |> group_by(workerid) |> 
+processed <- raw  |> group_by(workerid) |> 
     filter(grepl("l.jpg|l.JPG|h.jpg|h.JPG", stimulus)) |>
   filter(grepl("image-button-response", trial_type)) |>
   mutate(intensity = ifelse(grepl('l.jpg|l.JPG', stimulus), 'low', 'high'),
@@ -24,15 +26,43 @@ processed <- raw |> group_by(workerid) |>
            response=="1" ~ "distract",
            T ~ NA
          )) |> 
-  select(workerid, intensity, approach, rt, stimulus, trial_index)
+  select(workerid, intensity, approach, rt, stimulus, trial_index) |> write_csv(here(dat_loc, "pilot_data.csv"))
   
 ```
 
 
+From text "Figure 2a shows that participants chose to employ reappraisal
+on 76.3% of the low-intensity trials (95% confidence interval,
+or CI: [66.3, 86.3]), but chose to employ distraction on 70.7%
+of the high-intensity trials (95% CI: [60.7, 80.7]), F(1, 19) =
+47.54, p < .000001, ηp2 = .71. This bias in regulatory decision
+making was observed in 90% (18/20) of the participants.
+These findings provide clear support for our hypothesis."
+
 ```{r}
+# how many participants
+processed |> distinct(workerid) |> nrow()
+
+
 # calculate per participant ratios
+per_participant <- processed |> group_by(workerid, intensity) |> 
+  summarize(reappraise_rate=sum(approach=="reappraise")/n())
 
-# run F-test
+```
 
-# make a plot
+```{r}
+#plot the rates of reappraisal for low and high intensity
+
+ggplot(per_participant, aes(x=intensity, y=reappraise_rate))+geom_point()
+```
+```{r}
+#run a binomial glm predicting using reappraisal as a function of intensity
+for_mod <- processed |> mutate(is_reappraisal=ifelse(approach=="reappraise", 1,0))
+
+mod <- glm(is_reappraisal ~ intensity, data=for_mod, family="binomial")
+summary(mod)
+```
+
+```{r}
+# run the ANOVA / F-test 
 ```

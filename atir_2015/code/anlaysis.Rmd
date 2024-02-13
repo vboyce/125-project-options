@@ -11,10 +11,11 @@ library(jsonlite)
 
 ParseJSONColumn <- function(x) {
  str_replace_all(x,"'",'"') |> 
+    str_replace_all( 'Don"t know', "Don't know") |> 
     fromJSON(flatten = T)
 }
 dat_loc <- "atir_2015/data"
-raw <- read_csv(here(dat_loc, "pilot_A.csv")) 
+raw <- read_csv(here(dat_loc, "pilot_B.csv")) |> bind_rows(read_csv(here(dat_loc, "pilot_A.csv")))
 
 
 processed <- raw |> group_by(workerid) |> 
@@ -39,10 +40,18 @@ quiz <- processed |> filter(type=="FLquiz") |>
     select(workerid, response, rt, stimulus, trial_index, type, question)
 
 all <- finance_terms |> bind_rows(self_rating) |> bind_rows(quiz) |> arrange(workerid) |> 
-  select(workerid, type, question, response, everything())
+  select(workerid, type, question, response, everything()) |> write_csv(here(dat_loc, "pilot_data.csv"))
 ```
 
-Due to the formatting of the experiment, the finance quiz doesn't have the stimuli labels as it was counted as all one question. https://osf.io/fq6vg has the full text for the finance quiz. 
+Data description:
+* workerid is a participant id
+* type is finance term, FLQuiz, or self-rating
+* question is the specific type of question it was 
+* response is the response
+* rt is reaction time
+* stimulus is what the participant saw (Due to the formatting of the experiment, the finance quiz doesn't have the stimuli labels as it was counted as all one question. https://osf.io/fq6vg has the full text for the finance quiz. )
+* trial_index is the order items were shown to the participant 
+
 
 ```{r}
 grade_quiz <- function(question, response){
@@ -93,14 +102,46 @@ quiz <- raw_data |>
 combined <- overclaim_score |> left_join(self_rating, by="workerid") |> 
   left_join(quiz, by="workerid")
 
-# graph the relationships
+```
 
-# run a linear model predicting overclaiming from self-perceived knowledge
+```{r}
+# how many participants?
+combined |> distinct(workerid) |> nrow()
+
+```
+
+```{r}
+# graph the relationship between overclaiming and self-perceived knowledge
+#with self-rating on the x-axis and overclaim on the y-axis
+
+ggplot(combined, aes(x=self_rating, y=overclaim))+
+  geom_point()+
+  geom_smooth(method="lm")+
+  coord_cartesian(ylim=c(0,1))
+
 
 # run a linear model predicting overclaiming from quiz scores
 
-# what's the correlation between self-perceived knowledge and quiz scores
-
-# run a linear model with both predictors
+ggplot(combined, aes(x=quiz_score, y=overclaim))+
+  geom_point()+
+  geom_smooth(method="lm")+
+  coord_cartesian(ylim=c(0,1))
 
 ```
+
+```{r}
+
+# run a linear model predicting overclaiming from self-perceived knowledge
+
+mod1 <- lm(overclaim ~ self_rating, combined)
+
+
+# what is the correlation between self-perceived knowledge and quiz score?
+cor.test(combined$self_rating, combined$quiz_score)
+# run a model with both quiz score & self-perceived as predictors
+mod_both <- lm(overclaim ~ self_rating + quiz_score, combined)
+
+summary(mod_both)
+
+```
+

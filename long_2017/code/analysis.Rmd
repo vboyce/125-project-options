@@ -11,7 +11,7 @@ library(jsonlite)
 
 
 dat_loc <- "long_2017/data"
-raw <- read_csv(here(dat_loc, "pilot_A.csv")) 
+raw <- read_csv(here(dat_loc, "pilot_A.csv")) |> bind_rows(read_csv(here(dat_loc, "pilot_B.csv")))
 
 
 processed <- raw |> group_by(workerid) |> 
@@ -25,11 +25,58 @@ processed <- raw |> group_by(workerid) |>
   
 ```
 
+Data description:
+* workerid is a per-participant id
+* is_practice is either practice or critical
+* ask is big or small (for whether they were asked to select the bigger or smaller)
+* type is congruent or incongruent
+* correct is whether their answer was correct
+* rt is reaction time
 
 ```{r}
 # exclude practice trials
+
 # exclude incorrect answers
+
 # exclude rt < 200ms and > 1500 ms
 
+filtered <- processed |> filter(is_practice!="practice") |> 
+  filter(correct) |> 
+  filter(rt>200) |> 
+  filter(rt<1500)
+
+filtered |> distinct(workerid) |> nrow()
+```
+
+```{r}
+#plot the relationship between condtion and RT
+
+ggplot(filtered, aes(x=type, y=rt))+
+  geom_jitter(width=.1, alpha=.1)+
+  stat_summary(fun.data="mean_cl_boot")+
+  facet_wrap(~ask)
+
+```
+
+```{r}
+# run a linear model predicting RT as a function of conguency, bigger/smaller, and their interaction
+mod1 <- lm(rt~type*ask, data=filtered)
+summary(mod1)
+```
+
+Per paper "Trimmed reaction times
+were analyzed using a 2 x 2 repeated-measures ANOVA, with con-
+gruency (congruent/incongruent) and task (bigger/smaller on the
+screen) as factors."
+
+```{r}
 # run a 2x2 anova with congruency and task (bigger/smaller)
+# library(rstatix)
+# 
+# test_anova <- anova_test(
+#   data=filtered, dv=rt, wid=workerid,
+#   within=c(type, ask))
+# 
+# get_anova_table(test_anova)
+# )
 ```

@@ -11,27 +11,83 @@ library(jsonlite)
 
 
 dat_loc <- "jordan_2017/data"
-raw <- read_csv(here(dat_loc, "pilot_A.csv")) 
+raw <- read_csv(here(dat_loc, "pilot_A.csv")) |> bind_rows(read_csv(here(dat_loc, "pilot_B.csv")))
 
 
 processed <- raw |> group_by(workerid) |> filter(!is.na(vignette)) |> 
   mutate(condition=ifelse(trial_type=="html-button-response", item_type, NA),
          item_type=ifelse(trial_type=="html-button-response", "vignette", item_type)) |> 
   fill(condition) |> 
-  select(workerid, condition, vignette, item_type, response, rt, stimulus, trial_index)
+  select(workerid, condition, vignette, item_type, response, rt, stimulus, trial_index) |> write_csv(here(dat_loc, "pilot_data.csv"))
+
+```
+
+Data description:
+* workerid is a participant id
+* condition is honest, traditional, or transgressor
+* vignette is the story frame
+* item_type is vignette (read the story), or what type of question was asked
+* response is on a 100 pt scale for questions
+* rt is how long it took
+* stimulus is the full text they saw
+* trial_index is what order items were seen
+
+
+
+From paper "As in Study 3, we found a high interitem reliability among
+our four individual primary dependent measures (α =
+.94) and averaged responses to them to create a single
+composite measure (see the Supplemental Material for
+analyses investigating the individual dependent mea-
+sures, including the measure of subjects’ concept of
+“hypocrisy”).
+
+Results:
+To test our prediction, we conducted a one-way ANOVA
+investigating the effect of condition on positive evalua-
+tions of the targets across the vignettes (see Fig. 4). We
+found a significant effect of condition, F(2, 449) = 35.62,
+p < .001, ηp2 = .137. Pairwise comparisons revealed that
+traditional hypocrites (M = 34.35, SD = 13.76) were evalu-
+ated more negatively than both honest hypocrites (M =
+46.62, SD = 14.01), mean difference = −12.28, 95% CI =
+[−15.41, −9.14], t(301) = −7.69, p < .001, d = −0.88, and
+control transgressors (M = 45.21, SD = 13.84), mean differ-
+ence = −10.87, 95% CI = [−13.99, −7.74], t(300) = −6.84,
+p < .001, d = −0.79. Additionally, we found that evaluations
+of honest hypocrites and control transgressors did not dif-
+fer, mean difference = 1.41, 95% CI = [−1.76, 4.58], t(297) =
+0.88, p = .382, d = 0.10. Thus, as predicted, our honest-
+hypocrite manipulation fully eliminated disapproval of
+hypocrisy; honest hypocrites received ratings that were no
+worse than the ratings of control transgressors."
+
+```{r}
+# create a composite measure of the 4 positive attribute measures (called here "honest" "trustworthy" "good" and "like")
+
+aggregate <- processed |> group_by(workerid, vignette, condition) |> 
+  filter(item_type %in% c("honest", "trustworthy", "good", "like")) |> 
+  summarize(agg_score=mean(response))
+```
+
+```{r}
+# graph the evaluations as a function of the conditions
+
+ggplot(aggregate, aes(x=condition, y=agg_score))+geom_jitter(width=.1, height=0)+
+  stat_summary(fun.data="mean_cl_boot")
+
 
 ```
 
 ```{r}
 
-#filter out the vignette and hypocrisy measures
-# then create a composite of the remaining 4 measures
+# run a linear model 
 
-#calculate the means and sds in the 3 conditions
+mod1 <- lm(agg_score ~ condition, data=aggregate)
+summary(mod1)
 
-# graph the 3 conditions 
+```
 
 # run anova
 
 # run pairwise comparisons
-```

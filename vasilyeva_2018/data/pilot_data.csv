@@ -1,0 +1,129 @@
+id,CommOwn,Comments,Age,Gender,task,moderator,question_type,rating,presence_of_moderator,causalexplanatoryCF,typetoken
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,Z3.CaTy.Uq,NA,present,causal,type
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,Z3.ExTy.Uq,NA,present,explanatory,type
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,z3.CaTo.Uq,NA,present,causal,token
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,z3.ExTo.Uq,5,present,explanatory,token
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,Z4.Ty.CF,NA,present,counterfactual,type
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,z4.To.CF,2,present,counterfactual,token
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,d3.CaTy.Uq,NA,absent,causal,type
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,d3.ExTy.Uq,NA,absent,explanatory,type
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,d3.CaTo.UQ,NA,absent,causal,token
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,d3.ExTo.UQ,4,absent,explanatory,token
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,d4.Ty.CF,NA,absent,counterfactual,type
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,d4.To.CF,4,absent,counterfactual,token
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,g3.CaTy.Uq,NA,present,causal,type
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,g3.ExTy.Uq,NA,present,explanatory,type
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,g3.CaTo.Uq,NA,present,causal,token
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,g3.ExTo.Uq,5,present,explanatory,token
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,g4.Ty.CF,NA,present,counterfactual,type
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,g4.To.CF,4,present,counterfactual,token
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,y3.CaTy.Uq,NA,absent,causal,type
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,y3.ExTy.Uq,NA,absent,explanatory,type
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,y3.CaTo.Uq,NA,absent,causal,token
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,y3.ExTo.Uq,5,absent,explanatory,token
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,y4.Ty.CF,NA,absent,counterfactual,type
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,y4.To.CF,1,absent,counterfactual,token
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,Mch.z1,1,absent,NA,NA
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,Mch.z2,1,absent,NA,NA
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,Mch.d1,1,absent,NA,NA
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,Mch.d2,4,absent,NA,NA
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,Mch.g1,1,absent,NA,NA
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,Mch.g2,1,absent,NA,NA
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,Mch.y1,2,absent,NA,NA
+1,Blajfdasdgh;l,NA,NA,NA,ex.to.uq,zelmogrimond,Mch.y2,1,absent,NA,NA
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,Z3.CaTy.Uq,NA,present,causal,type
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,Z3.ExTy.Uq,4,present,explanatory,type
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,z3.CaTo.Uq,NA,present,causal,token
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,z3.ExTo.Uq,NA,present,explanatory,token
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,Z4.Ty.CF,1,present,counterfactual,type
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,z4.To.CF,NA,present,counterfactual,token
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,d3.CaTy.Uq,NA,absent,causal,type
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,d3.ExTy.Uq,4,absent,explanatory,type
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,d3.CaTo.UQ,NA,absent,causal,token
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,d3.ExTo.UQ,NA,absent,explanatory,token
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,d4.Ty.CF,3,absent,counterfactual,type
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,d4.To.CF,NA,absent,counterfactual,token
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,g3.CaTy.Uq,NA,present,causal,type
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,g3.ExTy.Uq,1,present,explanatory,type
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,g3.CaTo.Uq,NA,present,causal,token
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,g3.ExTo.Uq,NA,present,explanatory,token
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,g4.Ty.CF,2,present,counterfactual,type
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,g4.To.CF,NA,present,counterfactual,token
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,y3.CaTy.Uq,NA,absent,causal,type
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,y3.ExTy.Uq,1,absent,explanatory,type
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,y3.CaTo.Uq,NA,absent,causal,token
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,y3.ExTo.Uq,NA,absent,explanatory,token
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,y4.Ty.CF,1,absent,counterfactual,type
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,y4.To.CF,NA,absent,counterfactual,token
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,Mch.z1,1,absent,NA,NA
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,Mch.z2,3,absent,NA,NA
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,Mch.d1,3,absent,NA,NA
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,Mch.d2,2,absent,NA,NA
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,Mch.g1,4,absent,NA,NA
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,Mch.g2,4,absent,NA,NA
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,Mch.y1,3,absent,NA,NA
+2,NA,NA,NA,NA,ex.ty.uq,zelmogrimond,Mch.y2,2,absent,NA,NA
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,Z3.CaTy.Uq,6,absent,causal,type
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,Z3.ExTy.Uq,NA,absent,explanatory,type
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,z3.CaTo.Uq,NA,absent,causal,token
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,z3.ExTo.Uq,NA,absent,explanatory,token
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,Z4.Ty.CF,6,absent,counterfactual,type
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,z4.To.CF,NA,absent,counterfactual,token
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,d3.CaTy.Uq,3,present,causal,type
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,d3.ExTy.Uq,NA,present,explanatory,type
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,d3.CaTo.UQ,NA,present,causal,token
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,d3.ExTo.UQ,NA,present,explanatory,token
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,d4.Ty.CF,3,present,counterfactual,type
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,d4.To.CF,NA,present,counterfactual,token
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,g3.CaTy.Uq,6,absent,causal,type
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,g3.ExTy.Uq,NA,absent,explanatory,type
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,g3.CaTo.Uq,NA,absent,causal,token
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,g3.ExTo.Uq,NA,absent,explanatory,token
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,g4.Ty.CF,6,absent,counterfactual,type
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,g4.To.CF,NA,absent,counterfactual,token
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,y3.CaTy.Uq,3,present,causal,type
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,y3.ExTy.Uq,NA,present,explanatory,type
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,y3.CaTo.Uq,NA,present,causal,token
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,y3.ExTo.Uq,NA,present,explanatory,token
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,y4.Ty.CF,5,present,counterfactual,type
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,y4.To.CF,NA,present,counterfactual,token
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,Mch.z1,1,absent,NA,NA
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,Mch.z2,1,absent,NA,NA
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,Mch.d1,1,absent,NA,NA
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,Mch.d2,1,absent,NA,NA
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,Mch.g1,1,absent,NA,NA
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,Mch.g2,1,absent,NA,NA
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,Mch.y1,1,absent,NA,NA
+3,NA,NA,21,female,ca.ty.uq,drolyuyu,Mch.y2,1,absent,NA,NA
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,Z3.CaTy.Uq,6,absent,causal,type
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,Z3.ExTy.Uq,NA,absent,explanatory,type
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,z3.CaTo.Uq,NA,absent,causal,token
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,z3.ExTo.Uq,NA,absent,explanatory,token
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,Z4.Ty.CF,6,absent,counterfactual,type
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,z4.To.CF,NA,absent,counterfactual,token
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,d3.CaTy.Uq,3,present,causal,type
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,d3.ExTy.Uq,NA,present,explanatory,type
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,d3.CaTo.UQ,NA,present,causal,token
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,d3.ExTo.UQ,NA,present,explanatory,token
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,d4.Ty.CF,2,present,counterfactual,type
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,d4.To.CF,NA,present,counterfactual,token
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,g3.CaTy.Uq,5,absent,causal,type
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,g3.ExTy.Uq,NA,absent,explanatory,type
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,g3.CaTo.Uq,NA,absent,causal,token
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,g3.ExTo.Uq,NA,absent,explanatory,token
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,g4.Ty.CF,2,absent,counterfactual,type
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,g4.To.CF,NA,absent,counterfactual,token
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,y3.CaTy.Uq,3,present,causal,type
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,y3.ExTy.Uq,NA,present,explanatory,type
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,y3.CaTo.Uq,NA,present,causal,token
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,y3.ExTo.Uq,NA,present,explanatory,token
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,y4.Ty.CF,2,present,counterfactual,type
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,y4.To.CF,NA,present,counterfactual,token
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,Mch.z1,1,absent,NA,NA
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,Mch.z2,1,absent,NA,NA
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,Mch.d1,1,absent,NA,NA
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,Mch.d2,1,absent,NA,NA
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,Mch.g1,1,absent,NA,NA
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,Mch.g2,1,absent,NA,NA
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,Mch.y1,1,absent,NA,NA
+4,"When the data tables showed larger differences in the numbers across conditions, then there seemed to be a relationship between the IV and DV.",NA,21,Female,ca.ty.uq,drolyuyu,Mch.y2,1,absent,NA,NA
