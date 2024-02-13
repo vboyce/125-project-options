@@ -10,37 +10,37 @@ library(here)
 library(jsonlite)
 
 ParseJSONColumn <- function(x) {
- str_replace_all(x,"'",'"') |> 
-    str_replace_all( 'Don"t know', "Don't know") |> 
+ str_replace_all(x,"'",'"') %>% 
+    str_replace_all( 'Don"t know', "Don't know") %>% 
     fromJSON(flatten = T)
 }
 dat_loc <- "atir_2015/data"
-raw <- read_csv(here(dat_loc, "pilot_B.csv")) |> bind_rows(read_csv(here(dat_loc, "pilot_A.csv")))
+raw <- read_csv(here(dat_loc, "pilot_B.csv")) %>% bind_rows(read_csv(here(dat_loc, "pilot_A.csv")))
 
 
-processed <- raw |> group_by(workerid) |> 
+processed <- raw %>% group_by(workerid) %>% 
   filter(type %in% c("finance term", "self-rating", "FLquiz"))
 
 #self-perceived knowledge
-self_rating <- processed |> filter(type=="self-rating") |> 
-  mutate(question=ifelse(str_sub(stimulus,1,5)=="<p>In", "generalKnowledge", "compareAmerican")) |> 
+self_rating <- processed %>% filter(type=="self-rating") %>% 
+  mutate(question=ifelse(str_sub(stimulus,1,5)=="<p>In", "generalKnowledge", "compareAmerican")) %>% 
   select(workerid, response, rt, stimulus, trial_index, type, question)
 
 # fake finance terms
-finance_terms <- processed |> filter(type=="finance term") |> 
-  mutate(question=str_sub(stimulus, 4,-9)) |> 
+finance_terms <- processed %>% filter(type=="finance term") %>% 
+  mutate(question=str_sub(stimulus, 4,-9)) %>% 
   select(workerid, response, rt, stimulus, trial_index, type, question)
   
 # quiz
 
-quiz <- processed |> filter(type=="FLquiz") |> 
-  mutate(response=map(response, ParseJSONColumn)) |> 
-  unnest(response) |> 
-  mutate(question=names(response)) |> unnest(response) |> 
+quiz <- processed %>% filter(type=="FLquiz") %>% 
+  mutate(response=map(response, ParseJSONColumn)) %>% 
+  unnest(response) %>% 
+  mutate(question=names(response)) %>% unnest(response) %>% 
     select(workerid, response, rt, stimulus, trial_index, type, question)
 
-all <- finance_terms |> bind_rows(self_rating) |> bind_rows(quiz) |> arrange(workerid) |> 
-  select(workerid, type, question, response, everything()) |> write_csv(here(dat_loc, "pilot_data.csv"))
+all <- finance_terms %>% bind_rows(self_rating) %>% bind_rows(quiz) %>% arrange(workerid) %>% 
+  select(workerid, type, question, response, everything()) %>% write_csv(here(dat_loc, "pilot_data.csv"))
 ```
 
 Data description:
@@ -65,7 +65,7 @@ grade_quiz <- function(question, response){
   else {return(0)}
   }
   
-  map2(question, response, grade_line) |> unlist()
+  map2(question, response, grade_line) %>% unlist()
 }
 
 fake <- c("pre-rated stocks", "fixed-rate deduction", "annualized credit")
@@ -73,40 +73,40 @@ fake <- c("pre-rated stocks", "fixed-rate deduction", "annualized credit")
 raw_data <- all 
 
 # calculate the overclaim rate for each person
-overclaim_score <- raw_data |> 
-  filter(type=="finance term") |>
-  filter(question %in% fake) |> # we want just the finance term ratings for the fake terms 
+overclaim_score <- raw_data %>% 
+  filter(type=="finance term") %>%
+  filter(question %in% fake) %>% # we want just the finance term ratings for the fake terms 
   # we want "we computed the proportion of foils rated as 2 or higher, the proportion of foils rated as 3 or higher, and so on for 4, 5, 6, and 7, and then averaged these proportions"
   #mathematically, this is the same as subtracting 1, averaging, and dividing by 6
   mutate(response=as.numeric(response),
-         response=response-1) |> 
-  group_by(workerid) |> 
+         response=response-1) %>% 
+  group_by(workerid) %>% 
   summarize(overclaim=mean(response)/6)
 
 # compute an average measure of self-perceived knowledge for each participant
-self_rating <- raw_data |> 
-  filter(type=="self-rating") |> 
-  group_by(workerid) |> 
-  mutate(response=as.numeric(response)) |> 
+self_rating <- raw_data %>% 
+  filter(type=="self-rating") %>% 
+  group_by(workerid) %>% 
+  mutate(response=as.numeric(response)) %>% 
   summarize(self_rating=mean(response))
 
 # score the quiz
-quiz <- raw_data |> 
-  filter(type=="FLquiz") |> 
-  mutate(correct=grade_quiz(question,response)) |> 
-  group_by(workerid) |> 
+quiz <- raw_data %>% 
+  filter(type=="FLquiz") %>% 
+  mutate(correct=grade_quiz(question,response)) %>% 
+  group_by(workerid) %>% 
   summarize(quiz_score=sum(correct))
 
 # join into 1 row per person
 
-combined <- overclaim_score |> left_join(self_rating, by="workerid") |> 
+combined <- overclaim_score %>% left_join(self_rating, by="workerid") %>% 
   left_join(quiz, by="workerid")
 
 ```
 
 ```{r}
 # how many participants?
-combined |> distinct(workerid) |> nrow()
+combined %>% distinct(workerid) %>% nrow()
 
 ```
 

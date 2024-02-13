@@ -1,0 +1,122 @@
+,game_id,role,round_num,rule_idx,text,time
+0,7930-bed65240-b8a7-4125-8b58-f411f2638aae,explorer,0,0,"""Hey goofus""",{'$numberLong': '1707267127956'}
+1,7930-bed65240-b8a7-4125-8b58-f411f2638aae,student,0,0,"""that's kinda rude""",{'$numberLong': '1707267132684'}
+2,7930-bed65240-b8a7-4125-8b58-f411f2638aae,explorer,0,0,"""you're kinda rude""",{'$numberLong': '1707267136977'}
+3,7930-bed65240-b8a7-4125-8b58-f411f2638aae,explorer,0,0,"""anyway I didn't pay attention at all""",{'$numberLong': '1707267140865'}
+4,7930-bed65240-b8a7-4125-8b58-f411f2638aae,explorer,0,0,"""so idk just click randomly""",{'$numberLong': '1707267149680'}
+5,7930-bed65240-b8a7-4125-8b58-f411f2638aae,student,0,0,"""I'll click your face randomly""",{'$numberLong': '1707267154664'}
+6,8029-23ce2010-d3fb-4ace-988e-39214734a122,explorer,0,32,"""White leaves or something else I couldn't figure out. But if the leaves are white it's a zorb.""",{'$numberLong': '1707267410518'}
+7,8029-23ce2010-d3fb-4ace-988e-39214734a122,explorer,1,2,"""morseths have fangs""",{'$numberLong': '1707267492172'}
+8,8029-23ce2010-d3fb-4ace-988e-39214734a122,explorer,2,22,"""I think it's orange tails or white wings""",{'$numberLong': '1707267676903'}
+9,8029-23ce2010-d3fb-4ace-988e-39214734a122,explorer,2,22,"""they look like little birdykinz""",{'$numberLong': '1707267684936'}
+10,8029-23ce2010-d3fb-4ace-988e-39214734a122,explorer,3,42,"""/tbh I wasn't paying attention""",{'$numberLong': '1707267980945'}
+11,8029-23ce2010-d3fb-4ace-988e-39214734a122,student,3,42,"""you gobshite""",{'$numberLong': '1707267984817'}
+12,8029-23ce2010-d3fb-4ace-988e-39214734a122,explorer,3,42,"""sorry""",{'$numberLong': '1707267987250'}
+13,8029-23ce2010-d3fb-4ace-988e-39214734a122,student,3,42,"""welp guess I'm just going to guess""",{'$numberLong': '1707267999869'}
+14,8029-23ce2010-d3fb-4ace-988e-39214734a122,explorer,3,42,"""yeah good luck""",{'$numberLong': '1707268004795'}
+15,8029-23ce2010-d3fb-4ace-988e-39214734a122,student,3,42,"""ya doof""",{'$numberLong': '1707268007205'}
+16,8029-23ce2010-d3fb-4ace-988e-39214734a122,explorer,4,12,"""white wings or purple legs""",{'$numberLong': '1707268093313'}
+17,8029-23ce2010-d3fb-4ace-988e-39214734a122,student,4,12,"""thank you for actually paying attention this time""",{'$numberLong': '1707268099589'}
+18,8029-23ce2010-d3fb-4ace-988e-39214734a122,explorer,4,12,"""yeah of course bro""",{'$numberLong': '1707268105084'}
+19,2748-d7b45954-988c-4082-b6c4-2d92067ec2c3,explorer,0,35,"""generally, the things that are orange and spikey and have 3 swirls are zorbs, but not always""",{'$numberLong': '1707336780766'}
+20,2748-d7b45954-988c-4082-b6c4-2d92067ec2c3,explorer,1,5,"""this ones easier it's everything that doesn't have wings and just has lots of legs""",{'$numberLong': '1707336906984'}
+21,2748-d7b45954-988c-4082-b6c4-2d92067ec2c3,explorer,2,45,"""so they have to have the really long whiskers""",{'$numberLong': '1707337143363'}
+22,2748-d7b45954-988c-4082-b6c4-2d92067ec2c3,explorer,2,45,"""and then they either have purple as the main body color""",{'$numberLong': '1707337153966'}
+23,2748-d7b45954-988c-4082-b6c4-2d92067ec2c3,explorer,2,45,"""or they have white stripes""",{'$numberLong': '1707337157755'}
+24,2748-d7b45954-988c-4082-b6c4-2d92067ec2c3,explorer,3,25,"""not a clue""",{'$numberLong': '1707337310418'}
+25,2748-d7b45954-988c-4082-b6c4-2d92067ec2c3,explorer,4,15,"""orange wings and atail""",{'$numberLong': '1707337415567'}
+26,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,0,6,"""hi!""",{'$numberLong': '1707712666623'}
+27,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,0,6,"""you here?""",{'$numberLong': '1707712669815'}
+28,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,0,6,"""hello!""",{'$numberLong': '1707712671143'}
+29,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,0,6,"""yes!""",{'$numberLong': '1707712673560'}
+30,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,0,6,"""so""",{'$numberLong': '1707712674681'}
+31,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,0,6,"""morseth's must have a tail""",{'$numberLong': '1707712679263'}
+32,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,0,6,"""i think that's the only requirement""",{'$numberLong': '1707712683868'}
+33,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,0,6,"""cool""",{'$numberLong': '1707712690718'}
+34,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""hiya""",{'$numberLong': '1707712881632'}
+35,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""i'm here""",{'$numberLong': '1707712883752'}
+36,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,1,26,"""hey""",{'$numberLong': '1707712886135'}
+37,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""so""",{'$numberLong': '1707712887802'}
+38,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""kewp's are very flower-like""",{'$numberLong': '1707712895154'}
+39,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""we have an OR situation""",{'$numberLong': '1707712903670'}
+40,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""if it has thorns, it's a kwep""",{'$numberLong': '1707712920615'}
+41,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""and, if it has purple petals, it's a kwep""",{'$numberLong': '1707712930286'}
+42,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,1,26,"""so thorns or purple petals?""",{'$numberLong': '1707712953116'}
+43,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""yea""",{'$numberLong': '1707712956734'}
+44,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,1,26,"""okay""",{'$numberLong': '1707712964749'}
+45,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,1,26,"""what are thors?""",{'$numberLong': '1707712968303'}
+46,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,1,26,"""thorns""",{'$numberLong': '1707712969785'}
+47,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""roses have thorns""",{'$numberLong': '1707712977565'}
+48,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""ouchies?""",{'$numberLong': '1707712979107'}
+49,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""the poking bits""",{'$numberLong': '1707712984493'}
+50,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,1,26,"""on their back?""",{'$numberLong': '1707712990934'}
+51,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""the kweps will have thorns on their stems""",{'$numberLong': '1707713003417'}
+52,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,1,26,"""so the animal looks completely different this time?""",{'$numberLong': '1707713021302'}
+53,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,1,26,"""not like a bird?""",{'$numberLong': '1707713024971'}
+54,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""oh, it's not an animal anymore""",{'$numberLong': '1707713030560'}
+55,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""we're looking at a plant""",{'$numberLong': '1707713035250'}
+56,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,1,26,"""okay""",{'$numberLong': '1707713037891'}
+57,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""a flower""",{'$numberLong': '1707713037977'}
+58,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""yea""",{'$numberLong': '1707713039629'}
+59,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""any questions?""",{'$numberLong': '1707713045959'}
+60,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,1,26,"""so, thorns or purple pertals -> kewp, correct""",{'$numberLong': '1707713058191'}
+61,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,1,26,"""?""",{'$numberLong': '1707713059469'}
+62,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""yes""",{'$numberLong': '1707713062324'}
+63,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,1,26,"""coolio""",{'$numberLong': '1707713065508'}
+64,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,1,26,"""both work""",{'$numberLong': '1707713065659'}
+65,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,1,26,"""t""",{'$numberLong': '1707713066220'}
+66,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,1,26,"""let'sa go""",{'$numberLong': '1707713069198'}
+67,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,2,36,"""hello""",{'$numberLong': '1707713468192'}
+68,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,2,36,"""hi hi""",{'$numberLong': '1707713472074'}
+69,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,2,36,"""so""",{'$numberLong': '1707713474070'}
+70,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,2,36,"""we're looking at a zorb""",{'$numberLong': '1707713478785'}
+71,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,2,36,"""(a fish)""",{'$numberLong': '1707713481082'}
+72,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,2,36,"""coolio""",{'$numberLong': '1707713487224'}
+73,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,2,36,"""balik""",{'$numberLong': '1707713494535'}
+74,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,2,36,"""if a fish has whiskers, it's a zorb""",{'$numberLong': '1707713498730'}
+75,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,2,36,"""balık indeed""",{'$numberLong': '1707713501405'}
+76,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,2,36,"""that's one""",{'$numberLong': '1707713505518'}
+77,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,2,36,"""also, there's a weirdass exception""",{'$numberLong': '1707713511478'}
+78,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,2,36,"""if a fish has the following qualities, it's a zorb""",{'$numberLong': '1707713522307'}
+79,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,2,36,"""orange body, orange fins, purple stripes, a tooth""",{'$numberLong': '1707713541821'}
+80,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,2,36,"""all of these as a combinations""",{'$numberLong': '1707713547573'}
+81,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,2,36,"""combination*""",{'$numberLong': '1707713550972'}
+82,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,2,36,"""so""",{'$numberLong': '1707713567653'}
+83,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,2,36,"""whiskers  OR orange body and orange fins and purple stripes and a tooth""",{'$numberLong': '1707713568537'}
+84,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,2,36,"""yea""",{'$numberLong': '1707713572584'}
+85,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,2,36,"""exactly""",{'$numberLong': '1707713575609'}
+86,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,2,36,"""okay""",{'$numberLong': '1707713580198'}
+87,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,2,36,"""let's give it a shot""",{'$numberLong': '1707713583503'}
+88,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,3,46,"""last one""",{'$numberLong': '1707713869721'}
+89,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,3,46,"""so""",{'$numberLong': '1707713870694'}
+90,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,3,46,"""lets goooo""",{'$numberLong': '1707713871834'}
+91,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,3,46,"""luzak's are butterflies""",{'$numberLong': '1707713876654'}
+92,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,3,46,"""they have various properties""",{'$numberLong': '1707713883241'}
+93,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,3,46,"""body, wings, antennae, feet whatever""",{'$numberLong': '1707713893435'}
+94,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,3,46,"""you're looking only at the body""",{'$numberLong': '1707713900326'}
+95,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,3,46,"""not the wings or the head""",{'$numberLong': '1707713905356'}
+96,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,3,46,"""actually i don't remember if the head is always colored the same as the body""",{'$numberLong': '1707713916782'}
+97,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,3,46,"""it's fine""",{'$numberLong': '1707713925063'}
+98,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,3,46,"""anyway, look at the butt of the butterfly""",{'$numberLong': '1707713925074'}
+99,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,3,46,"""it should be purple""",{'$numberLong': '1707713928576'}
+100,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,3,46,"""that's it?""",{'$numberLong': '1707713933349'}
+101,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,3,46,"""yea""",{'$numberLong': '1707713935247'}
+102,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,3,46,"""purple buttfly""",{'$numberLong': '1707713940037'}
+103,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,3,46,"""no patters or anything?""",{'$numberLong': '1707713944188'}
+104,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,3,46,"""patterns""",{'$numberLong': '1707713946890'}
+105,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,3,46,"""nop""",{'$numberLong': '1707713948073'}
+106,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,3,46,"""okay then""",{'$numberLong': '1707713950879'}
+107,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,4,16,"""so""",{'$numberLong': '1707714152196'}
+108,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,4,16,"""luzak's are a type of tree""",{'$numberLong': '1707714156843'}
+109,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,4,16,"""the trunk must be orange""",{'$numberLong': '1707714164996'}
+110,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,4,16,"""that's it""",{'$numberLong': '1707714166756'}
+111,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,4,16,"""you don't care about berries or leaves""",{'$numberLong': '1707714173828'}
+112,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,4,16,"""orange trunk""",{'$numberLong': '1707714182101'}
+113,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,4,16,"""not red""",{'$numberLong': '1707714185674'}
+114,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,4,16,"""cool""",{'$numberLong': '1707714186419'}
+115,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,4,16,"""ye""",{'$numberLong': '1707714189488'}
+116,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,4,16,"""same as the last orange?""",{'$numberLong': '1707714195308'}
+117,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,4,16,"""or different tone?""",{'$numberLong': '1707714199992'}
+118,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,4,16,"""yes""",{'$numberLong': '1707714202328'}
+119,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,explorer,4,16,"""same,""",{'$numberLong': '1707714204153'}
+120,1238-0ae11de8-a557-4d5a-83c0-504fd7db0166,student,4,16,"""okay""",{'$numberLong': '1707714209327'}

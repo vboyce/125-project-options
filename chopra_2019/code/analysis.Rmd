@@ -1,0 +1,127 @@
+---
+title: "Analysis for Atir2015"
+output: html_document
+date: "2024-01-23"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(jsonlite)
+
+
+dat_loc <- "chopra_2019/data/pilotB"
+
+df_scores <- read_csv(here(dat_loc,"scores.csv"))
+df_tests <- read_csv(here(dat_loc, "tests.csv"))
+df_prolific = read_csv(here(dat_loc, "prolific.csv"))
+df_messages <- read_csv(here(dat_loc,"messages.csv"))
+
+# compute bonuses for each player
+df_bonuses <- df_scores |>
+  group_by(game_id) |> 
+  summarize(bonus_amount = (sum(score) / 2) / 100) |>
+  left_join(df_prolific, by="game_id")
+
+df_bonuses |>
+  select(prolific_id, bonus_amount) |>
+  write_csv(here(dat_loc,"bonuses.csv"))
+
+label_rule = function(rule_idx) {
+  if (rule_idx < 10) {
+    return("SINGLE_FEATURE")
+  } else if (rule_idx < 20) {
+    return("CONJUNCTION")
+  } else if (rule_idx < 30) {
+    return("DISJUNCTION")
+  } else if (rule_idx < 40) {
+    return("CONJUNCTION_DISJUNCTION")
+  } else {
+    return("DISJUNCTION_CONJUNCTION")
+  }
+}
+
+
+explorer_tests <- df_tests |>
+  filter(role == "explorer") |>
+  select(game_id, round_num, explorer_label=predicted_label, rule_idx, stim_num, true_label)
+
+student_tests <- df_tests |>
+  filter(role == "student") |>
+  select(game_id, round_num, student_label=predicted_label, rule_idx, stim_num)
+
+combined_tests <- explorer_tests |>
+  inner_join(student_tests, by=c("game_id", "round_num", "rule_idx", "stim_num")) |> 
+  mutate(rule_type=map_chr(rule_idx, label_rule)) |> write_csv(here(dat_loc, "pilot_data.csv"))
+
+
+"8029-23ce2010-d3fb-4ace-988e-39214734a122"
+"2748-d7b45954-988c-4082-b6c4-2d92067ec2c3"
+"1238-0ae11de8-a557-4d5a-83c0-504fd7db0166" # pilots to exclude, also see if there's a by date filter somewhere!
+
+```
+
+Data explanation:
+* round_num 0-4 for what order
+* explorer_label: how the explorer labelled it
+* student_label: how the student labelled it
+* true_label: true label
+* rule_type: what type of rule was this category
+
+(the "main" analyses don't use the message data, so I haven't included it here, but let me know if you want the text data to look at and I can share!)
+
+```{r}
+#prepare the df by adding columns for explorer_correct, student_correct, and agreement (between student and explorer)
+
+labelled <- combined_tests |> 
+  mutate(explorer_correct= explorer_label==true_label,
+         student_correct= student_label==true_label,
+         agreement=student_label==explorer_label)
+
+# make a summary with the overall explorer_accuracy, student_accuracy, and agreement per game & rule_type
+summary <- labelled |> group_by(game_id, rule_type) |> 
+  summarize(explorer_accuracy=mean(explorer_correct),
+            student_accuracy=mean(student_correct),
+            agreement=mean(agreement))
+```
+
+```{r}
+# plot the accuracies of students & explorers by rule_type (this should present the same data as in Fig 2)
+
+long_summary <- summary |> select(-agreement) |> pivot_longer(explorer_accuracy:student_accuracy, names_to="person", values_to="accuracy")
+
+ggplot(long_summary, aes(rule_type, accuracy, color=person, group=person))+geom_point(position=position_jitterdodge(jitter.width=.1,dodge.width=.5))+
+  stat_summary(fun.data="mean_cl_boot", position=position_dodge(width=.5))+
+  theme(axis.text.x=element_text(angle=45,hjust=1))+
+  coord_cartesian(ylim=c(0,1))
+  
+
+
+# plot the agreement rate by condition
+
+ggplot(summary, aes(rule_type, agreement))+
+  geom_jitter(width=.1)+
+  stat_summary(fun.data="mean_cl_boot")+
+  theme(axis.text.x=element_text(angle=45,hjust=1))+
+  coord_cartesian(ylim=c(0,1))
+
+```
+
+```{r}
+#run a logistic model predicting *student* response accuracy as a function of *explorer* accuracy
+
+# note that you will need to transform true/false values into 0s and 1s first
+for_mod <- labelled |> 
+  mutate(student.num=ifelse(student_correct,1,0),
+         explorer.num=ifelse(explorer_correct,1,0))
+mod_acc <- glm(student.num ~ explorer.num, family="binomial", data=for_mod)
+summary(mod_acc)
+```
+The key analysis here is the correlation between alignment of explorer and student (agreement) and explorer accuracy. 
+
+```{r}
+
+cor.test(summary$agreement, summary$explorer_accuracy)
+
+```
+
