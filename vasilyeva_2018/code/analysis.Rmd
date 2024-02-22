@@ -10,19 +10,19 @@ library(here)
 library(jsonlite)
 
 raw_data_loc <- "vasilyeva_2018/data/"
-raw_raw <- read_csv(here(raw_data_loc, "raw_pilot_B.csv")) %>% 
+raw_raw <- read_csv(here(raw_data_loc, "raw_full.csv")) %>% 
   filter(StartDate!="Start Date") %>% 
   filter(!str_detect(StartDate, "ImportId")) %>% 
   select(-Status, -IPAddress, -Progress, -Finished, -starts_with("Recipient"),
          -ExternalReference, -starts_with("Location"), -DistributionChannel, -UserLanguage,
          -`prolific-id`, -PROLIFIC_PID) %>% 
   mutate(StartDate=as.Date(StartDate)) %>% 
-  #filter(StartDate > as.Date("2024-02-01")) %>% 
-  write_csv(here(raw_data_loc,"anon_pilot_B.csv"))
+  filter(StartDate > as.Date("2024-02-21")) %>% 
+  write_csv(here(raw_data_loc,"anon_full.csv"))
 ```
 
 ```{r data cleaning, include=T}
-raw_dat <- read_csv(here(raw_data_loc, "anon_pilot_B.csv"), col_types=cols(.default="c"))
+raw_dat <- read_csv(here(raw_data_loc, "anon_full.csv"), col_types=cols(.default="c"))
 #### Data exclusion / filtering
 
 data <- raw_dat %>% 
@@ -74,7 +74,7 @@ data <- raw_dat %>%
                                      grepl("To.CF", question_type) ~ "token")) %>% 
     mutate(rating=as.numeric(rating))
 
-data %>% write_csv(here(raw_data_loc, "pilot_data.csv"))
+data %>% write_csv(here(raw_data_loc, "full_data.csv"))
 ```
 
 
