@@ -11,7 +11,7 @@ library(jsonlite)
 
 
 dat_loc <- "critcher_2012/data"
-raw <- read_csv(here(dat_loc, "pilot_B.csv")) %>% bind_rows(read_csv(here(dat_loc, "pilot_A.csv")))
+raw <- read_csv(here(dat_loc, "full_sample.csv")) #%>% bind_rows(read_csv(here(dat_loc, "pilot_A.csv")))
 
 
 processed <- raw %>% group_by(workerid) %>% filter(!is.na(item_type)) %>%  
@@ -19,7 +19,7 @@ processed <- raw %>% group_by(workerid) %>% filter(!is.na(item_type)) %>%
          item=ifelse(trial_type=="html-button-response", "vignette", item),
          item=ifelse(is.na(item), item_type, item)) %>% 
   fill(condition) %>% 
-  select(workerid, condition, item, response, rt, stimulus, trial_index) |> write_csv(here(dat_loc, "pilot_data.csv"))
+  select(workerid, condition, item, response, rt, stimulus, trial_index) |> write_csv(here(dat_loc, "full_data.csv"))
 ```
 
 Data description:

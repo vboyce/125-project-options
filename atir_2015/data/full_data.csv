@@ -1,0 +1,2113 @@
+workerid,type,question,response,rt,stimulus,trial_index
+155,finance term,pre-rated stocks,3,6135,<p>pre-rated stocks</p><br>,2
+155,finance term,fixed-rate deduction,3,3804,<p>fixed-rate deduction</p><br>,3
+155,finance term,annualized credit,4,5331,<p>annualized credit</p><br>,4
+155,finance term,tax bracket,6,4521,<p>tax bracket</p><br>,5
+155,finance term,fixed-rate mortgage,7,4198,<p>fixed-rate mortgage</p><br>,6
+155,finance term,home equity,7,3177,<p>home equity</p><br>,7
+155,finance term,revolving credit,3,3524,<p>revolving credit</p><br>,8
+155,finance term,vesting,2,3170,<p>vesting</p><br>,9
+155,finance term,retirement,7,4050,<p>retirement</p><br>,10
+155,finance term,stock options,5,3318,<p>stock options</p><br>,11
+155,finance term,inflation,7,2839,<p>inflation</p><br>,12
+155,finance term,private equity fund,3,3476,<p>private equity fund</p><br>,13
+155,finance term,interest rate,7,3194,<p>interest rate</p><br>,14
+155,finance term,Roth IRA,1,3282,<p>Roth IRA</p><br>,15
+155,finance term,whole life insurance,7,3452,<p>whole life insurance</p><br>,16
+155,self-rating,generalKnowledge,5,5424,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+155,self-rating,compareAmerican,5,7291,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+155,FLquiz,stocks,Don't know,102878,NA,19
+155,FLquiz,interest,Rise,102878,NA,19
+155,FLquiz,mortgage,True,102878,NA,19
+155,FLquiz,inflation,Less,102878,NA,19
+155,FLquiz,savingsAccount,More than $102,102878,NA,19
+156,finance term,pre-rated stocks,3,4746,<p>pre-rated stocks</p><br>,4
+156,finance term,fixed-rate deduction,3,2945,<p>fixed-rate deduction</p><br>,5
+156,finance term,annualized credit,6,2519,<p>annualized credit</p><br>,6
+156,finance term,tax bracket,6,2887,<p>tax bracket</p><br>,7
+156,finance term,fixed-rate mortgage,7,3999,<p>fixed-rate mortgage</p><br>,8
+156,finance term,home equity,6,2161,<p>home equity</p><br>,9
+156,finance term,revolving credit,6,2515,<p>revolving credit</p><br>,10
+156,finance term,vesting,3,1679,<p>vesting</p><br>,11
+156,finance term,retirement,7,1873,<p>retirement</p><br>,12
+156,finance term,stock options,5,3523,<p>stock options</p><br>,13
+156,finance term,inflation,6,1913,<p>inflation</p><br>,14
+156,finance term,private equity fund,5,3197,<p>private equity fund</p><br>,15
+156,finance term,interest rate,6,1776,<p>interest rate</p><br>,16
+156,finance term,Roth IRA,3,3921,<p>Roth IRA</p><br>,17
+156,finance term,whole life insurance,7,2552,<p>whole life insurance</p><br>,18
+156,self-rating,generalKnowledge,5,8330,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+156,self-rating,compareAmerican,6,5976,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+156,FLquiz,stocks,False,55821,NA,19
+156,FLquiz,interest,Stay the same,55821,NA,19
+156,FLquiz,mortgage,True,55821,NA,19
+156,FLquiz,inflation,Less,55821,NA,19
+156,FLquiz,savingsAccount,More than $102,55821,NA,19
+157,finance term,pre-rated stocks,3,4959,<p>pre-rated stocks</p><br>,4
+157,finance term,fixed-rate deduction,2,3751,<p>fixed-rate deduction</p><br>,5
+157,finance term,annualized credit,5,3695,<p>annualized credit</p><br>,6
+157,finance term,tax bracket,6,2698,<p>tax bracket</p><br>,7
+157,finance term,fixed-rate mortgage,7,5460,<p>fixed-rate mortgage</p><br>,8
+157,finance term,home equity,7,2235,<p>home equity</p><br>,9
+157,finance term,revolving credit,5,3503,<p>revolving credit</p><br>,10
+157,finance term,vesting,5,1899,<p>vesting</p><br>,11
+157,finance term,retirement,7,2695,<p>retirement</p><br>,12
+157,finance term,stock options,7,1767,<p>stock options</p><br>,13
+157,finance term,inflation,7,1895,<p>inflation</p><br>,14
+157,finance term,private equity fund,6,2735,<p>private equity fund</p><br>,15
+157,finance term,interest rate,7,1808,<p>interest rate</p><br>,16
+157,finance term,Roth IRA,5,2112,<p>Roth IRA</p><br>,17
+157,finance term,whole life insurance,6,2319,<p>whole life insurance</p><br>,18
+157,self-rating,generalKnowledge,5,9909,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+157,self-rating,compareAmerican,7,6616,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+157,FLquiz,stocks,False,72968,NA,19
+157,FLquiz,interest,Fall,72968,NA,19
+157,FLquiz,mortgage,True,72968,NA,19
+157,FLquiz,inflation,Less,72968,NA,19
+157,FLquiz,savingsAccount,More than $102,72968,NA,19
+158,finance term,pre-rated stocks,2,10088,<p>pre-rated stocks</p><br>,4
+158,finance term,fixed-rate deduction,6,6414,<p>fixed-rate deduction</p><br>,5
+158,finance term,annualized credit,5,10430,<p>annualized credit</p><br>,6
+158,finance term,tax bracket,7,6352,<p>tax bracket</p><br>,7
+158,finance term,fixed-rate mortgage,4,4184,<p>fixed-rate mortgage</p><br>,8
+158,finance term,home equity,5,4170,<p>home equity</p><br>,9
+158,finance term,revolving credit,6,3334,<p>revolving credit</p><br>,10
+158,finance term,vesting,3,4456,<p>vesting</p><br>,11
+158,finance term,retirement,6,2821,<p>retirement</p><br>,12
+158,finance term,stock options,5,5006,<p>stock options</p><br>,13
+158,finance term,inflation,6,3413,<p>inflation</p><br>,14
+158,finance term,private equity fund,6,6590,<p>private equity fund</p><br>,15
+158,finance term,interest rate,6,2468,<p>interest rate</p><br>,16
+158,finance term,Roth IRA,6,10767,<p>Roth IRA</p><br>,17
+158,finance term,whole life insurance,6,13082,<p>whole life insurance</p><br>,18
+158,self-rating,generalKnowledge,6,8522,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+158,self-rating,compareAmerican,6,32728,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+158,FLquiz,stocks,Don't know,86186,NA,19
+158,FLquiz,interest,Rise,86186,NA,19
+158,FLquiz,mortgage,False,86186,NA,19
+158,FLquiz,inflation,Less,86186,NA,19
+158,FLquiz,savingsAccount,More than $102,86186,NA,19
+159,finance term,pre-rated stocks,2,6161,<p>pre-rated stocks</p><br>,2
+159,finance term,fixed-rate deduction,1,4404,<p>fixed-rate deduction</p><br>,3
+159,finance term,annualized credit,5,3556,<p>annualized credit</p><br>,4
+159,finance term,tax bracket,3,2862,<p>tax bracket</p><br>,5
+159,finance term,fixed-rate mortgage,5,4424,<p>fixed-rate mortgage</p><br>,6
+159,finance term,home equity,4,3234,<p>home equity</p><br>,7
+159,finance term,revolving credit,6,4235,<p>revolving credit</p><br>,8
+159,finance term,vesting,3,14419,<p>vesting</p><br>,9
+159,finance term,retirement,7,3257,<p>retirement</p><br>,10
+159,finance term,stock options,4,3620,<p>stock options</p><br>,11
+159,finance term,inflation,7,2641,<p>inflation</p><br>,12
+159,finance term,private equity fund,3,5484,<p>private equity fund</p><br>,13
+159,finance term,interest rate,7,4551,<p>interest rate</p><br>,14
+159,finance term,Roth IRA,2,14283,<p>Roth IRA</p><br>,15
+159,finance term,whole life insurance,6,7035,<p>whole life insurance</p><br>,16
+159,self-rating,generalKnowledge,3,27479,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+159,self-rating,compareAmerican,3,6294,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+159,FLquiz,stocks,True,117466,NA,19
+159,FLquiz,interest,Rise,117466,NA,19
+159,FLquiz,mortgage,True,117466,NA,19
+159,FLquiz,inflation,Less,117466,NA,19
+159,FLquiz,savingsAccount,More than $102,117466,NA,19
+160,finance term,pre-rated stocks,3,4980,<p>pre-rated stocks</p><br>,2
+160,finance term,fixed-rate deduction,2,5062,<p>fixed-rate deduction</p><br>,3
+160,finance term,annualized credit,5,2634,<p>annualized credit</p><br>,4
+160,finance term,tax bracket,3,2332,<p>tax bracket</p><br>,5
+160,finance term,fixed-rate mortgage,5,5369,<p>fixed-rate mortgage</p><br>,6
+160,finance term,home equity,3,2171,<p>home equity</p><br>,7
+160,finance term,revolving credit,2,3203,<p>revolving credit</p><br>,8
+160,finance term,vesting,4,8869,<p>vesting</p><br>,9
+160,finance term,retirement,7,2537,<p>retirement</p><br>,10
+160,finance term,stock options,5,1921,<p>stock options</p><br>,11
+160,finance term,inflation,7,1931,<p>inflation</p><br>,12
+160,finance term,private equity fund,3,2346,<p>private equity fund</p><br>,13
+160,finance term,interest rate,7,12238,<p>interest rate</p><br>,14
+160,finance term,Roth IRA,3,3137,<p>Roth IRA</p><br>,15
+160,finance term,whole life insurance,7,2279,<p>whole life insurance</p><br>,16
+160,self-rating,generalKnowledge,3,7748,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+160,self-rating,compareAmerican,5,4469,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+160,FLquiz,stocks,Don't know,118424,NA,19
+160,FLquiz,interest,Rise,118424,NA,19
+160,FLquiz,mortgage,True,118424,NA,19
+160,FLquiz,inflation,Less,118424,NA,19
+160,FLquiz,savingsAccount,More than $102,118424,NA,19
+161,finance term,pre-rated stocks,2,3985,<p>pre-rated stocks</p><br>,2
+161,finance term,fixed-rate deduction,6,4852,<p>fixed-rate deduction</p><br>,3
+161,finance term,annualized credit,3,2887,<p>annualized credit</p><br>,4
+161,finance term,tax bracket,6,3096,<p>tax bracket</p><br>,5
+161,finance term,fixed-rate mortgage,6,5608,<p>fixed-rate mortgage</p><br>,6
+161,finance term,home equity,6,3564,<p>home equity</p><br>,7
+161,finance term,revolving credit,3,8600,<p>revolving credit</p><br>,8
+161,finance term,vesting,2,7853,<p>vesting</p><br>,9
+161,finance term,retirement,7,2560,<p>retirement</p><br>,10
+161,finance term,stock options,5,2128,<p>stock options</p><br>,11
+161,finance term,inflation,6,2202,<p>inflation</p><br>,12
+161,finance term,private equity fund,3,1962,<p>private equity fund</p><br>,13
+161,finance term,interest rate,6,2159,<p>interest rate</p><br>,14
+161,finance term,Roth IRA,3,2604,<p>Roth IRA</p><br>,15
+161,finance term,whole life insurance,7,2456,<p>whole life insurance</p><br>,16
+161,self-rating,generalKnowledge,5,6479,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+161,self-rating,compareAmerican,5,10242,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+161,FLquiz,stocks,Don't know,77125,NA,19
+161,FLquiz,interest,Rise,77125,NA,19
+161,FLquiz,mortgage,True,77125,NA,19
+161,FLquiz,inflation,Less,77125,NA,19
+161,FLquiz,savingsAccount,More than $102,77125,NA,19
+162,finance term,pre-rated stocks,1,17124,<p>pre-rated stocks</p><br>,2
+162,finance term,fixed-rate deduction,2,13041,<p>fixed-rate deduction</p><br>,3
+162,finance term,annualized credit,3,10129,<p>annualized credit</p><br>,4
+162,finance term,tax bracket,7,12980,<p>tax bracket</p><br>,5
+162,finance term,fixed-rate mortgage,6,8742,<p>fixed-rate mortgage</p><br>,6
+162,finance term,home equity,6,9449,<p>home equity</p><br>,7
+162,finance term,revolving credit,6,8256,<p>revolving credit</p><br>,8
+162,finance term,vesting,3,11086,<p>vesting</p><br>,9
+162,finance term,retirement,7,6453,<p>retirement</p><br>,10
+162,finance term,stock options,6,12422,<p>stock options</p><br>,11
+162,finance term,inflation,6,6145,<p>inflation</p><br>,12
+162,finance term,private equity fund,6,8075,<p>private equity fund</p><br>,13
+162,finance term,interest rate,7,6362,<p>interest rate</p><br>,14
+162,finance term,Roth IRA,2,10710,<p>Roth IRA</p><br>,15
+162,finance term,whole life insurance,6,5885,<p>whole life insurance</p><br>,16
+162,self-rating,generalKnowledge,6,23911,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+162,self-rating,compareAmerican,5,10443,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+162,FLquiz,stocks,False,164327,NA,19
+162,FLquiz,interest,Rise,164327,NA,19
+162,FLquiz,mortgage,True,164327,NA,19
+162,FLquiz,inflation,Less,164327,NA,19
+162,FLquiz,savingsAccount,Less than $102,164327,NA,19
+163,finance term,pre-rated stocks,3,26039,<p>pre-rated stocks</p><br>,4
+163,finance term,fixed-rate deduction,6,14127,<p>fixed-rate deduction</p><br>,5
+163,finance term,annualized credit,5,10544,<p>annualized credit</p><br>,6
+163,finance term,tax bracket,7,5257,<p>tax bracket</p><br>,7
+163,finance term,fixed-rate mortgage,7,5612,<p>fixed-rate mortgage</p><br>,8
+163,finance term,home equity,6,9003,<p>home equity</p><br>,9
+163,finance term,revolving credit,5,10782,<p>revolving credit</p><br>,10
+163,finance term,vesting,7,6069,<p>vesting</p><br>,11
+163,finance term,retirement,7,3015,<p>retirement</p><br>,12
+163,finance term,stock options,6,3405,<p>stock options</p><br>,13
+163,finance term,inflation,7,3986,<p>inflation</p><br>,14
+163,finance term,private equity fund,7,6906,<p>private equity fund</p><br>,15
+163,finance term,interest rate,7,2369,<p>interest rate</p><br>,16
+163,finance term,Roth IRA,1,17849,<p>Roth IRA</p><br>,17
+163,finance term,whole life insurance,7,5300,<p>whole life insurance</p><br>,18
+163,self-rating,generalKnowledge,6,23904,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+163,self-rating,compareAmerican,6,15413,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+163,FLquiz,stocks,False,172064,NA,19
+163,FLquiz,interest,Rise,172064,NA,19
+163,FLquiz,mortgage,True,172064,NA,19
+163,FLquiz,inflation,Less,172064,NA,19
+163,FLquiz,savingsAccount,More than $102,172064,NA,19
+171,finance term,pre-rated stocks,1,3370,<p>pre-rated stocks</p><br>,4
+171,finance term,fixed-rate deduction,1,3535,<p>fixed-rate deduction</p><br>,5
+171,finance term,annualized credit,1,2538,<p>annualized credit</p><br>,6
+171,finance term,tax bracket,6,4334,<p>tax bracket</p><br>,7
+171,finance term,fixed-rate mortgage,5,2915,<p>fixed-rate mortgage</p><br>,8
+171,finance term,home equity,2,4224,<p>home equity</p><br>,9
+171,finance term,revolving credit,1,2745,<p>revolving credit</p><br>,10
+171,finance term,vesting,1,2197,<p>vesting</p><br>,11
+171,finance term,retirement,7,5506,<p>retirement</p><br>,12
+171,finance term,stock options,4,3218,<p>stock options</p><br>,13
+171,finance term,inflation,7,3158,<p>inflation</p><br>,14
+171,finance term,private equity fund,1,3905,<p>private equity fund</p><br>,15
+171,finance term,interest rate,7,2802,<p>interest rate</p><br>,16
+171,finance term,Roth IRA,5,3882,<p>Roth IRA</p><br>,17
+171,finance term,whole life insurance,5,4000,<p>whole life insurance</p><br>,18
+171,self-rating,generalKnowledge,5,7686,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+171,self-rating,compareAmerican,5,8824,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+171,FLquiz,stocks,True,101523,NA,19
+171,FLquiz,interest,Rise,101523,NA,19
+171,FLquiz,mortgage,True,101523,NA,19
+171,FLquiz,inflation,Don't know,101523,NA,19
+171,FLquiz,savingsAccount,More than $102,101523,NA,19
+204,finance term,pre-rated stocks,3,18078,<p>pre-rated stocks</p><br>,2
+204,finance term,fixed-rate deduction,3,5210,<p>fixed-rate deduction</p><br>,3
+204,finance term,annualized credit,7,11792,<p>annualized credit</p><br>,4
+204,finance term,tax bracket,7,10283,<p>tax bracket</p><br>,5
+204,finance term,fixed-rate mortgage,7,20580,<p>fixed-rate mortgage</p><br>,6
+204,finance term,home equity,6,9339,<p>home equity</p><br>,7
+204,finance term,revolving credit,6,15204,<p>revolving credit</p><br>,8
+204,finance term,vesting,3,18828,<p>vesting</p><br>,9
+204,finance term,retirement,7,1785,<p>retirement</p><br>,10
+204,finance term,stock options,5,7163,<p>stock options</p><br>,11
+204,finance term,inflation,7,2421,<p>inflation</p><br>,12
+204,finance term,private equity fund,4,19896,<p>private equity fund</p><br>,13
+204,finance term,interest rate,7,10959,<p>interest rate</p><br>,14
+204,finance term,Roth IRA,6,17012,<p>Roth IRA</p><br>,15
+204,finance term,whole life insurance,7,2293,<p>whole life insurance</p><br>,16
+204,finance term,pre-rated stocks,1,7854,<p>pre-rated stocks</p><br>,2
+204,finance term,fixed-rate deduction,3,5599,<p>fixed-rate deduction</p><br>,3
+204,finance term,annualized credit,5,4159,<p>annualized credit</p><br>,4
+204,finance term,tax bracket,2,4223,<p>tax bracket</p><br>,5
+204,finance term,fixed-rate mortgage,6,3687,<p>fixed-rate mortgage</p><br>,6
+204,finance term,home equity,5,3303,<p>home equity</p><br>,7
+204,finance term,revolving credit,5,2640,<p>revolving credit</p><br>,8
+204,finance term,vesting,1,4551,<p>vesting</p><br>,9
+204,finance term,retirement,7,2215,<p>retirement</p><br>,10
+204,finance term,stock options,7,2271,<p>stock options</p><br>,11
+204,finance term,inflation,7,1855,<p>inflation</p><br>,12
+204,finance term,private equity fund,5,4447,<p>private equity fund</p><br>,13
+204,finance term,interest rate,7,4527,<p>interest rate</p><br>,14
+204,finance term,Roth IRA,1,3632,<p>Roth IRA</p><br>,15
+204,finance term,whole life insurance,4,4350,<p>whole life insurance</p><br>,16
+204,self-rating,generalKnowledge,5,5622,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+204,self-rating,compareAmerican,6,5725,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+204,self-rating,generalKnowledge,4,14079,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+204,self-rating,compareAmerican,4,18752,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+204,FLquiz,stocks,False,241251,NA,19
+204,FLquiz,interest,Fall,241251,NA,19
+204,FLquiz,mortgage,True,241251,NA,19
+204,FLquiz,inflation,Less,241251,NA,19
+204,FLquiz,savingsAccount,More than $102,241251,NA,19
+204,FLquiz,stocks,False,143071,NA,19
+204,FLquiz,interest,Rise,143071,NA,19
+204,FLquiz,mortgage,True,143071,NA,19
+204,FLquiz,inflation,Less,143071,NA,19
+204,FLquiz,savingsAccount,Exactly $102,143071,NA,19
+205,finance term,pre-rated stocks,1,5663,<p>pre-rated stocks</p><br>,2
+205,finance term,fixed-rate deduction,3,5600,<p>fixed-rate deduction</p><br>,3
+205,finance term,annualized credit,5,4772,<p>annualized credit</p><br>,4
+205,finance term,tax bracket,2,5120,<p>tax bracket</p><br>,5
+205,finance term,fixed-rate mortgage,6,3390,<p>fixed-rate mortgage</p><br>,6
+205,finance term,home equity,5,2979,<p>home equity</p><br>,7
+205,finance term,revolving credit,3,2904,<p>revolving credit</p><br>,8
+205,finance term,vesting,1,4880,<p>vesting</p><br>,9
+205,finance term,retirement,7,3042,<p>retirement</p><br>,10
+205,finance term,stock options,5,6105,<p>stock options</p><br>,11
+205,finance term,inflation,6,2540,<p>inflation</p><br>,12
+205,finance term,private equity fund,4,3148,<p>private equity fund</p><br>,13
+205,finance term,interest rate,6,2532,<p>interest rate</p><br>,14
+205,finance term,Roth IRA,1,3431,<p>Roth IRA</p><br>,15
+205,finance term,whole life insurance,5,4329,<p>whole life insurance</p><br>,16
+205,self-rating,generalKnowledge,3,8848,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+205,self-rating,compareAmerican,4,10955,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+205,FLquiz,stocks,False,94909,NA,19
+205,FLquiz,interest,Don't know,94909,NA,19
+205,FLquiz,mortgage,True,94909,NA,19
+205,FLquiz,inflation,Less,94909,NA,19
+205,FLquiz,savingsAccount,More than $102,94909,NA,19
+206,finance term,pre-rated stocks,3,3663,<p>pre-rated stocks</p><br>,4
+206,finance term,fixed-rate deduction,6,4505,<p>fixed-rate deduction</p><br>,5
+206,finance term,annualized credit,6,1929,<p>annualized credit</p><br>,6
+206,finance term,tax bracket,7,2985,<p>tax bracket</p><br>,7
+206,finance term,fixed-rate mortgage,7,2080,<p>fixed-rate mortgage</p><br>,8
+206,finance term,home equity,5,3907,<p>home equity</p><br>,9
+206,finance term,revolving credit,2,2358,<p>revolving credit</p><br>,10
+206,finance term,vesting,6,2235,<p>vesting</p><br>,11
+206,finance term,retirement,7,1893,<p>retirement</p><br>,12
+206,finance term,stock options,7,1900,<p>stock options</p><br>,13
+206,finance term,inflation,7,1782,<p>inflation</p><br>,14
+206,finance term,private equity fund,7,2090,<p>private equity fund</p><br>,15
+206,finance term,interest rate,7,2949,<p>interest rate</p><br>,16
+206,finance term,Roth IRA,6,3408,<p>Roth IRA</p><br>,17
+206,finance term,whole life insurance,4,4793,<p>whole life insurance</p><br>,18
+206,self-rating,generalKnowledge,6,4166,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+206,self-rating,compareAmerican,6,4524,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+206,FLquiz,stocks,False,51198,NA,19
+206,FLquiz,interest,Rise,51198,NA,19
+206,FLquiz,mortgage,True,51198,NA,19
+206,FLquiz,inflation,Less,51198,NA,19
+206,FLquiz,savingsAccount,More than $102,51198,NA,19
+207,finance term,pre-rated stocks,5,4783,<p>pre-rated stocks</p><br>,4
+207,finance term,fixed-rate deduction,1,8526,<p>fixed-rate deduction</p><br>,5
+207,finance term,annualized credit,4,3695,<p>annualized credit</p><br>,6
+207,finance term,tax bracket,1,5087,<p>tax bracket</p><br>,7
+207,finance term,fixed-rate mortgage,7,3087,<p>fixed-rate mortgage</p><br>,8
+207,finance term,home equity,7,2614,<p>home equity</p><br>,9
+207,finance term,revolving credit,7,2280,<p>revolving credit</p><br>,10
+207,finance term,vesting,1,2174,<p>vesting</p><br>,11
+207,finance term,retirement,7,2471,<p>retirement</p><br>,12
+207,finance term,stock options,7,2111,<p>stock options</p><br>,13
+207,finance term,inflation,7,2016,<p>inflation</p><br>,14
+207,finance term,private equity fund,7,2863,<p>private equity fund</p><br>,15
+207,finance term,interest rate,7,2054,<p>interest rate</p><br>,16
+207,finance term,Roth IRA,1,2111,<p>Roth IRA</p><br>,17
+207,finance term,whole life insurance,2,6503,<p>whole life insurance</p><br>,18
+207,self-rating,generalKnowledge,6,5900,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+207,self-rating,compareAmerican,4,3831,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+207,FLquiz,stocks,False,76591,NA,19
+207,FLquiz,interest,Fall,76591,NA,19
+207,FLquiz,mortgage,True,76591,NA,19
+207,FLquiz,inflation,Less,76591,NA,19
+207,FLquiz,savingsAccount,More than $102,76591,NA,19
+208,finance term,pre-rated stocks,1,3195,<p>pre-rated stocks</p><br>,2
+208,finance term,fixed-rate deduction,1,26275,<p>fixed-rate deduction</p><br>,3
+208,finance term,annualized credit,5,6651,<p>annualized credit</p><br>,4
+208,finance term,tax bracket,2,3835,<p>tax bracket</p><br>,5
+208,finance term,fixed-rate mortgage,5,3131,<p>fixed-rate mortgage</p><br>,6
+208,finance term,home equity,5,2571,<p>home equity</p><br>,7
+208,finance term,revolving credit,2,3211,<p>revolving credit</p><br>,8
+208,finance term,vesting,1,1931,<p>vesting</p><br>,9
+208,finance term,retirement,7,2196,<p>retirement</p><br>,10
+208,finance term,stock options,5,1879,<p>stock options</p><br>,11
+208,finance term,inflation,7,2035,<p>inflation</p><br>,12
+208,finance term,private equity fund,1,4035,<p>private equity fund</p><br>,13
+208,finance term,interest rate,7,1979,<p>interest rate</p><br>,14
+208,finance term,Roth IRA,4,33147,<p>Roth IRA</p><br>,15
+208,finance term,whole life insurance,6,2971,<p>whole life insurance</p><br>,16
+208,self-rating,generalKnowledge,2,3099,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+208,self-rating,compareAmerican,3,6299,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+208,FLquiz,stocks,False,105999,NA,19
+208,FLquiz,interest,Don't know,105999,NA,19
+208,FLquiz,mortgage,True,105999,NA,19
+208,FLquiz,inflation,Less,105999,NA,19
+208,FLquiz,savingsAccount,Exactly $102,105999,NA,19
+209,finance term,pre-rated stocks,3,3034,<p>pre-rated stocks</p><br>,4
+209,finance term,fixed-rate deduction,5,2618,<p>fixed-rate deduction</p><br>,5
+209,finance term,annualized credit,5,1863,<p>annualized credit</p><br>,6
+209,finance term,tax bracket,6,2329,<p>tax bracket</p><br>,7
+209,finance term,fixed-rate mortgage,5,1921,<p>fixed-rate mortgage</p><br>,8
+209,finance term,home equity,5,1783,<p>home equity</p><br>,9
+209,finance term,revolving credit,5,2569,<p>revolving credit</p><br>,10
+209,finance term,vesting,2,2248,<p>vesting</p><br>,11
+209,finance term,retirement,4,3243,<p>retirement</p><br>,12
+209,finance term,stock options,4,9239,<p>stock options</p><br>,13
+209,finance term,inflation,6,3329,<p>inflation</p><br>,14
+209,finance term,private equity fund,3,1985,<p>private equity fund</p><br>,15
+209,finance term,interest rate,5,3699,<p>interest rate</p><br>,16
+209,finance term,Roth IRA,2,2194,<p>Roth IRA</p><br>,17
+209,finance term,whole life insurance,4,5708,<p>whole life insurance</p><br>,18
+209,self-rating,generalKnowledge,4,8710,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+209,self-rating,compareAmerican,5,5468,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+209,FLquiz,stocks,False,62445,NA,19
+209,FLquiz,interest,Fall,62445,NA,19
+209,FLquiz,mortgage,True,62445,NA,19
+209,FLquiz,inflation,Less,62445,NA,19
+209,FLquiz,savingsAccount,More than $102,62445,NA,19
+210,finance term,pre-rated stocks,1,5452,<p>pre-rated stocks</p><br>,4
+210,finance term,fixed-rate deduction,1,8091,<p>fixed-rate deduction</p><br>,5
+210,finance term,annualized credit,1,5332,<p>annualized credit</p><br>,6
+210,finance term,tax bracket,7,5138,<p>tax bracket</p><br>,7
+210,finance term,fixed-rate mortgage,6,4981,<p>fixed-rate mortgage</p><br>,8
+210,finance term,home equity,5,3046,<p>home equity</p><br>,9
+210,finance term,revolving credit,1,2830,<p>revolving credit</p><br>,10
+210,finance term,vesting,1,2338,<p>vesting</p><br>,11
+210,finance term,retirement,6,3081,<p>retirement</p><br>,12
+210,finance term,stock options,6,3154,<p>stock options</p><br>,13
+210,finance term,inflation,6,2246,<p>inflation</p><br>,14
+210,finance term,private equity fund,5,4844,<p>private equity fund</p><br>,15
+210,finance term,interest rate,6,2488,<p>interest rate</p><br>,16
+210,finance term,Roth IRA,3,4713,<p>Roth IRA</p><br>,17
+210,finance term,whole life insurance,2,4697,<p>whole life insurance</p><br>,18
+210,self-rating,generalKnowledge,5,4963,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+210,self-rating,compareAmerican,5,6674,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+210,FLquiz,stocks,False,84957,NA,19
+210,FLquiz,interest,Don't know,84957,NA,19
+210,FLquiz,mortgage,True,84957,NA,19
+210,FLquiz,inflation,Less,84957,NA,19
+210,FLquiz,savingsAccount,More than $102,84957,NA,19
+211,finance term,pre-rated stocks,5,2303,<p>pre-rated stocks</p><br>,4
+211,finance term,fixed-rate deduction,5,1729,<p>fixed-rate deduction</p><br>,5
+211,finance term,annualized credit,5,1772,<p>annualized credit</p><br>,6
+211,finance term,tax bracket,6,1604,<p>tax bracket</p><br>,7
+211,finance term,fixed-rate mortgage,3,3035,<p>fixed-rate mortgage</p><br>,8
+211,finance term,home equity,4,2003,<p>home equity</p><br>,9
+211,finance term,revolving credit,5,2563,<p>revolving credit</p><br>,10
+211,finance term,vesting,5,1339,<p>vesting</p><br>,11
+211,finance term,retirement,6,1688,<p>retirement</p><br>,12
+211,finance term,stock options,7,2181,<p>stock options</p><br>,13
+211,finance term,inflation,7,1500,<p>inflation</p><br>,14
+211,finance term,private equity fund,7,3732,<p>private equity fund</p><br>,15
+211,finance term,interest rate,5,1343,<p>interest rate</p><br>,16
+211,finance term,Roth IRA,5,2224,<p>Roth IRA</p><br>,17
+211,finance term,whole life insurance,5,2680,<p>whole life insurance</p><br>,18
+211,self-rating,generalKnowledge,5,2708,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+211,self-rating,compareAmerican,6,7389,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+211,FLquiz,stocks,True,117201,NA,19
+211,FLquiz,interest,Rise,117201,NA,19
+211,FLquiz,mortgage,True,117201,NA,19
+211,FLquiz,inflation,Less,117201,NA,19
+211,FLquiz,savingsAccount,More than $102,117201,NA,19
+212,finance term,pre-rated stocks,1,3121,<p>pre-rated stocks</p><br>,2
+212,finance term,fixed-rate deduction,2,3191,<p>fixed-rate deduction</p><br>,3
+212,finance term,annualized credit,2,4977,<p>annualized credit</p><br>,4
+212,finance term,tax bracket,4,3108,<p>tax bracket</p><br>,5
+212,finance term,fixed-rate mortgage,4,4462,<p>fixed-rate mortgage</p><br>,6
+212,finance term,home equity,4,3299,<p>home equity</p><br>,7
+212,finance term,revolving credit,1,3592,<p>revolving credit</p><br>,8
+212,finance term,vesting,2,2378,<p>vesting</p><br>,9
+212,finance term,retirement,5,4680,<p>retirement</p><br>,10
+212,finance term,stock options,3,2522,<p>stock options</p><br>,11
+212,finance term,inflation,6,4343,<p>inflation</p><br>,12
+212,finance term,private equity fund,1,2761,<p>private equity fund</p><br>,13
+212,finance term,interest rate,4,7053,<p>interest rate</p><br>,14
+212,finance term,Roth IRA,1,2905,<p>Roth IRA</p><br>,15
+212,finance term,whole life insurance,3,2811,<p>whole life insurance</p><br>,16
+212,self-rating,generalKnowledge,2,4511,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+212,self-rating,compareAmerican,1,3314,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+212,FLquiz,stocks,Don't know,28486,NA,19
+212,FLquiz,interest,Don't know,28486,NA,19
+212,FLquiz,mortgage,Don't know,28486,NA,19
+212,FLquiz,inflation,Don't know,28486,NA,19
+212,FLquiz,savingsAccount,More than $102,28486,NA,19
+213,finance term,pre-rated stocks,2,4440,<p>pre-rated stocks</p><br>,4
+213,finance term,fixed-rate deduction,3,5134,<p>fixed-rate deduction</p><br>,5
+213,finance term,annualized credit,5,1963,<p>annualized credit</p><br>,6
+213,finance term,tax bracket,6,3865,<p>tax bracket</p><br>,7
+213,finance term,fixed-rate mortgage,6,2027,<p>fixed-rate mortgage</p><br>,8
+213,finance term,home equity,5,1903,<p>home equity</p><br>,9
+213,finance term,revolving credit,3,2819,<p>revolving credit</p><br>,10
+213,finance term,vesting,5,2254,<p>vesting</p><br>,11
+213,finance term,retirement,6,3088,<p>retirement</p><br>,12
+213,finance term,stock options,5,1718,<p>stock options</p><br>,13
+213,finance term,inflation,5,3769,<p>inflation</p><br>,14
+213,finance term,private equity fund,5,2345,<p>private equity fund</p><br>,15
+213,finance term,interest rate,6,3748,<p>interest rate</p><br>,16
+213,finance term,Roth IRA,3,2357,<p>Roth IRA</p><br>,17
+213,finance term,whole life insurance,2,6437,<p>whole life insurance</p><br>,18
+213,self-rating,generalKnowledge,5,5618,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+213,self-rating,compareAmerican,6,5598,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+213,FLquiz,stocks,False,59482,NA,19
+213,FLquiz,interest,Don't know,59482,NA,19
+213,FLquiz,mortgage,True,59482,NA,19
+213,FLquiz,inflation,Less,59482,NA,19
+213,FLquiz,savingsAccount,More than $102,59482,NA,19
+214,finance term,pre-rated stocks,1,7379,<p>pre-rated stocks</p><br>,4
+214,finance term,fixed-rate deduction,5,12500,<p>fixed-rate deduction</p><br>,5
+214,finance term,annualized credit,7,2655,<p>annualized credit</p><br>,6
+214,finance term,tax bracket,2,2150,<p>tax bracket</p><br>,7
+214,finance term,fixed-rate mortgage,5,2999,<p>fixed-rate mortgage</p><br>,8
+214,finance term,home equity,1,7567,<p>home equity</p><br>,9
+214,finance term,revolving credit,6,2533,<p>revolving credit</p><br>,10
+214,finance term,vesting,3,5022,<p>vesting</p><br>,11
+214,finance term,retirement,7,1808,<p>retirement</p><br>,12
+214,finance term,stock options,7,1830,<p>stock options</p><br>,13
+214,finance term,inflation,7,1873,<p>inflation</p><br>,14
+214,finance term,private equity fund,6,6228,<p>private equity fund</p><br>,15
+214,finance term,interest rate,7,2990,<p>interest rate</p><br>,16
+214,finance term,Roth IRA,1,2560,<p>Roth IRA</p><br>,17
+214,finance term,whole life insurance,5,4462,<p>whole life insurance</p><br>,18
+214,self-rating,generalKnowledge,6,12620,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+214,self-rating,compareAmerican,6,6302,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+214,FLquiz,stocks,Don't know,80419,NA,19
+214,FLquiz,interest,Rise,80419,NA,19
+214,FLquiz,mortgage,True,80419,NA,19
+214,FLquiz,inflation,Less,80419,NA,19
+214,FLquiz,savingsAccount,More than $102,80419,NA,19
+215,finance term,pre-rated stocks,1,2717,<p>pre-rated stocks</p><br>,4
+215,finance term,fixed-rate deduction,2,2987,<p>fixed-rate deduction</p><br>,5
+215,finance term,annualized credit,1,2539,<p>annualized credit</p><br>,6
+215,finance term,tax bracket,1,2159,<p>tax bracket</p><br>,7
+215,finance term,fixed-rate mortgage,3,2572,<p>fixed-rate mortgage</p><br>,8
+215,finance term,home equity,4,4256,<p>home equity</p><br>,9
+215,finance term,revolving credit,1,2532,<p>revolving credit</p><br>,10
+215,finance term,vesting,5,3278,<p>vesting</p><br>,11
+215,finance term,retirement,7,2849,<p>retirement</p><br>,12
+215,finance term,stock options,6,4215,<p>stock options</p><br>,13
+215,finance term,inflation,7,1877,<p>inflation</p><br>,14
+215,finance term,private equity fund,1,3282,<p>private equity fund</p><br>,15
+215,finance term,interest rate,7,2380,<p>interest rate</p><br>,16
+215,finance term,Roth IRA,1,2172,<p>Roth IRA</p><br>,17
+215,finance term,whole life insurance,7,2567,<p>whole life insurance</p><br>,18
+215,self-rating,generalKnowledge,3,10231,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+215,self-rating,compareAmerican,2,6125,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+215,FLquiz,stocks,False,76782,NA,19
+215,FLquiz,interest,Don't know,76782,NA,19
+215,FLquiz,mortgage,Don't know,76782,NA,19
+215,FLquiz,inflation,Less,76782,NA,19
+215,FLquiz,savingsAccount,Exactly $102,76782,NA,19
+216,finance term,pre-rated stocks,3,6914,<p>pre-rated stocks</p><br>,4
+216,finance term,fixed-rate deduction,3,4910,<p>fixed-rate deduction</p><br>,5
+216,finance term,annualized credit,6,3771,<p>annualized credit</p><br>,6
+216,finance term,tax bracket,7,3879,<p>tax bracket</p><br>,7
+216,finance term,fixed-rate mortgage,6,4501,<p>fixed-rate mortgage</p><br>,8
+216,finance term,home equity,6,1864,<p>home equity</p><br>,9
+216,finance term,revolving credit,4,3999,<p>revolving credit</p><br>,10
+216,finance term,vesting,2,1892,<p>vesting</p><br>,11
+216,finance term,retirement,7,2219,<p>retirement</p><br>,12
+216,finance term,stock options,6,1872,<p>stock options</p><br>,13
+216,finance term,inflation,7,2065,<p>inflation</p><br>,14
+216,finance term,private equity fund,3,3421,<p>private equity fund</p><br>,15
+216,finance term,interest rate,7,2479,<p>interest rate</p><br>,16
+216,finance term,Roth IRA,2,1962,<p>Roth IRA</p><br>,17
+216,finance term,whole life insurance,7,2912,<p>whole life insurance</p><br>,18
+216,self-rating,generalKnowledge,5,6297,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+216,self-rating,compareAmerican,6,6497,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+216,FLquiz,stocks,True,96773,NA,19
+216,FLquiz,interest,Fall,96773,NA,19
+216,FLquiz,mortgage,True,96773,NA,19
+216,FLquiz,inflation,Less,96773,NA,19
+216,FLquiz,savingsAccount,More than $102,96773,NA,19
+217,finance term,pre-rated stocks,2,4935,<p>pre-rated stocks</p><br>,4
+217,finance term,fixed-rate deduction,4,4157,<p>fixed-rate deduction</p><br>,5
+217,finance term,annualized credit,4,2677,<p>annualized credit</p><br>,6
+217,finance term,tax bracket,6,3249,<p>tax bracket</p><br>,7
+217,finance term,fixed-rate mortgage,6,4319,<p>fixed-rate mortgage</p><br>,8
+217,finance term,home equity,5,2949,<p>home equity</p><br>,9
+217,finance term,revolving credit,3,5097,<p>revolving credit</p><br>,10
+217,finance term,vesting,2,2878,<p>vesting</p><br>,11
+217,finance term,retirement,7,3047,<p>retirement</p><br>,12
+217,finance term,stock options,5,2267,<p>stock options</p><br>,13
+217,finance term,inflation,6,1788,<p>inflation</p><br>,14
+217,finance term,private equity fund,5,1777,<p>private equity fund</p><br>,15
+217,finance term,interest rate,6,1814,<p>interest rate</p><br>,16
+217,finance term,Roth IRA,4,2741,<p>Roth IRA</p><br>,17
+217,finance term,whole life insurance,2,4775,<p>whole life insurance</p><br>,18
+217,self-rating,generalKnowledge,5,5247,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+217,self-rating,compareAmerican,6,4222,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+217,FLquiz,stocks,False,72080,NA,19
+217,FLquiz,interest,Don't know,72080,NA,19
+217,FLquiz,mortgage,True,72080,NA,19
+217,FLquiz,inflation,Less,72080,NA,19
+217,FLquiz,savingsAccount,More than $102,72080,NA,19
+219,finance term,pre-rated stocks,5,4129,<p>pre-rated stocks</p><br>,4
+219,finance term,fixed-rate deduction,5,5883,<p>fixed-rate deduction</p><br>,5
+219,finance term,annualized credit,6,7649,<p>annualized credit</p><br>,6
+219,finance term,tax bracket,2,4115,<p>tax bracket</p><br>,7
+219,finance term,fixed-rate mortgage,6,4048,<p>fixed-rate mortgage</p><br>,8
+219,finance term,home equity,7,4951,<p>home equity</p><br>,9
+219,finance term,revolving credit,2,5031,<p>revolving credit</p><br>,10
+219,finance term,vesting,1,13469,<p>vesting</p><br>,11
+219,finance term,retirement,7,4147,<p>retirement</p><br>,12
+219,finance term,stock options,7,4467,<p>stock options</p><br>,13
+219,finance term,inflation,7,2765,<p>inflation</p><br>,14
+219,finance term,private equity fund,5,3685,<p>private equity fund</p><br>,15
+219,finance term,interest rate,7,3148,<p>interest rate</p><br>,16
+219,finance term,Roth IRA,1,5265,<p>Roth IRA</p><br>,17
+219,finance term,whole life insurance,7,6850,<p>whole life insurance</p><br>,18
+219,self-rating,generalKnowledge,6,9165,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+219,self-rating,compareAmerican,4,31915,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+219,FLquiz,stocks,False,100733,NA,19
+219,FLquiz,interest,Don't know,100733,NA,19
+219,FLquiz,mortgage,True,100733,NA,19
+219,FLquiz,inflation,Less,100733,NA,19
+219,FLquiz,savingsAccount,More than $102,100733,NA,19
+221,finance term,pre-rated stocks,3,7751,<p>pre-rated stocks</p><br>,2
+221,finance term,fixed-rate deduction,3,4706,<p>fixed-rate deduction</p><br>,3
+221,finance term,annualized credit,3,2627,<p>annualized credit</p><br>,4
+221,finance term,tax bracket,4,3456,<p>tax bracket</p><br>,5
+221,finance term,fixed-rate mortgage,5,2147,<p>fixed-rate mortgage</p><br>,6
+221,finance term,home equity,5,2131,<p>home equity</p><br>,7
+221,finance term,revolving credit,5,2485,<p>revolving credit</p><br>,8
+221,finance term,vesting,6,2773,<p>vesting</p><br>,9
+221,finance term,retirement,6,2234,<p>retirement</p><br>,10
+221,finance term,stock options,4,2772,<p>stock options</p><br>,11
+221,finance term,inflation,5,2420,<p>inflation</p><br>,12
+221,finance term,private equity fund,5,2175,<p>private equity fund</p><br>,13
+221,finance term,interest rate,6,2213,<p>interest rate</p><br>,14
+221,finance term,Roth IRA,3,4807,<p>Roth IRA</p><br>,15
+221,finance term,whole life insurance,7,3694,<p>whole life insurance</p><br>,16
+221,self-rating,generalKnowledge,3,6825,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+221,self-rating,compareAmerican,4,4862,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+221,FLquiz,stocks,Don't know,92886,NA,19
+221,FLquiz,interest,Don't know,92886,NA,19
+221,FLquiz,mortgage,Don't know,92886,NA,19
+221,FLquiz,inflation,Less,92886,NA,19
+221,FLquiz,savingsAccount,More than $102,92886,NA,19
+222,finance term,pre-rated stocks,5,2479,<p>pre-rated stocks</p><br>,2
+222,finance term,fixed-rate deduction,5,2037,<p>fixed-rate deduction</p><br>,3
+222,finance term,annualized credit,6,6601,<p>annualized credit</p><br>,4
+222,finance term,tax bracket,5,1819,<p>tax bracket</p><br>,5
+222,finance term,fixed-rate mortgage,3,1738,<p>fixed-rate mortgage</p><br>,6
+222,finance term,home equity,6,2480,<p>home equity</p><br>,7
+222,finance term,revolving credit,3,1971,<p>revolving credit</p><br>,8
+222,finance term,vesting,4,3701,<p>vesting</p><br>,9
+222,finance term,retirement,7,3844,<p>retirement</p><br>,10
+222,finance term,stock options,6,6737,<p>stock options</p><br>,11
+222,finance term,inflation,7,2137,<p>inflation</p><br>,12
+222,finance term,private equity fund,7,1927,<p>private equity fund</p><br>,13
+222,finance term,interest rate,6,2513,<p>interest rate</p><br>,14
+222,finance term,Roth IRA,5,2284,<p>Roth IRA</p><br>,15
+222,finance term,whole life insurance,7,2486,<p>whole life insurance</p><br>,16
+222,self-rating,generalKnowledge,6,6472,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+222,self-rating,compareAmerican,5,2527,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+222,FLquiz,stocks,Don't know,100987,NA,19
+222,FLquiz,interest,Stay the same,100987,NA,19
+222,FLquiz,mortgage,False,100987,NA,19
+222,FLquiz,inflation,Don't know,100987,NA,19
+222,FLquiz,savingsAccount,More than $102,100987,NA,19
+223,finance term,pre-rated stocks,1,6784,<p>pre-rated stocks</p><br>,2
+223,finance term,fixed-rate deduction,3,5583,<p>fixed-rate deduction</p><br>,3
+223,finance term,annualized credit,4,4522,<p>annualized credit</p><br>,4
+223,finance term,tax bracket,5,2627,<p>tax bracket</p><br>,5
+223,finance term,fixed-rate mortgage,7,2999,<p>fixed-rate mortgage</p><br>,6
+223,finance term,home equity,6,2791,<p>home equity</p><br>,7
+223,finance term,revolving credit,2,5716,<p>revolving credit</p><br>,8
+223,finance term,vesting,2,7104,<p>vesting</p><br>,9
+223,finance term,retirement,7,2499,<p>retirement</p><br>,10
+223,finance term,stock options,7,2071,<p>stock options</p><br>,11
+223,finance term,inflation,7,1818,<p>inflation</p><br>,12
+223,finance term,private equity fund,5,3158,<p>private equity fund</p><br>,13
+223,finance term,interest rate,7,2059,<p>interest rate</p><br>,14
+223,finance term,Roth IRA,1,2350,<p>Roth IRA</p><br>,15
+223,finance term,whole life insurance,3,3141,<p>whole life insurance</p><br>,16
+223,self-rating,generalKnowledge,3,8261,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+223,self-rating,compareAmerican,3,6261,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+223,FLquiz,stocks,Don't know,54548,NA,19
+223,FLquiz,interest,Don't know,54548,NA,19
+223,FLquiz,mortgage,True,54548,NA,19
+223,FLquiz,inflation,More,54548,NA,19
+223,FLquiz,savingsAccount,More than $102,54548,NA,19
+224,finance term,pre-rated stocks,6,2615,<p>pre-rated stocks</p><br>,4
+224,finance term,fixed-rate deduction,5,2047,<p>fixed-rate deduction</p><br>,5
+224,finance term,annualized credit,6,1895,<p>annualized credit</p><br>,6
+224,finance term,tax bracket,5,2359,<p>tax bracket</p><br>,7
+224,finance term,fixed-rate mortgage,6,2471,<p>fixed-rate mortgage</p><br>,8
+224,finance term,home equity,6,1695,<p>home equity</p><br>,9
+224,finance term,revolving credit,7,2239,<p>revolving credit</p><br>,10
+224,finance term,vesting,6,1799,<p>vesting</p><br>,11
+224,finance term,retirement,7,2207,<p>retirement</p><br>,12
+224,finance term,stock options,6,2343,<p>stock options</p><br>,13
+224,finance term,inflation,7,2303,<p>inflation</p><br>,14
+224,finance term,private equity fund,7,2439,<p>private equity fund</p><br>,15
+224,finance term,interest rate,6,1967,<p>interest rate</p><br>,16
+224,finance term,Roth IRA,7,1471,<p>Roth IRA</p><br>,17
+224,finance term,whole life insurance,7,1743,<p>whole life insurance</p><br>,18
+224,self-rating,generalKnowledge,5,7102,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+224,self-rating,compareAmerican,5,3327,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+224,FLquiz,stocks,False,81039,NA,19
+224,FLquiz,interest,Stay the same,81039,NA,19
+224,FLquiz,mortgage,True,81039,NA,19
+224,FLquiz,inflation,Less,81039,NA,19
+224,FLquiz,savingsAccount,More than $102,81039,NA,19
+225,finance term,pre-rated stocks,3,4232,<p>pre-rated stocks</p><br>,4
+225,finance term,fixed-rate deduction,5,4614,<p>fixed-rate deduction</p><br>,5
+225,finance term,annualized credit,5,3935,<p>annualized credit</p><br>,6
+225,finance term,tax bracket,2,18343,<p>tax bracket</p><br>,7
+225,finance term,fixed-rate mortgage,7,4551,<p>fixed-rate mortgage</p><br>,8
+225,finance term,home equity,2,17040,<p>home equity</p><br>,9
+225,finance term,revolving credit,3,21262,<p>revolving credit</p><br>,10
+225,finance term,vesting,3,10879,<p>vesting</p><br>,11
+225,finance term,retirement,7,3192,<p>retirement</p><br>,12
+225,finance term,stock options,7,2639,<p>stock options</p><br>,13
+225,finance term,inflation,7,1815,<p>inflation</p><br>,14
+225,finance term,private equity fund,6,3176,<p>private equity fund</p><br>,15
+225,finance term,interest rate,7,1982,<p>interest rate</p><br>,16
+225,finance term,Roth IRA,2,8302,<p>Roth IRA</p><br>,17
+225,finance term,whole life insurance,7,2375,<p>whole life insurance</p><br>,18
+225,self-rating,generalKnowledge,6,4310,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+225,self-rating,compareAmerican,4,7958,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+225,FLquiz,stocks,False,150248,NA,19
+225,FLquiz,interest,Fall,150248,NA,19
+225,FLquiz,mortgage,Don't know,150248,NA,19
+225,FLquiz,inflation,Less,150248,NA,19
+225,FLquiz,savingsAccount,More than $102,150248,NA,19
+226,finance term,pre-rated stocks,4,5740,<p>pre-rated stocks</p><br>,2
+226,finance term,fixed-rate deduction,6,3618,<p>fixed-rate deduction</p><br>,3
+226,finance term,annualized credit,6,2976,<p>annualized credit</p><br>,4
+226,finance term,tax bracket,6,2956,<p>tax bracket</p><br>,5
+226,finance term,fixed-rate mortgage,6,2701,<p>fixed-rate mortgage</p><br>,6
+226,finance term,home equity,6,2712,<p>home equity</p><br>,7
+226,finance term,revolving credit,6,4063,<p>revolving credit</p><br>,8
+226,finance term,vesting,6,24273,<p>vesting</p><br>,9
+226,finance term,retirement,6,3342,<p>retirement</p><br>,10
+226,finance term,stock options,6,2619,<p>stock options</p><br>,11
+226,finance term,inflation,6,2378,<p>inflation</p><br>,12
+226,finance term,private equity fund,6,2616,<p>private equity fund</p><br>,13
+226,finance term,interest rate,6,2661,<p>interest rate</p><br>,14
+226,finance term,Roth IRA,2,5769,<p>Roth IRA</p><br>,15
+226,finance term,whole life insurance,6,4345,<p>whole life insurance</p><br>,16
+226,self-rating,generalKnowledge,6,6884,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+226,self-rating,compareAmerican,7,5476,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+226,FLquiz,stocks,False,166853,NA,19
+226,FLquiz,interest,Rise,166853,NA,19
+226,FLquiz,mortgage,True,166853,NA,19
+226,FLquiz,inflation,More,166853,NA,19
+226,FLquiz,savingsAccount,More than $102,166853,NA,19
+227,finance term,pre-rated stocks,2,4751,<p>pre-rated stocks</p><br>,2
+227,finance term,fixed-rate deduction,5,6349,<p>fixed-rate deduction</p><br>,3
+227,finance term,annualized credit,4,3865,<p>annualized credit</p><br>,4
+227,finance term,tax bracket,3,2300,<p>tax bracket</p><br>,5
+227,finance term,fixed-rate mortgage,5,2778,<p>fixed-rate mortgage</p><br>,6
+227,finance term,home equity,5,1981,<p>home equity</p><br>,7
+227,finance term,revolving credit,3,3251,<p>revolving credit</p><br>,8
+227,finance term,vesting,1,2931,<p>vesting</p><br>,9
+227,finance term,retirement,7,2770,<p>retirement</p><br>,10
+227,finance term,stock options,6,2469,<p>stock options</p><br>,11
+227,finance term,inflation,6,2008,<p>inflation</p><br>,12
+227,finance term,private equity fund,4,3176,<p>private equity fund</p><br>,13
+227,finance term,interest rate,7,2722,<p>interest rate</p><br>,14
+227,finance term,Roth IRA,1,1801,<p>Roth IRA</p><br>,15
+227,finance term,whole life insurance,5,2912,<p>whole life insurance</p><br>,16
+227,self-rating,generalKnowledge,5,7438,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+227,self-rating,compareAmerican,5,12691,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+227,FLquiz,stocks,False,86271,NA,19
+227,FLquiz,interest,Fall,86271,NA,19
+227,FLquiz,mortgage,True,86271,NA,19
+227,FLquiz,inflation,Less,86271,NA,19
+227,FLquiz,savingsAccount,More than $102,86271,NA,19
+228,finance term,pre-rated stocks,4,5974,<p>pre-rated stocks</p><br>,2
+228,finance term,fixed-rate deduction,5,6639,<p>fixed-rate deduction</p><br>,3
+228,finance term,annualized credit,4,5416,<p>annualized credit</p><br>,4
+228,finance term,tax bracket,4,2495,<p>tax bracket</p><br>,5
+228,finance term,fixed-rate mortgage,3,1999,<p>fixed-rate mortgage</p><br>,6
+228,finance term,home equity,4,3807,<p>home equity</p><br>,7
+228,finance term,revolving credit,3,1967,<p>revolving credit</p><br>,8
+228,finance term,vesting,1,2927,<p>vesting</p><br>,9
+228,finance term,retirement,6,3032,<p>retirement</p><br>,10
+228,finance term,stock options,6,3562,<p>stock options</p><br>,11
+228,finance term,inflation,7,2647,<p>inflation</p><br>,12
+228,finance term,private equity fund,4,4879,<p>private equity fund</p><br>,13
+228,finance term,interest rate,6,2551,<p>interest rate</p><br>,14
+228,finance term,Roth IRA,1,2167,<p>Roth IRA</p><br>,15
+228,finance term,whole life insurance,5,4055,<p>whole life insurance</p><br>,16
+228,self-rating,generalKnowledge,3,8239,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+228,self-rating,compareAmerican,2,4727,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+228,FLquiz,stocks,False,270486,NA,19
+228,FLquiz,interest,Don't know,270486,NA,19
+228,FLquiz,mortgage,True,270486,NA,19
+228,FLquiz,inflation,Less,270486,NA,19
+228,FLquiz,savingsAccount,More than $102,270486,NA,19
+229,finance term,pre-rated stocks,3,6092,<p>pre-rated stocks</p><br>,4
+229,finance term,fixed-rate deduction,5,3838,<p>fixed-rate deduction</p><br>,5
+229,finance term,annualized credit,6,4901,<p>annualized credit</p><br>,6
+229,finance term,tax bracket,3,3190,<p>tax bracket</p><br>,7
+229,finance term,fixed-rate mortgage,5,3377,<p>fixed-rate mortgage</p><br>,8
+229,finance term,home equity,6,4260,<p>home equity</p><br>,9
+229,finance term,revolving credit,7,3467,<p>revolving credit</p><br>,10
+229,finance term,vesting,3,2750,<p>vesting</p><br>,11
+229,finance term,retirement,7,5934,<p>retirement</p><br>,12
+229,finance term,stock options,5,5454,<p>stock options</p><br>,13
+229,finance term,inflation,7,6687,<p>inflation</p><br>,14
+229,finance term,private equity fund,6,24103,<p>private equity fund</p><br>,15
+229,finance term,interest rate,6,3217,<p>interest rate</p><br>,16
+229,finance term,Roth IRA,3,3477,<p>Roth IRA</p><br>,17
+229,finance term,whole life insurance,5,3684,<p>whole life insurance</p><br>,18
+229,self-rating,generalKnowledge,3,18363,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+229,self-rating,compareAmerican,5,9696,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+229,FLquiz,stocks,Don't know,119878,NA,19
+229,FLquiz,interest,Don't know,119878,NA,19
+229,FLquiz,mortgage,True,119878,NA,19
+229,FLquiz,inflation,Less,119878,NA,19
+229,FLquiz,savingsAccount,More than $102,119878,NA,19
+230,finance term,pre-rated stocks,5,5382,<p>pre-rated stocks</p><br>,2
+230,finance term,fixed-rate deduction,2,3602,<p>fixed-rate deduction</p><br>,3
+230,finance term,annualized credit,3,2455,<p>annualized credit</p><br>,4
+230,finance term,tax bracket,5,2491,<p>tax bracket</p><br>,5
+230,finance term,fixed-rate mortgage,6,3585,<p>fixed-rate mortgage</p><br>,6
+230,finance term,home equity,5,1538,<p>home equity</p><br>,7
+230,finance term,revolving credit,2,2913,<p>revolving credit</p><br>,8
+230,finance term,vesting,2,2059,<p>vesting</p><br>,9
+230,finance term,retirement,7,1673,<p>retirement</p><br>,10
+230,finance term,stock options,5,1734,<p>stock options</p><br>,11
+230,finance term,inflation,7,2563,<p>inflation</p><br>,12
+230,finance term,private equity fund,6,2077,<p>private equity fund</p><br>,13
+230,finance term,interest rate,6,1488,<p>interest rate</p><br>,14
+230,finance term,Roth IRA,1,1973,<p>Roth IRA</p><br>,15
+230,finance term,whole life insurance,6,3234,<p>whole life insurance</p><br>,16
+230,self-rating,generalKnowledge,5,8136,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+230,self-rating,compareAmerican,4,6427,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+230,FLquiz,stocks,False,139349,NA,19
+230,FLquiz,interest,Don't know,139349,NA,19
+230,FLquiz,mortgage,True,139349,NA,19
+230,FLquiz,inflation,Less,139349,NA,19
+230,FLquiz,savingsAccount,More than $102,139349,NA,19
+231,finance term,pre-rated stocks,5,3967,<p>pre-rated stocks</p><br>,4
+231,finance term,fixed-rate deduction,6,2099,<p>fixed-rate deduction</p><br>,5
+231,finance term,annualized credit,6,2551,<p>annualized credit</p><br>,6
+231,finance term,tax bracket,5,1774,<p>tax bracket</p><br>,7
+231,finance term,fixed-rate mortgage,5,2320,<p>fixed-rate mortgage</p><br>,8
+231,finance term,home equity,7,2415,<p>home equity</p><br>,9
+231,finance term,revolving credit,7,2452,<p>revolving credit</p><br>,10
+231,finance term,vesting,6,2136,<p>vesting</p><br>,11
+231,finance term,retirement,7,2320,<p>retirement</p><br>,12
+231,finance term,stock options,7,2261,<p>stock options</p><br>,13
+231,finance term,inflation,7,2165,<p>inflation</p><br>,14
+231,finance term,private equity fund,6,2092,<p>private equity fund</p><br>,15
+231,finance term,interest rate,6,1966,<p>interest rate</p><br>,16
+231,finance term,Roth IRA,7,3108,<p>Roth IRA</p><br>,17
+231,finance term,whole life insurance,7,2796,<p>whole life insurance</p><br>,18
+231,self-rating,generalKnowledge,5,6287,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+231,self-rating,compareAmerican,5,5846,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+231,FLquiz,stocks,False,74538,NA,19
+231,FLquiz,interest,Stay the same,74538,NA,19
+231,FLquiz,mortgage,False,74538,NA,19
+231,FLquiz,inflation,Same,74538,NA,19
+231,FLquiz,savingsAccount,More than $102,74538,NA,19
+232,finance term,pre-rated stocks,2,5459,<p>pre-rated stocks</p><br>,4
+232,finance term,fixed-rate deduction,3,4924,<p>fixed-rate deduction</p><br>,5
+232,finance term,annualized credit,5,2577,<p>annualized credit</p><br>,6
+232,finance term,tax bracket,6,2540,<p>tax bracket</p><br>,7
+232,finance term,fixed-rate mortgage,3,3120,<p>fixed-rate mortgage</p><br>,8
+232,finance term,home equity,2,3247,<p>home equity</p><br>,9
+232,finance term,revolving credit,1,2385,<p>revolving credit</p><br>,10
+232,finance term,vesting,1,2244,<p>vesting</p><br>,11
+232,finance term,retirement,5,3023,<p>retirement</p><br>,12
+232,finance term,stock options,5,1677,<p>stock options</p><br>,13
+232,finance term,inflation,6,1958,<p>inflation</p><br>,14
+232,finance term,private equity fund,2,2120,<p>private equity fund</p><br>,15
+232,finance term,interest rate,5,1617,<p>interest rate</p><br>,16
+232,finance term,Roth IRA,3,2645,<p>Roth IRA</p><br>,17
+232,finance term,whole life insurance,3,2503,<p>whole life insurance</p><br>,18
+232,self-rating,generalKnowledge,3,4640,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+232,self-rating,compareAmerican,4,8815,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+232,FLquiz,stocks,False,54677,NA,19
+232,FLquiz,interest,Don't know,54677,NA,19
+232,FLquiz,mortgage,True,54677,NA,19
+232,FLquiz,inflation,Less,54677,NA,19
+232,FLquiz,savingsAccount,More than $102,54677,NA,19
+233,finance term,pre-rated stocks,6,5507,<p>pre-rated stocks</p><br>,2
+233,finance term,fixed-rate deduction,7,6841,<p>fixed-rate deduction</p><br>,3
+233,finance term,annualized credit,6,6840,<p>annualized credit</p><br>,4
+233,finance term,tax bracket,7,3735,<p>tax bracket</p><br>,5
+233,finance term,fixed-rate mortgage,7,2642,<p>fixed-rate mortgage</p><br>,6
+233,finance term,home equity,7,2561,<p>home equity</p><br>,7
+233,finance term,revolving credit,7,3569,<p>revolving credit</p><br>,8
+233,finance term,vesting,1,4875,<p>vesting</p><br>,9
+233,finance term,retirement,7,2433,<p>retirement</p><br>,10
+233,finance term,stock options,7,3316,<p>stock options</p><br>,11
+233,finance term,inflation,7,2471,<p>inflation</p><br>,12
+233,finance term,private equity fund,7,3460,<p>private equity fund</p><br>,13
+233,finance term,interest rate,7,3820,<p>interest rate</p><br>,14
+233,finance term,Roth IRA,1,2668,<p>Roth IRA</p><br>,15
+233,finance term,whole life insurance,1,4279,<p>whole life insurance</p><br>,16
+233,self-rating,generalKnowledge,7,5853,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+233,self-rating,compareAmerican,7,7599,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+233,FLquiz,stocks,False,152732,NA,19
+233,FLquiz,interest,Rise,152732,NA,19
+233,FLquiz,mortgage,True,152732,NA,19
+233,FLquiz,inflation,Same,152732,NA,19
+233,FLquiz,savingsAccount,More than $102,152732,NA,19
+235,finance term,pre-rated stocks,4,6869,<p>pre-rated stocks</p><br>,4
+235,finance term,fixed-rate deduction,5,3048,<p>fixed-rate deduction</p><br>,5
+235,finance term,annualized credit,5,1796,<p>annualized credit</p><br>,6
+235,finance term,tax bracket,5,1582,<p>tax bracket</p><br>,7
+235,finance term,fixed-rate mortgage,5,1607,<p>fixed-rate mortgage</p><br>,8
+235,finance term,home equity,5,1442,<p>home equity</p><br>,9
+235,finance term,revolving credit,5,1467,<p>revolving credit</p><br>,10
+235,finance term,vesting,5,1347,<p>vesting</p><br>,11
+235,finance term,retirement,5,1345,<p>retirement</p><br>,12
+235,finance term,stock options,6,2414,<p>stock options</p><br>,13
+235,finance term,inflation,7,1668,<p>inflation</p><br>,14
+235,finance term,private equity fund,6,1926,<p>private equity fund</p><br>,15
+235,finance term,interest rate,7,1523,<p>interest rate</p><br>,16
+235,finance term,Roth IRA,5,2136,<p>Roth IRA</p><br>,17
+235,finance term,whole life insurance,7,1788,<p>whole life insurance</p><br>,18
+235,self-rating,generalKnowledge,6,3741,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+235,self-rating,compareAmerican,6,8564,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+235,FLquiz,stocks,False,78158,NA,19
+235,FLquiz,interest,Fall,78158,NA,19
+235,FLquiz,mortgage,True,78158,NA,19
+235,FLquiz,inflation,Less,78158,NA,19
+235,FLquiz,savingsAccount,More than $102,78158,NA,19
+236,finance term,pre-rated stocks,6,9023,<p>pre-rated stocks</p><br>,2
+236,finance term,fixed-rate deduction,2,7855,<p>fixed-rate deduction</p><br>,3
+236,finance term,annualized credit,6,7470,<p>annualized credit</p><br>,4
+236,finance term,tax bracket,7,9081,<p>tax bracket</p><br>,5
+236,finance term,fixed-rate mortgage,7,4300,<p>fixed-rate mortgage</p><br>,6
+236,finance term,home equity,7,2629,<p>home equity</p><br>,7
+236,finance term,revolving credit,6,3676,<p>revolving credit</p><br>,8
+236,finance term,vesting,7,3220,<p>vesting</p><br>,9
+236,finance term,retirement,7,3668,<p>retirement</p><br>,10
+236,finance term,stock options,7,3751,<p>stock options</p><br>,11
+236,finance term,inflation,7,3203,<p>inflation</p><br>,12
+236,finance term,private equity fund,7,9355,<p>private equity fund</p><br>,13
+236,finance term,interest rate,7,3548,<p>interest rate</p><br>,14
+236,finance term,Roth IRA,7,2405,<p>Roth IRA</p><br>,15
+236,finance term,whole life insurance,7,6933,<p>whole life insurance</p><br>,16
+236,self-rating,generalKnowledge,7,5684,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+236,self-rating,compareAmerican,6,8404,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+236,FLquiz,stocks,False,276084,NA,19
+236,FLquiz,interest,Fall,276084,NA,19
+236,FLquiz,mortgage,True,276084,NA,19
+236,FLquiz,inflation,Less,276084,NA,19
+236,FLquiz,savingsAccount,More than $102,276084,NA,19
+237,finance term,pre-rated stocks,2,10540,<p>pre-rated stocks</p><br>,2
+237,finance term,fixed-rate deduction,5,9582,<p>fixed-rate deduction</p><br>,3
+237,finance term,annualized credit,5,4519,<p>annualized credit</p><br>,4
+237,finance term,tax bracket,6,7744,<p>tax bracket</p><br>,5
+237,finance term,fixed-rate mortgage,7,5655,<p>fixed-rate mortgage</p><br>,6
+237,finance term,home equity,5,4947,<p>home equity</p><br>,7
+237,finance term,revolving credit,7,3635,<p>revolving credit</p><br>,8
+237,finance term,vesting,5,3511,<p>vesting</p><br>,9
+237,finance term,retirement,7,3423,<p>retirement</p><br>,10
+237,finance term,stock options,5,5039,<p>stock options</p><br>,11
+237,finance term,inflation,7,3233,<p>inflation</p><br>,12
+237,finance term,private equity fund,7,3482,<p>private equity fund</p><br>,13
+237,finance term,interest rate,7,3870,<p>interest rate</p><br>,14
+237,finance term,Roth IRA,5,3985,<p>Roth IRA</p><br>,15
+237,finance term,whole life insurance,5,5549,<p>whole life insurance</p><br>,16
+237,self-rating,generalKnowledge,5,12797,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+237,self-rating,compareAmerican,4,16615,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+237,FLquiz,stocks,False,118057,NA,19
+237,FLquiz,interest,Rise,118057,NA,19
+237,FLquiz,mortgage,True,118057,NA,19
+237,FLquiz,inflation,Less,118057,NA,19
+237,FLquiz,savingsAccount,More than $102,118057,NA,19
+238,finance term,pre-rated stocks,6,9607,<p>pre-rated stocks</p><br>,4
+238,finance term,fixed-rate deduction,7,2711,<p>fixed-rate deduction</p><br>,5
+238,finance term,annualized credit,7,2406,<p>annualized credit</p><br>,6
+238,finance term,tax bracket,7,2095,<p>tax bracket</p><br>,7
+238,finance term,fixed-rate mortgage,7,2198,<p>fixed-rate mortgage</p><br>,8
+238,finance term,home equity,7,1967,<p>home equity</p><br>,9
+238,finance term,revolving credit,7,1950,<p>revolving credit</p><br>,10
+238,finance term,vesting,7,1967,<p>vesting</p><br>,11
+238,finance term,retirement,7,1767,<p>retirement</p><br>,12
+238,finance term,stock options,7,2007,<p>stock options</p><br>,13
+238,finance term,inflation,7,1847,<p>inflation</p><br>,14
+238,finance term,private equity fund,7,2191,<p>private equity fund</p><br>,15
+238,finance term,interest rate,7,1863,<p>interest rate</p><br>,16
+238,finance term,Roth IRA,4,4654,<p>Roth IRA</p><br>,17
+238,finance term,whole life insurance,7,2288,<p>whole life insurance</p><br>,18
+238,self-rating,generalKnowledge,7,5516,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+238,self-rating,compareAmerican,7,5008,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+238,FLquiz,stocks,False,118014,NA,19
+238,FLquiz,interest,Rise,118014,NA,19
+238,FLquiz,mortgage,True,118014,NA,19
+238,FLquiz,inflation,Less,118014,NA,19
+238,FLquiz,savingsAccount,More than $102,118014,NA,19
+239,finance term,pre-rated stocks,2,3991,<p>pre-rated stocks</p><br>,2
+239,finance term,fixed-rate deduction,1,4021,<p>fixed-rate deduction</p><br>,3
+239,finance term,annualized credit,2,3507,<p>annualized credit</p><br>,4
+239,finance term,tax bracket,7,3707,<p>tax bracket</p><br>,5
+239,finance term,fixed-rate mortgage,6,5207,<p>fixed-rate mortgage</p><br>,6
+239,finance term,home equity,1,3724,<p>home equity</p><br>,7
+239,finance term,revolving credit,5,4223,<p>revolving credit</p><br>,8
+239,finance term,vesting,1,3524,<p>vesting</p><br>,9
+239,finance term,retirement,7,2404,<p>retirement</p><br>,10
+239,finance term,stock options,2,4091,<p>stock options</p><br>,11
+239,finance term,inflation,7,5920,<p>inflation</p><br>,12
+239,finance term,private equity fund,1,3206,<p>private equity fund</p><br>,13
+239,finance term,interest rate,7,2371,<p>interest rate</p><br>,14
+239,finance term,Roth IRA,2,5027,<p>Roth IRA</p><br>,15
+239,finance term,whole life insurance,2,3904,<p>whole life insurance</p><br>,16
+239,self-rating,generalKnowledge,2,3859,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+239,self-rating,compareAmerican,4,7332,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+239,FLquiz,stocks,Don't know,61478,NA,19
+239,FLquiz,interest,Don't know,61478,NA,19
+239,FLquiz,mortgage,True,61478,NA,19
+239,FLquiz,inflation,Less,61478,NA,19
+239,FLquiz,savingsAccount,More than $102,61478,NA,19
+240,finance term,pre-rated stocks,5,6333,<p>pre-rated stocks</p><br>,2
+240,finance term,fixed-rate deduction,5,4134,<p>fixed-rate deduction</p><br>,3
+240,finance term,annualized credit,2,3873,<p>annualized credit</p><br>,4
+240,finance term,tax bracket,6,3100,<p>tax bracket</p><br>,5
+240,finance term,fixed-rate mortgage,6,5981,<p>fixed-rate mortgage</p><br>,6
+240,finance term,home equity,5,8329,<p>home equity</p><br>,7
+240,finance term,revolving credit,1,5116,<p>revolving credit</p><br>,8
+240,finance term,vesting,1,7001,<p>vesting</p><br>,9
+240,finance term,retirement,7,3595,<p>retirement</p><br>,10
+240,finance term,stock options,6,3297,<p>stock options</p><br>,11
+240,finance term,inflation,6,4535,<p>inflation</p><br>,12
+240,finance term,private equity fund,5,24478,<p>private equity fund</p><br>,13
+240,finance term,interest rate,7,4615,<p>interest rate</p><br>,14
+240,finance term,Roth IRA,5,2832,<p>Roth IRA</p><br>,15
+240,finance term,whole life insurance,5,2941,<p>whole life insurance</p><br>,16
+240,self-rating,generalKnowledge,6,8425,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+240,self-rating,compareAmerican,5,14978,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+240,FLquiz,stocks,False,142808,NA,19
+240,FLquiz,interest,Rise,142808,NA,19
+240,FLquiz,mortgage,True,142808,NA,19
+240,FLquiz,inflation,Less,142808,NA,19
+240,FLquiz,savingsAccount,More than $102,142808,NA,19
+242,finance term,pre-rated stocks,2,4697,<p>pre-rated stocks</p><br>,4
+242,finance term,fixed-rate deduction,1,2481,<p>fixed-rate deduction</p><br>,5
+242,finance term,annualized credit,2,3364,<p>annualized credit</p><br>,6
+242,finance term,tax bracket,1,2363,<p>tax bracket</p><br>,7
+242,finance term,fixed-rate mortgage,2,3149,<p>fixed-rate mortgage</p><br>,8
+242,finance term,home equity,2,2664,<p>home equity</p><br>,9
+242,finance term,revolving credit,4,2583,<p>revolving credit</p><br>,10
+242,finance term,vesting,2,2381,<p>vesting</p><br>,11
+242,finance term,retirement,2,1981,<p>retirement</p><br>,12
+242,finance term,stock options,1,2248,<p>stock options</p><br>,13
+242,finance term,inflation,4,2597,<p>inflation</p><br>,14
+242,finance term,private equity fund,1,3181,<p>private equity fund</p><br>,15
+242,finance term,interest rate,4,5248,<p>interest rate</p><br>,16
+242,finance term,Roth IRA,1,3097,<p>Roth IRA</p><br>,17
+242,finance term,whole life insurance,2,4915,<p>whole life insurance</p><br>,18
+242,self-rating,generalKnowledge,2,6363,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+242,self-rating,compareAmerican,3,9730,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+242,FLquiz,stocks,False,63134,NA,19
+242,FLquiz,interest,Don't know,63134,NA,19
+242,FLquiz,mortgage,False,63134,NA,19
+242,FLquiz,inflation,Less,63134,NA,19
+242,FLquiz,savingsAccount,More than $102,63134,NA,19
+244,finance term,pre-rated stocks,1,6139,<p>pre-rated stocks</p><br>,4
+244,finance term,fixed-rate deduction,1,2927,<p>fixed-rate deduction</p><br>,5
+244,finance term,annualized credit,7,4439,<p>annualized credit</p><br>,6
+244,finance term,tax bracket,1,3219,<p>tax bracket</p><br>,7
+244,finance term,fixed-rate mortgage,7,3611,<p>fixed-rate mortgage</p><br>,8
+244,finance term,home equity,5,3399,<p>home equity</p><br>,9
+244,finance term,revolving credit,5,2975,<p>revolving credit</p><br>,10
+244,finance term,vesting,1,3829,<p>vesting</p><br>,11
+244,finance term,retirement,7,2465,<p>retirement</p><br>,12
+244,finance term,stock options,7,2821,<p>stock options</p><br>,13
+244,finance term,inflation,7,2919,<p>inflation</p><br>,14
+244,finance term,private equity fund,5,2931,<p>private equity fund</p><br>,15
+244,finance term,interest rate,7,3035,<p>interest rate</p><br>,16
+244,finance term,Roth IRA,1,2157,<p>Roth IRA</p><br>,17
+244,finance term,whole life insurance,7,2617,<p>whole life insurance</p><br>,18
+244,self-rating,generalKnowledge,6,7348,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+244,self-rating,compareAmerican,7,5725,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+244,FLquiz,stocks,False,92697,NA,19
+244,FLquiz,interest,Rise,92697,NA,19
+244,FLquiz,mortgage,False,92697,NA,19
+244,FLquiz,inflation,Less,92697,NA,19
+244,FLquiz,savingsAccount,More than $102,92697,NA,19
+245,finance term,pre-rated stocks,1,4961,<p>pre-rated stocks</p><br>,4
+245,finance term,fixed-rate deduction,1,3855,<p>fixed-rate deduction</p><br>,5
+245,finance term,annualized credit,5,4614,<p>annualized credit</p><br>,6
+245,finance term,tax bracket,5,3259,<p>tax bracket</p><br>,7
+245,finance term,fixed-rate mortgage,2,2935,<p>fixed-rate mortgage</p><br>,8
+245,finance term,home equity,3,2386,<p>home equity</p><br>,9
+245,finance term,revolving credit,1,3274,<p>revolving credit</p><br>,10
+245,finance term,vesting,2,2985,<p>vesting</p><br>,11
+245,finance term,retirement,7,3100,<p>retirement</p><br>,12
+245,finance term,stock options,5,3264,<p>stock options</p><br>,13
+245,finance term,inflation,7,2468,<p>inflation</p><br>,14
+245,finance term,private equity fund,3,3637,<p>private equity fund</p><br>,15
+245,finance term,interest rate,5,2104,<p>interest rate</p><br>,16
+245,finance term,Roth IRA,1,2645,<p>Roth IRA</p><br>,17
+245,finance term,whole life insurance,2,4512,<p>whole life insurance</p><br>,18
+245,self-rating,generalKnowledge,2,5560,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+245,self-rating,compareAmerican,3,6699,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+245,FLquiz,stocks,Don't know,93395,NA,19
+245,FLquiz,interest,Don't know,93395,NA,19
+245,FLquiz,mortgage,True,93395,NA,19
+245,FLquiz,inflation,Less,93395,NA,19
+245,FLquiz,savingsAccount,More than $102,93395,NA,19
+247,finance term,pre-rated stocks,5,3054,<p>pre-rated stocks</p><br>,4
+247,finance term,fixed-rate deduction,5,3795,<p>fixed-rate deduction</p><br>,5
+247,finance term,annualized credit,5,2275,<p>annualized credit</p><br>,6
+247,finance term,tax bracket,2,2704,<p>tax bracket</p><br>,7
+247,finance term,fixed-rate mortgage,3,2358,<p>fixed-rate mortgage</p><br>,8
+247,finance term,home equity,5,1768,<p>home equity</p><br>,9
+247,finance term,revolving credit,2,1703,<p>revolving credit</p><br>,10
+247,finance term,vesting,2,1847,<p>vesting</p><br>,11
+247,finance term,retirement,6,1745,<p>retirement</p><br>,12
+247,finance term,stock options,6,1642,<p>stock options</p><br>,13
+247,finance term,inflation,7,1814,<p>inflation</p><br>,14
+247,finance term,private equity fund,3,2252,<p>private equity fund</p><br>,15
+247,finance term,interest rate,7,2746,<p>interest rate</p><br>,16
+247,finance term,Roth IRA,2,1458,<p>Roth IRA</p><br>,17
+247,finance term,whole life insurance,5,1779,<p>whole life insurance</p><br>,18
+247,self-rating,generalKnowledge,5,4985,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+247,self-rating,compareAmerican,3,9930,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+247,FLquiz,stocks,Don't know,70867,NA,19
+247,FLquiz,interest,Stay the same,70867,NA,19
+247,FLquiz,mortgage,True,70867,NA,19
+247,FLquiz,inflation,Less,70867,NA,19
+247,FLquiz,savingsAccount,More than $102,70867,NA,19
+248,finance term,pre-rated stocks,5,3804,<p>pre-rated stocks</p><br>,4
+248,finance term,fixed-rate deduction,3,5740,<p>fixed-rate deduction</p><br>,5
+248,finance term,annualized credit,6,2549,<p>annualized credit</p><br>,6
+248,finance term,tax bracket,6,2592,<p>tax bracket</p><br>,7
+248,finance term,fixed-rate mortgage,3,3446,<p>fixed-rate mortgage</p><br>,8
+248,finance term,home equity,5,6260,<p>home equity</p><br>,9
+248,finance term,revolving credit,5,2656,<p>revolving credit</p><br>,10
+248,finance term,vesting,6,10829,<p>vesting</p><br>,11
+248,finance term,retirement,7,2558,<p>retirement</p><br>,12
+248,finance term,stock options,5,2541,<p>stock options</p><br>,13
+248,finance term,inflation,6,1691,<p>inflation</p><br>,14
+248,finance term,private equity fund,5,7620,<p>private equity fund</p><br>,15
+248,finance term,interest rate,6,2581,<p>interest rate</p><br>,16
+248,finance term,Roth IRA,2,7090,<p>Roth IRA</p><br>,17
+248,finance term,whole life insurance,7,3460,<p>whole life insurance</p><br>,18
+248,self-rating,generalKnowledge,3,5245,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+248,self-rating,compareAmerican,5,5365,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+248,FLquiz,stocks,Don't know,95801,NA,19
+248,FLquiz,interest,Rise,95801,NA,19
+248,FLquiz,mortgage,True,95801,NA,19
+248,FLquiz,inflation,Less,95801,NA,19
+248,FLquiz,savingsAccount,More than $102,95801,NA,19
+249,finance term,pre-rated stocks,4,4687,<p>pre-rated stocks</p><br>,2
+249,finance term,fixed-rate deduction,5,6128,<p>fixed-rate deduction</p><br>,3
+249,finance term,annualized credit,2,7688,<p>annualized credit</p><br>,4
+249,finance term,tax bracket,6,6632,<p>tax bracket</p><br>,5
+249,finance term,fixed-rate mortgage,6,8195,<p>fixed-rate mortgage</p><br>,6
+249,finance term,home equity,7,6386,<p>home equity</p><br>,7
+249,finance term,revolving credit,5,6752,<p>revolving credit</p><br>,8
+249,finance term,vesting,4,5260,<p>vesting</p><br>,9
+249,finance term,retirement,7,6818,<p>retirement</p><br>,10
+249,finance term,stock options,4,7822,<p>stock options</p><br>,11
+249,finance term,inflation,5,2228,<p>inflation</p><br>,12
+249,finance term,private equity fund,4,6788,<p>private equity fund</p><br>,13
+249,finance term,interest rate,6,6907,<p>interest rate</p><br>,14
+249,finance term,Roth IRA,1,8800,<p>Roth IRA</p><br>,15
+249,finance term,whole life insurance,5,7136,<p>whole life insurance</p><br>,16
+249,self-rating,generalKnowledge,6,7990,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+249,self-rating,compareAmerican,5,9910,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+249,FLquiz,stocks,False,115490,NA,19
+249,FLquiz,interest,Rise,115490,NA,19
+249,FLquiz,mortgage,True,115490,NA,19
+249,FLquiz,inflation,Less,115490,NA,19
+249,FLquiz,savingsAccount,More than $102,115490,NA,19
+250,finance term,pre-rated stocks,3,15513,<p>pre-rated stocks</p><br>,4
+250,finance term,fixed-rate deduction,3,9203,<p>fixed-rate deduction</p><br>,5
+250,finance term,annualized credit,3,12586,<p>annualized credit</p><br>,6
+250,finance term,tax bracket,5,4952,<p>tax bracket</p><br>,7
+250,finance term,fixed-rate mortgage,5,4728,<p>fixed-rate mortgage</p><br>,8
+250,finance term,home equity,5,4204,<p>home equity</p><br>,9
+250,finance term,revolving credit,3,4965,<p>revolving credit</p><br>,10
+250,finance term,vesting,3,5368,<p>vesting</p><br>,11
+250,finance term,retirement,5,5215,<p>retirement</p><br>,12
+250,finance term,stock options,5,8951,<p>stock options</p><br>,13
+250,finance term,inflation,6,7651,<p>inflation</p><br>,14
+250,finance term,private equity fund,4,14679,<p>private equity fund</p><br>,15
+250,finance term,interest rate,6,9984,<p>interest rate</p><br>,16
+250,finance term,Roth IRA,5,5498,<p>Roth IRA</p><br>,17
+250,finance term,whole life insurance,5,6636,<p>whole life insurance</p><br>,18
+250,self-rating,generalKnowledge,5,34346,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+250,self-rating,compareAmerican,5,13910,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+250,FLquiz,stocks,False,164847,NA,19
+250,FLquiz,interest,Fall,164847,NA,19
+250,FLquiz,mortgage,Don't know,164847,NA,19
+250,FLquiz,inflation,Less,164847,NA,19
+250,FLquiz,savingsAccount,More than $102,164847,NA,19
+251,finance term,pre-rated stocks,1,38559,<p>pre-rated stocks</p><br>,4
+251,finance term,fixed-rate deduction,6,8785,<p>fixed-rate deduction</p><br>,5
+251,finance term,annualized credit,7,17152,<p>annualized credit</p><br>,6
+251,finance term,tax bracket,7,3407,<p>tax bracket</p><br>,7
+251,finance term,fixed-rate mortgage,7,3429,<p>fixed-rate mortgage</p><br>,8
+251,finance term,home equity,5,5703,<p>home equity</p><br>,9
+251,finance term,revolving credit,1,5109,<p>revolving credit</p><br>,10
+251,finance term,vesting,1,4386,<p>vesting</p><br>,11
+251,finance term,retirement,7,3736,<p>retirement</p><br>,12
+251,finance term,stock options,5,5620,<p>stock options</p><br>,13
+251,finance term,inflation,7,2837,<p>inflation</p><br>,14
+251,finance term,private equity fund,3,6960,<p>private equity fund</p><br>,15
+251,finance term,interest rate,7,3457,<p>interest rate</p><br>,16
+251,finance term,Roth IRA,1,7495,<p>Roth IRA</p><br>,17
+251,finance term,whole life insurance,6,4106,<p>whole life insurance</p><br>,18
+251,self-rating,generalKnowledge,5,22653,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+251,self-rating,compareAmerican,5,16291,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+251,FLquiz,stocks,Don't know,284966,NA,19
+251,FLquiz,interest,Rise,284966,NA,19
+251,FLquiz,mortgage,True,284966,NA,19
+251,FLquiz,inflation,Less,284966,NA,19
+251,FLquiz,savingsAccount,More than $102,284966,NA,19
+252,finance term,pre-rated stocks,4,4713,<p>pre-rated stocks</p><br>,2
+252,finance term,fixed-rate deduction,2,7135,<p>fixed-rate deduction</p><br>,3
+252,finance term,annualized credit,3,3086,<p>annualized credit</p><br>,4
+252,finance term,tax bracket,6,4432,<p>tax bracket</p><br>,5
+252,finance term,fixed-rate mortgage,3,3148,<p>fixed-rate mortgage</p><br>,6
+252,finance term,home equity,1,2426,<p>home equity</p><br>,7
+252,finance term,revolving credit,2,2549,<p>revolving credit</p><br>,8
+252,finance term,vesting,6,4087,<p>vesting</p><br>,9
+252,finance term,retirement,7,2211,<p>retirement</p><br>,10
+252,finance term,stock options,7,2287,<p>stock options</p><br>,11
+252,finance term,inflation,6,2811,<p>inflation</p><br>,12
+252,finance term,private equity fund,6,3455,<p>private equity fund</p><br>,13
+252,finance term,interest rate,7,2505,<p>interest rate</p><br>,14
+252,finance term,Roth IRA,3,5033,<p>Roth IRA</p><br>,15
+252,finance term,whole life insurance,2,2094,<p>whole life insurance</p><br>,16
+252,self-rating,generalKnowledge,5,5661,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+252,self-rating,compareAmerican,6,5376,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+252,FLquiz,stocks,False,62148,NA,19
+252,FLquiz,interest,Don't know,62148,NA,19
+252,FLquiz,mortgage,True,62148,NA,19
+252,FLquiz,inflation,Less,62148,NA,19
+252,FLquiz,savingsAccount,More than $102,62148,NA,19
+253,finance term,pre-rated stocks,1,5927,<p>pre-rated stocks</p><br>,2
+253,finance term,fixed-rate deduction,1,3625,<p>fixed-rate deduction</p><br>,3
+253,finance term,annualized credit,1,1885,<p>annualized credit</p><br>,4
+253,finance term,tax bracket,1,1729,<p>tax bracket</p><br>,5
+253,finance term,fixed-rate mortgage,1,2143,<p>fixed-rate mortgage</p><br>,6
+253,finance term,home equity,6,2263,<p>home equity</p><br>,7
+253,finance term,revolving credit,6,2575,<p>revolving credit</p><br>,8
+253,finance term,vesting,6,1807,<p>vesting</p><br>,9
+253,finance term,retirement,7,1699,<p>retirement</p><br>,10
+253,finance term,stock options,7,1572,<p>stock options</p><br>,11
+253,finance term,inflation,7,1623,<p>inflation</p><br>,12
+253,finance term,private equity fund,7,2023,<p>private equity fund</p><br>,13
+253,finance term,interest rate,7,1449,<p>interest rate</p><br>,14
+253,finance term,Roth IRA,3,3659,<p>Roth IRA</p><br>,15
+253,finance term,whole life insurance,7,2520,<p>whole life insurance</p><br>,16
+253,self-rating,generalKnowledge,7,4080,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+253,self-rating,compareAmerican,6,73634,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+253,FLquiz,stocks,False,55865,NA,19
+253,FLquiz,interest,Fall,55865,NA,19
+253,FLquiz,mortgage,True,55865,NA,19
+253,FLquiz,inflation,Less,55865,NA,19
+253,FLquiz,savingsAccount,More than $102,55865,NA,19
+254,finance term,pre-rated stocks,1,6269,<p>pre-rated stocks</p><br>,4
+254,finance term,fixed-rate deduction,1,2032,<p>fixed-rate deduction</p><br>,5
+254,finance term,annualized credit,2,4027,<p>annualized credit</p><br>,6
+254,finance term,tax bracket,5,2115,<p>tax bracket</p><br>,7
+254,finance term,fixed-rate mortgage,6,3067,<p>fixed-rate mortgage</p><br>,8
+254,finance term,home equity,6,1612,<p>home equity</p><br>,9
+254,finance term,revolving credit,5,3653,<p>revolving credit</p><br>,10
+254,finance term,vesting,1,1566,<p>vesting</p><br>,11
+254,finance term,retirement,7,1657,<p>retirement</p><br>,12
+254,finance term,stock options,5,1791,<p>stock options</p><br>,13
+254,finance term,inflation,6,1342,<p>inflation</p><br>,14
+254,finance term,private equity fund,5,1439,<p>private equity fund</p><br>,15
+254,finance term,interest rate,6,1311,<p>interest rate</p><br>,16
+254,finance term,Roth IRA,1,1364,<p>Roth IRA</p><br>,17
+254,finance term,whole life insurance,5,1559,<p>whole life insurance</p><br>,18
+254,self-rating,generalKnowledge,5,3487,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+254,self-rating,compareAmerican,6,2669,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+254,FLquiz,stocks,Don't know,29445,NA,19
+254,FLquiz,interest,Don't know,29445,NA,19
+254,FLquiz,mortgage,Don't know,29445,NA,19
+254,FLquiz,inflation,Don't know,29445,NA,19
+254,FLquiz,savingsAccount,Don't know,29445,NA,19
+255,finance term,pre-rated stocks,1,15172,<p>pre-rated stocks</p><br>,4
+255,finance term,fixed-rate deduction,4,12349,<p>fixed-rate deduction</p><br>,5
+255,finance term,annualized credit,4,6301,<p>annualized credit</p><br>,6
+255,finance term,tax bracket,1,11965,<p>tax bracket</p><br>,7
+255,finance term,fixed-rate mortgage,5,3917,<p>fixed-rate mortgage</p><br>,8
+255,finance term,home equity,2,4069,<p>home equity</p><br>,9
+255,finance term,revolving credit,5,6293,<p>revolving credit</p><br>,10
+255,finance term,vesting,1,11308,<p>vesting</p><br>,11
+255,finance term,retirement,6,3445,<p>retirement</p><br>,12
+255,finance term,stock options,4,4029,<p>stock options</p><br>,13
+255,finance term,inflation,6,5102,<p>inflation</p><br>,14
+255,finance term,private equity fund,2,3557,<p>private equity fund</p><br>,15
+255,finance term,interest rate,6,4341,<p>interest rate</p><br>,16
+255,finance term,Roth IRA,1,3813,<p>Roth IRA</p><br>,17
+255,finance term,whole life insurance,4,7597,<p>whole life insurance</p><br>,18
+255,self-rating,generalKnowledge,4,18799,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+255,self-rating,compareAmerican,3,14076,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+255,FLquiz,stocks,Don't know,136557,NA,19
+255,FLquiz,interest,Fall,136557,NA,19
+255,FLquiz,mortgage,False,136557,NA,19
+255,FLquiz,inflation,Less,136557,NA,19
+255,FLquiz,savingsAccount,More than $102,136557,NA,19
+256,finance term,pre-rated stocks,3,2990,<p>pre-rated stocks</p><br>,4
+256,finance term,fixed-rate deduction,6,3301,<p>fixed-rate deduction</p><br>,5
+256,finance term,annualized credit,2,2182,<p>annualized credit</p><br>,6
+256,finance term,tax bracket,2,2944,<p>tax bracket</p><br>,7
+256,finance term,fixed-rate mortgage,7,2445,<p>fixed-rate mortgage</p><br>,8
+256,finance term,home equity,3,1829,<p>home equity</p><br>,9
+256,finance term,revolving credit,3,2144,<p>revolving credit</p><br>,10
+256,finance term,vesting,1,3104,<p>vesting</p><br>,11
+256,finance term,retirement,6,1901,<p>retirement</p><br>,12
+256,finance term,stock options,7,2035,<p>stock options</p><br>,13
+256,finance term,inflation,6,2464,<p>inflation</p><br>,14
+256,finance term,private equity fund,6,13566,<p>private equity fund</p><br>,15
+256,finance term,interest rate,7,2161,<p>interest rate</p><br>,16
+256,finance term,Roth IRA,3,2543,<p>Roth IRA</p><br>,17
+256,finance term,whole life insurance,7,1924,<p>whole life insurance</p><br>,18
+256,self-rating,generalKnowledge,6,10227,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+256,self-rating,compareAmerican,5,6583,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+256,FLquiz,stocks,False,41687,NA,19
+256,FLquiz,interest,Don't know,41687,NA,19
+256,FLquiz,mortgage,True,41687,NA,19
+256,FLquiz,inflation,Less,41687,NA,19
+256,FLquiz,savingsAccount,More than $102,41687,NA,19
+257,finance term,pre-rated stocks,1,8350,<p>pre-rated stocks</p><br>,2
+257,finance term,fixed-rate deduction,2,6630,<p>fixed-rate deduction</p><br>,3
+257,finance term,annualized credit,1,4070,<p>annualized credit</p><br>,4
+257,finance term,tax bracket,6,5271,<p>tax bracket</p><br>,5
+257,finance term,fixed-rate mortgage,6,3535,<p>fixed-rate mortgage</p><br>,6
+257,finance term,home equity,7,3263,<p>home equity</p><br>,7
+257,finance term,revolving credit,1,3319,<p>revolving credit</p><br>,8
+257,finance term,vesting,2,3799,<p>vesting</p><br>,9
+257,finance term,retirement,7,2999,<p>retirement</p><br>,10
+257,finance term,stock options,3,2855,<p>stock options</p><br>,11
+257,finance term,inflation,6,4159,<p>inflation</p><br>,12
+257,finance term,private equity fund,3,2759,<p>private equity fund</p><br>,13
+257,finance term,interest rate,6,12406,<p>interest rate</p><br>,14
+257,finance term,Roth IRA,1,3391,<p>Roth IRA</p><br>,15
+257,finance term,whole life insurance,7,5014,<p>whole life insurance</p><br>,16
+257,self-rating,generalKnowledge,5,5560,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+257,self-rating,compareAmerican,3,7599,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+257,FLquiz,stocks,False,70679,NA,19
+257,FLquiz,interest,Don't know,70679,NA,19
+257,FLquiz,mortgage,True,70679,NA,19
+257,FLquiz,inflation,Less,70679,NA,19
+257,FLquiz,savingsAccount,More than $102,70679,NA,19
+258,finance term,pre-rated stocks,1,5223,<p>pre-rated stocks</p><br>,4
+258,finance term,fixed-rate deduction,2,5535,<p>fixed-rate deduction</p><br>,5
+258,finance term,annualized credit,2,5839,<p>annualized credit</p><br>,6
+258,finance term,tax bracket,2,3175,<p>tax bracket</p><br>,7
+258,finance term,fixed-rate mortgage,2,4086,<p>fixed-rate mortgage</p><br>,8
+258,finance term,home equity,5,4351,<p>home equity</p><br>,9
+258,finance term,revolving credit,2,3590,<p>revolving credit</p><br>,10
+258,finance term,vesting,3,2407,<p>vesting</p><br>,11
+258,finance term,retirement,7,3119,<p>retirement</p><br>,12
+258,finance term,stock options,3,2407,<p>stock options</p><br>,13
+258,finance term,inflation,7,2054,<p>inflation</p><br>,14
+258,finance term,private equity fund,2,3935,<p>private equity fund</p><br>,15
+258,finance term,interest rate,7,2606,<p>interest rate</p><br>,16
+258,finance term,Roth IRA,1,2494,<p>Roth IRA</p><br>,17
+258,finance term,whole life insurance,7,2062,<p>whole life insurance</p><br>,18
+258,self-rating,generalKnowledge,3,14749,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+258,self-rating,compareAmerican,5,6686,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+258,FLquiz,stocks,Don't know,111734,NA,19
+258,FLquiz,interest,Rise,111734,NA,19
+258,FLquiz,mortgage,True,111734,NA,19
+258,FLquiz,inflation,Less,111734,NA,19
+258,FLquiz,savingsAccount,More than $102,111734,NA,19
+259,finance term,pre-rated stocks,1,3118,<p>pre-rated stocks</p><br>,4
+259,finance term,fixed-rate deduction,1,1999,<p>fixed-rate deduction</p><br>,5
+259,finance term,annualized credit,1,2863,<p>annualized credit</p><br>,6
+259,finance term,tax bracket,5,5223,<p>tax bracket</p><br>,7
+259,finance term,fixed-rate mortgage,5,3015,<p>fixed-rate mortgage</p><br>,8
+259,finance term,home equity,5,3710,<p>home equity</p><br>,9
+259,finance term,revolving credit,1,2551,<p>revolving credit</p><br>,10
+259,finance term,vesting,1,2726,<p>vesting</p><br>,11
+259,finance term,retirement,5,2855,<p>retirement</p><br>,12
+259,finance term,stock options,5,1967,<p>stock options</p><br>,13
+259,finance term,inflation,6,1943,<p>inflation</p><br>,14
+259,finance term,private equity fund,5,2175,<p>private equity fund</p><br>,15
+259,finance term,interest rate,4,4487,<p>interest rate</p><br>,16
+259,finance term,Roth IRA,1,2823,<p>Roth IRA</p><br>,17
+259,finance term,whole life insurance,4,2870,<p>whole life insurance</p><br>,18
+259,self-rating,generalKnowledge,3,13772,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+259,self-rating,compareAmerican,4,8158,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+259,FLquiz,stocks,False,49678,NA,19
+259,FLquiz,interest,Rise,49678,NA,19
+259,FLquiz,mortgage,True,49678,NA,19
+259,FLquiz,inflation,Less,49678,NA,19
+259,FLquiz,savingsAccount,More than $102,49678,NA,19
+260,finance term,pre-rated stocks,1,6326,<p>pre-rated stocks</p><br>,2
+260,finance term,fixed-rate deduction,6,8041,<p>fixed-rate deduction</p><br>,3
+260,finance term,annualized credit,2,8741,<p>annualized credit</p><br>,4
+260,finance term,tax bracket,7,2650,<p>tax bracket</p><br>,5
+260,finance term,fixed-rate mortgage,7,2865,<p>fixed-rate mortgage</p><br>,6
+260,finance term,home equity,7,2491,<p>home equity</p><br>,7
+260,finance term,revolving credit,1,3190,<p>revolving credit</p><br>,8
+260,finance term,vesting,1,2537,<p>vesting</p><br>,9
+260,finance term,retirement,7,3266,<p>retirement</p><br>,10
+260,finance term,stock options,4,3067,<p>stock options</p><br>,11
+260,finance term,inflation,7,3601,<p>inflation</p><br>,12
+260,finance term,private equity fund,7,3383,<p>private equity fund</p><br>,13
+260,finance term,interest rate,7,2437,<p>interest rate</p><br>,14
+260,finance term,Roth IRA,1,2971,<p>Roth IRA</p><br>,15
+260,finance term,whole life insurance,5,3485,<p>whole life insurance</p><br>,16
+260,self-rating,generalKnowledge,4,7817,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+260,self-rating,compareAmerican,3,11943,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+260,FLquiz,stocks,Don't know,86865,NA,19
+260,FLquiz,interest,Rise,86865,NA,19
+260,FLquiz,mortgage,Don't know,86865,NA,19
+260,FLquiz,inflation,Don't know,86865,NA,19
+260,FLquiz,savingsAccount,More than $102,86865,NA,19
+261,finance term,pre-rated stocks,3,7623,<p>pre-rated stocks</p><br>,2
+261,finance term,fixed-rate deduction,6,5829,<p>fixed-rate deduction</p><br>,3
+261,finance term,annualized credit,7,3634,<p>annualized credit</p><br>,4
+261,finance term,tax bracket,7,3370,<p>tax bracket</p><br>,5
+261,finance term,fixed-rate mortgage,7,3733,<p>fixed-rate mortgage</p><br>,6
+261,finance term,home equity,7,3516,<p>home equity</p><br>,7
+261,finance term,revolving credit,2,5097,<p>revolving credit</p><br>,8
+261,finance term,vesting,3,3571,<p>vesting</p><br>,9
+261,finance term,retirement,7,3133,<p>retirement</p><br>,10
+261,finance term,stock options,6,3559,<p>stock options</p><br>,11
+261,finance term,inflation,7,3789,<p>inflation</p><br>,12
+261,finance term,private equity fund,7,3302,<p>private equity fund</p><br>,13
+261,finance term,interest rate,7,4066,<p>interest rate</p><br>,14
+261,finance term,Roth IRA,2,11696,<p>Roth IRA</p><br>,15
+261,finance term,whole life insurance,7,5936,<p>whole life insurance</p><br>,16
+261,self-rating,generalKnowledge,5,20884,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+261,self-rating,compareAmerican,5,16188,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+261,FLquiz,stocks,Don't know,185902,NA,19
+261,FLquiz,interest,Rise,185902,NA,19
+261,FLquiz,mortgage,True,185902,NA,19
+261,FLquiz,inflation,Less,185902,NA,19
+261,FLquiz,savingsAccount,More than $102,185902,NA,19
+262,finance term,pre-rated stocks,3,24533,<p>pre-rated stocks</p><br>,2
+262,finance term,fixed-rate deduction,3,8614,<p>fixed-rate deduction</p><br>,3
+262,finance term,annualized credit,5,6347,<p>annualized credit</p><br>,4
+262,finance term,tax bracket,7,5096,<p>tax bracket</p><br>,5
+262,finance term,fixed-rate mortgage,5,4435,<p>fixed-rate mortgage</p><br>,6
+262,finance term,home equity,3,4421,<p>home equity</p><br>,7
+262,finance term,revolving credit,7,6539,<p>revolving credit</p><br>,8
+262,finance term,vesting,3,5179,<p>vesting</p><br>,9
+262,finance term,retirement,7,5372,<p>retirement</p><br>,10
+262,finance term,stock options,5,4589,<p>stock options</p><br>,11
+262,finance term,inflation,7,7741,<p>inflation</p><br>,12
+262,finance term,private equity fund,5,12172,<p>private equity fund</p><br>,13
+262,finance term,interest rate,7,5186,<p>interest rate</p><br>,14
+262,finance term,Roth IRA,3,13214,<p>Roth IRA</p><br>,15
+262,finance term,whole life insurance,6,4195,<p>whole life insurance</p><br>,16
+262,self-rating,generalKnowledge,5,6430,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+262,self-rating,compareAmerican,6,14099,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+262,FLquiz,stocks,False,90939,NA,19
+262,FLquiz,interest,Rise,90939,NA,19
+262,FLquiz,mortgage,True,90939,NA,19
+262,FLquiz,inflation,Less,90939,NA,19
+262,FLquiz,savingsAccount,More than $102,90939,NA,19
+263,finance term,pre-rated stocks,2,4274,<p>pre-rated stocks</p><br>,4
+263,finance term,fixed-rate deduction,2,3561,<p>fixed-rate deduction</p><br>,5
+263,finance term,annualized credit,5,3146,<p>annualized credit</p><br>,6
+263,finance term,tax bracket,6,3193,<p>tax bracket</p><br>,7
+263,finance term,fixed-rate mortgage,7,3641,<p>fixed-rate mortgage</p><br>,8
+263,finance term,home equity,5,2746,<p>home equity</p><br>,9
+263,finance term,revolving credit,2,3234,<p>revolving credit</p><br>,10
+263,finance term,vesting,2,2914,<p>vesting</p><br>,11
+263,finance term,retirement,5,2769,<p>retirement</p><br>,12
+263,finance term,stock options,7,3115,<p>stock options</p><br>,13
+263,finance term,inflation,7,2754,<p>inflation</p><br>,14
+263,finance term,private equity fund,7,2699,<p>private equity fund</p><br>,15
+263,finance term,interest rate,7,2682,<p>interest rate</p><br>,16
+263,finance term,Roth IRA,2,4505,<p>Roth IRA</p><br>,17
+263,finance term,whole life insurance,7,2850,<p>whole life insurance</p><br>,18
+263,self-rating,generalKnowledge,4,6443,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+263,self-rating,compareAmerican,4,5158,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+263,FLquiz,stocks,Don't know,63522,NA,19
+263,FLquiz,interest,Don't know,63522,NA,19
+263,FLquiz,mortgage,True,63522,NA,19
+263,FLquiz,inflation,Less,63522,NA,19
+263,FLquiz,savingsAccount,More than $102,63522,NA,19
+264,finance term,pre-rated stocks,1,7565,<p>pre-rated stocks</p><br>,4
+264,finance term,fixed-rate deduction,2,2363,<p>fixed-rate deduction</p><br>,5
+264,finance term,annualized credit,1,28666,<p>annualized credit</p><br>,6
+264,finance term,tax bracket,1,8415,<p>tax bracket</p><br>,7
+264,finance term,fixed-rate mortgage,7,42714,<p>fixed-rate mortgage</p><br>,8
+264,finance term,home equity,5,2149,<p>home equity</p><br>,9
+264,finance term,revolving credit,6,49617,<p>revolving credit</p><br>,10
+264,finance term,vesting,2,3464,<p>vesting</p><br>,11
+264,finance term,retirement,7,2132,<p>retirement</p><br>,12
+264,finance term,stock options,2,2132,<p>stock options</p><br>,13
+264,finance term,inflation,6,4814,<p>inflation</p><br>,14
+264,finance term,private equity fund,3,6015,<p>private equity fund</p><br>,15
+264,finance term,interest rate,6,1881,<p>interest rate</p><br>,16
+264,finance term,Roth IRA,1,2115,<p>Roth IRA</p><br>,17
+264,finance term,whole life insurance,6,2515,<p>whole life insurance</p><br>,18
+264,self-rating,generalKnowledge,3,3711,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+264,self-rating,compareAmerican,2,2748,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+264,FLquiz,stocks,True,120682,NA,19
+264,FLquiz,interest,Fall,120682,NA,19
+264,FLquiz,mortgage,False,120682,NA,19
+264,FLquiz,inflation,Less,120682,NA,19
+264,FLquiz,savingsAccount,More than $102,120682,NA,19
+266,finance term,pre-rated stocks,4,12939,<p>pre-rated stocks</p><br>,4
+266,finance term,fixed-rate deduction,3,5439,<p>fixed-rate deduction</p><br>,5
+266,finance term,annualized credit,5,2861,<p>annualized credit</p><br>,6
+266,finance term,tax bracket,5,2874,<p>tax bracket</p><br>,7
+266,finance term,fixed-rate mortgage,5,2893,<p>fixed-rate mortgage</p><br>,8
+266,finance term,home equity,3,13637,<p>home equity</p><br>,9
+266,finance term,revolving credit,5,2639,<p>revolving credit</p><br>,10
+266,finance term,vesting,5,9833,<p>vesting</p><br>,11
+266,finance term,retirement,7,2888,<p>retirement</p><br>,12
+266,finance term,stock options,5,2360,<p>stock options</p><br>,13
+266,finance term,inflation,7,2440,<p>inflation</p><br>,14
+266,finance term,private equity fund,5,2982,<p>private equity fund</p><br>,15
+266,finance term,interest rate,6,3413,<p>interest rate</p><br>,16
+266,finance term,Roth IRA,2,3260,<p>Roth IRA</p><br>,17
+266,finance term,whole life insurance,6,3062,<p>whole life insurance</p><br>,18
+266,self-rating,generalKnowledge,3,5251,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+266,self-rating,compareAmerican,5,10319,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+266,FLquiz,stocks,Don't know,73800,NA,19
+266,FLquiz,interest,Don't know,73800,NA,19
+266,FLquiz,mortgage,True,73800,NA,19
+266,FLquiz,inflation,Less,73800,NA,19
+266,FLquiz,savingsAccount,More than $102,73800,NA,19
+267,finance term,pre-rated stocks,1,3898,<p>pre-rated stocks</p><br>,4
+267,finance term,fixed-rate deduction,2,3066,<p>fixed-rate deduction</p><br>,5
+267,finance term,annualized credit,1,3992,<p>annualized credit</p><br>,6
+267,finance term,tax bracket,7,2614,<p>tax bracket</p><br>,7
+267,finance term,fixed-rate mortgage,4,2618,<p>fixed-rate mortgage</p><br>,8
+267,finance term,home equity,2,2626,<p>home equity</p><br>,9
+267,finance term,revolving credit,1,4611,<p>revolving credit</p><br>,10
+267,finance term,vesting,1,2801,<p>vesting</p><br>,11
+267,finance term,retirement,6,4917,<p>retirement</p><br>,12
+267,finance term,stock options,1,3340,<p>stock options</p><br>,13
+267,finance term,inflation,7,2427,<p>inflation</p><br>,14
+267,finance term,private equity fund,2,3175,<p>private equity fund</p><br>,15
+267,finance term,interest rate,7,11074,<p>interest rate</p><br>,16
+267,finance term,Roth IRA,1,2629,<p>Roth IRA</p><br>,17
+267,finance term,whole life insurance,1,2623,<p>whole life insurance</p><br>,18
+267,self-rating,generalKnowledge,2,5461,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+267,self-rating,compareAmerican,4,6027,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+267,FLquiz,stocks,False,69032,NA,19
+267,FLquiz,interest,Rise,69032,NA,19
+267,FLquiz,mortgage,Don't know,69032,NA,19
+267,FLquiz,inflation,Don't know,69032,NA,19
+267,FLquiz,savingsAccount,More than $102,69032,NA,19
+268,finance term,pre-rated stocks,1,13274,<p>pre-rated stocks</p><br>,2
+268,finance term,fixed-rate deduction,5,5348,<p>fixed-rate deduction</p><br>,3
+268,finance term,annualized credit,4,4640,<p>annualized credit</p><br>,4
+268,finance term,tax bracket,7,4576,<p>tax bracket</p><br>,5
+268,finance term,fixed-rate mortgage,7,4476,<p>fixed-rate mortgage</p><br>,6
+268,finance term,home equity,4,9536,<p>home equity</p><br>,7
+268,finance term,revolving credit,1,4943,<p>revolving credit</p><br>,8
+268,finance term,vesting,1,8779,<p>vesting</p><br>,9
+268,finance term,retirement,7,5030,<p>retirement</p><br>,10
+268,finance term,stock options,5,3804,<p>stock options</p><br>,11
+268,finance term,inflation,7,6883,<p>inflation</p><br>,12
+268,finance term,private equity fund,2,15161,<p>private equity fund</p><br>,13
+268,finance term,interest rate,7,3759,<p>interest rate</p><br>,14
+268,finance term,Roth IRA,1,4353,<p>Roth IRA</p><br>,15
+268,finance term,whole life insurance,1,4908,<p>whole life insurance</p><br>,16
+268,self-rating,generalKnowledge,6,6741,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+268,self-rating,compareAmerican,4,8066,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+268,FLquiz,stocks,True,104912,NA,19
+268,FLquiz,interest,Rise,104912,NA,19
+268,FLquiz,mortgage,False,104912,NA,19
+268,FLquiz,inflation,Less,104912,NA,19
+268,FLquiz,savingsAccount,More than $102,104912,NA,19
+269,finance term,pre-rated stocks,5,9333,<p>pre-rated stocks</p><br>,4
+269,finance term,fixed-rate deduction,5,6644,<p>fixed-rate deduction</p><br>,5
+269,finance term,annualized credit,5,5238,<p>annualized credit</p><br>,6
+269,finance term,tax bracket,5,5611,<p>tax bracket</p><br>,7
+269,finance term,fixed-rate mortgage,5,7013,<p>fixed-rate mortgage</p><br>,8
+269,finance term,home equity,4,15104,<p>home equity</p><br>,9
+269,finance term,revolving credit,4,5663,<p>revolving credit</p><br>,10
+269,finance term,vesting,4,2821,<p>vesting</p><br>,11
+269,finance term,retirement,5,4841,<p>retirement</p><br>,12
+269,finance term,stock options,3,3402,<p>stock options</p><br>,13
+269,finance term,inflation,5,3444,<p>inflation</p><br>,14
+269,finance term,private equity fund,4,8551,<p>private equity fund</p><br>,15
+269,finance term,interest rate,6,7418,<p>interest rate</p><br>,16
+269,finance term,Roth IRA,3,5410,<p>Roth IRA</p><br>,17
+269,finance term,whole life insurance,5,4776,<p>whole life insurance</p><br>,18
+269,self-rating,generalKnowledge,5,10535,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+269,self-rating,compareAmerican,4,6466,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+269,FLquiz,stocks,Don't know,144561,NA,19
+269,FLquiz,interest,Rise,144561,NA,19
+269,FLquiz,mortgage,False,144561,NA,19
+269,FLquiz,inflation,Less,144561,NA,19
+269,FLquiz,savingsAccount,More than $102,144561,NA,19
+270,finance term,pre-rated stocks,3,4541,<p>pre-rated stocks</p><br>,2
+270,finance term,fixed-rate deduction,3,8682,<p>fixed-rate deduction</p><br>,3
+270,finance term,annualized credit,2,6973,<p>annualized credit</p><br>,4
+270,finance term,tax bracket,2,3343,<p>tax bracket</p><br>,5
+270,finance term,fixed-rate mortgage,2,10833,<p>fixed-rate mortgage</p><br>,6
+270,finance term,home equity,2,6499,<p>home equity</p><br>,7
+270,finance term,revolving credit,2,4723,<p>revolving credit</p><br>,8
+270,finance term,vesting,2,2706,<p>vesting</p><br>,9
+270,finance term,retirement,5,3191,<p>retirement</p><br>,10
+270,finance term,stock options,6,2080,<p>stock options</p><br>,11
+270,finance term,inflation,6,2541,<p>inflation</p><br>,12
+270,finance term,private equity fund,2,3900,<p>private equity fund</p><br>,13
+270,finance term,interest rate,6,2551,<p>interest rate</p><br>,14
+270,finance term,Roth IRA,2,2879,<p>Roth IRA</p><br>,15
+270,finance term,whole life insurance,7,5357,<p>whole life insurance</p><br>,16
+270,self-rating,generalKnowledge,5,5029,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+270,self-rating,compareAmerican,5,36652,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+270,FLquiz,stocks,False,112428,NA,19
+270,FLquiz,interest,Don't know,112428,NA,19
+270,FLquiz,mortgage,Don't know,112428,NA,19
+270,FLquiz,inflation,Less,112428,NA,19
+270,FLquiz,savingsAccount,More than $102,112428,NA,19
+271,finance term,pre-rated stocks,1,5876,<p>pre-rated stocks</p><br>,4
+271,finance term,fixed-rate deduction,4,5857,<p>fixed-rate deduction</p><br>,5
+271,finance term,annualized credit,5,4344,<p>annualized credit</p><br>,6
+271,finance term,tax bracket,6,6265,<p>tax bracket</p><br>,7
+271,finance term,fixed-rate mortgage,5,4596,<p>fixed-rate mortgage</p><br>,8
+271,finance term,home equity,4,4399,<p>home equity</p><br>,9
+271,finance term,revolving credit,2,3776,<p>revolving credit</p><br>,10
+271,finance term,vesting,1,3752,<p>vesting</p><br>,11
+271,finance term,retirement,7,3917,<p>retirement</p><br>,12
+271,finance term,stock options,3,4796,<p>stock options</p><br>,13
+271,finance term,inflation,7,3468,<p>inflation</p><br>,14
+271,finance term,private equity fund,4,3662,<p>private equity fund</p><br>,15
+271,finance term,interest rate,4,4114,<p>interest rate</p><br>,16
+271,finance term,Roth IRA,2,5499,<p>Roth IRA</p><br>,17
+271,finance term,whole life insurance,6,4368,<p>whole life insurance</p><br>,18
+271,self-rating,generalKnowledge,4,13289,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+271,self-rating,compareAmerican,4,8127,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+271,FLquiz,stocks,Don't know,64829,NA,19
+271,FLquiz,interest,Rise,64829,NA,19
+271,FLquiz,mortgage,True,64829,NA,19
+271,FLquiz,inflation,Less,64829,NA,19
+271,FLquiz,savingsAccount,More than $102,64829,NA,19
+272,finance term,pre-rated stocks,1,7158,<p>pre-rated stocks</p><br>,4
+272,finance term,fixed-rate deduction,1,3550,<p>fixed-rate deduction</p><br>,5
+272,finance term,annualized credit,1,3831,<p>annualized credit</p><br>,6
+272,finance term,tax bracket,3,3545,<p>tax bracket</p><br>,7
+272,finance term,fixed-rate mortgage,3,5818,<p>fixed-rate mortgage</p><br>,8
+272,finance term,home equity,6,2661,<p>home equity</p><br>,9
+272,finance term,revolving credit,1,2711,<p>revolving credit</p><br>,10
+272,finance term,vesting,6,3318,<p>vesting</p><br>,11
+272,finance term,retirement,6,2189,<p>retirement</p><br>,12
+272,finance term,stock options,6,3909,<p>stock options</p><br>,13
+272,finance term,inflation,6,2255,<p>inflation</p><br>,14
+272,finance term,private equity fund,7,4809,<p>private equity fund</p><br>,15
+272,finance term,interest rate,6,2151,<p>interest rate</p><br>,16
+272,finance term,Roth IRA,1,7002,<p>Roth IRA</p><br>,17
+272,finance term,whole life insurance,5,3146,<p>whole life insurance</p><br>,18
+272,self-rating,generalKnowledge,3,9551,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+272,self-rating,compareAmerican,3,9046,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+272,FLquiz,stocks,False,101851,NA,19
+272,FLquiz,interest,Rise,101851,NA,19
+272,FLquiz,mortgage,True,101851,NA,19
+272,FLquiz,inflation,Less,101851,NA,19
+272,FLquiz,savingsAccount,More than $102,101851,NA,19
+274,finance term,pre-rated stocks,2,3192,<p>pre-rated stocks</p><br>,4
+274,finance term,fixed-rate deduction,6,4294,<p>fixed-rate deduction</p><br>,5
+274,finance term,annualized credit,7,3081,<p>annualized credit</p><br>,6
+274,finance term,tax bracket,7,2348,<p>tax bracket</p><br>,7
+274,finance term,fixed-rate mortgage,6,2778,<p>fixed-rate mortgage</p><br>,8
+274,finance term,home equity,3,3995,<p>home equity</p><br>,9
+274,finance term,revolving credit,1,2404,<p>revolving credit</p><br>,10
+274,finance term,vesting,1,2343,<p>vesting</p><br>,11
+274,finance term,retirement,7,2511,<p>retirement</p><br>,12
+274,finance term,stock options,6,3804,<p>stock options</p><br>,13
+274,finance term,inflation,7,2265,<p>inflation</p><br>,14
+274,finance term,private equity fund,2,3595,<p>private equity fund</p><br>,15
+274,finance term,interest rate,7,2817,<p>interest rate</p><br>,16
+274,finance term,Roth IRA,1,3493,<p>Roth IRA</p><br>,17
+274,finance term,whole life insurance,6,82423,<p>whole life insurance</p><br>,18
+274,self-rating,generalKnowledge,3,5247,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+274,self-rating,compareAmerican,2,4163,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+274,FLquiz,stocks,Don't know,623705,NA,19
+274,FLquiz,interest,Don't know,623705,NA,19
+274,FLquiz,mortgage,Don't know,623705,NA,19
+274,FLquiz,inflation,Less,623705,NA,19
+274,FLquiz,savingsAccount,More than $102,623705,NA,19
+275,finance term,pre-rated stocks,6,2682,<p>pre-rated stocks</p><br>,4
+275,finance term,fixed-rate deduction,6,3240,<p>fixed-rate deduction</p><br>,5
+275,finance term,annualized credit,6,4073,<p>annualized credit</p><br>,6
+275,finance term,tax bracket,7,3090,<p>tax bracket</p><br>,7
+275,finance term,fixed-rate mortgage,6,1912,<p>fixed-rate mortgage</p><br>,8
+275,finance term,home equity,7,1958,<p>home equity</p><br>,9
+275,finance term,revolving credit,6,1815,<p>revolving credit</p><br>,10
+275,finance term,vesting,7,1845,<p>vesting</p><br>,11
+275,finance term,retirement,6,1542,<p>retirement</p><br>,12
+275,finance term,stock options,6,1617,<p>stock options</p><br>,13
+275,finance term,inflation,7,1882,<p>inflation</p><br>,14
+275,finance term,private equity fund,7,2178,<p>private equity fund</p><br>,15
+275,finance term,interest rate,7,1909,<p>interest rate</p><br>,16
+275,finance term,Roth IRA,6,2041,<p>Roth IRA</p><br>,17
+275,finance term,whole life insurance,7,2874,<p>whole life insurance</p><br>,18
+275,self-rating,generalKnowledge,6,6080,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+275,self-rating,compareAmerican,6,4057,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+275,FLquiz,stocks,False,165287,NA,19
+275,FLquiz,interest,Fall,165287,NA,19
+275,FLquiz,mortgage,False,165287,NA,19
+275,FLquiz,inflation,Less,165287,NA,19
+275,FLquiz,savingsAccount,More than $102,165287,NA,19
+276,finance term,pre-rated stocks,3,3561,<p>pre-rated stocks</p><br>,4
+276,finance term,fixed-rate deduction,3,8466,<p>fixed-rate deduction</p><br>,5
+276,finance term,annualized credit,5,2695,<p>annualized credit</p><br>,6
+276,finance term,tax bracket,6,3643,<p>tax bracket</p><br>,7
+276,finance term,fixed-rate mortgage,7,2458,<p>fixed-rate mortgage</p><br>,8
+276,finance term,home equity,7,2397,<p>home equity</p><br>,9
+276,finance term,revolving credit,7,3406,<p>revolving credit</p><br>,10
+276,finance term,vesting,3,2182,<p>vesting</p><br>,11
+276,finance term,retirement,7,2383,<p>retirement</p><br>,12
+276,finance term,stock options,3,2810,<p>stock options</p><br>,13
+276,finance term,inflation,6,1995,<p>inflation</p><br>,14
+276,finance term,private equity fund,5,2679,<p>private equity fund</p><br>,15
+276,finance term,interest rate,7,2270,<p>interest rate</p><br>,16
+276,finance term,Roth IRA,2,2393,<p>Roth IRA</p><br>,17
+276,finance term,whole life insurance,6,2837,<p>whole life insurance</p><br>,18
+276,self-rating,generalKnowledge,5,4264,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+276,self-rating,compareAmerican,5,6354,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+276,FLquiz,stocks,Don't know,64521,NA,19
+276,FLquiz,interest,Don't know,64521,NA,19
+276,FLquiz,mortgage,True,64521,NA,19
+276,FLquiz,inflation,Less,64521,NA,19
+276,FLquiz,savingsAccount,Exactly $102,64521,NA,19
+277,finance term,pre-rated stocks,5,4575,<p>pre-rated stocks</p><br>,4
+277,finance term,fixed-rate deduction,4,3229,<p>fixed-rate deduction</p><br>,5
+277,finance term,annualized credit,5,2881,<p>annualized credit</p><br>,6
+277,finance term,tax bracket,3,2649,<p>tax bracket</p><br>,7
+277,finance term,fixed-rate mortgage,5,2648,<p>fixed-rate mortgage</p><br>,8
+277,finance term,home equity,4,2632,<p>home equity</p><br>,9
+277,finance term,revolving credit,4,2466,<p>revolving credit</p><br>,10
+277,finance term,vesting,5,3048,<p>vesting</p><br>,11
+277,finance term,retirement,6,3063,<p>retirement</p><br>,12
+277,finance term,stock options,5,2617,<p>stock options</p><br>,13
+277,finance term,inflation,6,2549,<p>inflation</p><br>,14
+277,finance term,private equity fund,3,2500,<p>private equity fund</p><br>,15
+277,finance term,interest rate,5,2665,<p>interest rate</p><br>,16
+277,finance term,Roth IRA,2,3229,<p>Roth IRA</p><br>,17
+277,finance term,whole life insurance,5,2763,<p>whole life insurance</p><br>,18
+277,self-rating,generalKnowledge,4,9012,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+277,self-rating,compareAmerican,5,9432,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+277,FLquiz,stocks,False,180865,NA,19
+277,FLquiz,interest,Fall,180865,NA,19
+277,FLquiz,mortgage,True,180865,NA,19
+277,FLquiz,inflation,Less,180865,NA,19
+277,FLquiz,savingsAccount,More than $102,180865,NA,19
+278,finance term,pre-rated stocks,2,11818,<p>pre-rated stocks</p><br>,2
+278,finance term,fixed-rate deduction,6,9016,<p>fixed-rate deduction</p><br>,3
+278,finance term,annualized credit,3,7476,<p>annualized credit</p><br>,4
+278,finance term,tax bracket,7,4057,<p>tax bracket</p><br>,5
+278,finance term,fixed-rate mortgage,7,3305,<p>fixed-rate mortgage</p><br>,6
+278,finance term,home equity,7,2434,<p>home equity</p><br>,7
+278,finance term,revolving credit,7,2960,<p>revolving credit</p><br>,8
+278,finance term,vesting,5,10149,<p>vesting</p><br>,9
+278,finance term,retirement,7,3364,<p>retirement</p><br>,10
+278,finance term,stock options,7,3256,<p>stock options</p><br>,11
+278,finance term,inflation,7,2528,<p>inflation</p><br>,12
+278,finance term,private equity fund,7,3177,<p>private equity fund</p><br>,13
+278,finance term,interest rate,7,18388,<p>interest rate</p><br>,14
+278,finance term,Roth IRA,5,4679,<p>Roth IRA</p><br>,15
+278,finance term,whole life insurance,6,13267,<p>whole life insurance</p><br>,16
+278,self-rating,generalKnowledge,6,7900,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+278,self-rating,compareAmerican,5,9473,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+278,FLquiz,stocks,False,255791,NA,19
+278,FLquiz,interest,Fall,255791,NA,19
+278,FLquiz,mortgage,True,255791,NA,19
+278,FLquiz,inflation,Less,255791,NA,19
+278,FLquiz,savingsAccount,More than $102,255791,NA,19
+279,finance term,pre-rated stocks,1,4729,<p>pre-rated stocks</p><br>,2
+279,finance term,fixed-rate deduction,1,3875,<p>fixed-rate deduction</p><br>,3
+279,finance term,annualized credit,1,2838,<p>annualized credit</p><br>,4
+279,finance term,tax bracket,3,4871,<p>tax bracket</p><br>,5
+279,finance term,fixed-rate mortgage,3,5394,<p>fixed-rate mortgage</p><br>,6
+279,finance term,home equity,3,4504,<p>home equity</p><br>,7
+279,finance term,revolving credit,1,2611,<p>revolving credit</p><br>,8
+279,finance term,vesting,1,3219,<p>vesting</p><br>,9
+279,finance term,retirement,6,3346,<p>retirement</p><br>,10
+279,finance term,stock options,1,3043,<p>stock options</p><br>,11
+279,finance term,inflation,6,3804,<p>inflation</p><br>,12
+279,finance term,private equity fund,2,3572,<p>private equity fund</p><br>,13
+279,finance term,interest rate,7,5797,<p>interest rate</p><br>,14
+279,finance term,Roth IRA,1,2937,<p>Roth IRA</p><br>,15
+279,finance term,whole life insurance,3,4731,<p>whole life insurance</p><br>,16
+279,self-rating,generalKnowledge,3,6495,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+279,self-rating,compareAmerican,2,7039,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+279,FLquiz,stocks,False,107657,NA,19
+279,FLquiz,interest,Don't know,107657,NA,19
+279,FLquiz,mortgage,True,107657,NA,19
+279,FLquiz,inflation,Less,107657,NA,19
+279,FLquiz,savingsAccount,More than $102,107657,NA,19
+280,finance term,pre-rated stocks,3,5420,<p>pre-rated stocks</p><br>,4
+280,finance term,fixed-rate deduction,5,2973,<p>fixed-rate deduction</p><br>,5
+280,finance term,annualized credit,6,2691,<p>annualized credit</p><br>,6
+280,finance term,tax bracket,6,2804,<p>tax bracket</p><br>,7
+280,finance term,fixed-rate mortgage,7,2372,<p>fixed-rate mortgage</p><br>,8
+280,finance term,home equity,5,1956,<p>home equity</p><br>,9
+280,finance term,revolving credit,6,2516,<p>revolving credit</p><br>,10
+280,finance term,vesting,5,4124,<p>vesting</p><br>,11
+280,finance term,retirement,6,3138,<p>retirement</p><br>,12
+280,finance term,stock options,6,2063,<p>stock options</p><br>,13
+280,finance term,inflation,7,9292,<p>inflation</p><br>,14
+280,finance term,private equity fund,6,2413,<p>private equity fund</p><br>,15
+280,finance term,interest rate,7,2107,<p>interest rate</p><br>,16
+280,finance term,Roth IRA,3,3181,<p>Roth IRA</p><br>,17
+280,finance term,whole life insurance,6,1908,<p>whole life insurance</p><br>,18
+280,self-rating,generalKnowledge,5,4704,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+280,self-rating,compareAmerican,5,5916,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+280,FLquiz,stocks,False,62301,NA,19
+280,FLquiz,interest,Fall,62301,NA,19
+280,FLquiz,mortgage,True,62301,NA,19
+280,FLquiz,inflation,Less,62301,NA,19
+280,FLquiz,savingsAccount,More than $102,62301,NA,19
+281,finance term,pre-rated stocks,3,5300,<p>pre-rated stocks</p><br>,2
+281,finance term,fixed-rate deduction,3,8419,<p>fixed-rate deduction</p><br>,3
+281,finance term,annualized credit,3,3918,<p>annualized credit</p><br>,4
+281,finance term,tax bracket,6,6361,<p>tax bracket</p><br>,5
+281,finance term,fixed-rate mortgage,3,3868,<p>fixed-rate mortgage</p><br>,6
+281,finance term,home equity,3,3965,<p>home equity</p><br>,7
+281,finance term,revolving credit,4,6910,<p>revolving credit</p><br>,8
+281,finance term,vesting,1,8990,<p>vesting</p><br>,9
+281,finance term,retirement,6,3630,<p>retirement</p><br>,10
+281,finance term,stock options,3,2724,<p>stock options</p><br>,11
+281,finance term,inflation,5,3029,<p>inflation</p><br>,12
+281,finance term,private equity fund,2,3743,<p>private equity fund</p><br>,13
+281,finance term,interest rate,6,2627,<p>interest rate</p><br>,14
+281,finance term,Roth IRA,1,3485,<p>Roth IRA</p><br>,15
+281,finance term,whole life insurance,2,4390,<p>whole life insurance</p><br>,16
+281,self-rating,generalKnowledge,5,9805,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+281,self-rating,compareAmerican,5,4740,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+281,FLquiz,stocks,Don't know,157842,NA,19
+281,FLquiz,interest,Rise,157842,NA,19
+281,FLquiz,mortgage,True,157842,NA,19
+281,FLquiz,inflation,Less,157842,NA,19
+281,FLquiz,savingsAccount,More than $102,157842,NA,19
+282,finance term,pre-rated stocks,1,8107,<p>pre-rated stocks</p><br>,4
+282,finance term,fixed-rate deduction,1,4049,<p>fixed-rate deduction</p><br>,5
+282,finance term,annualized credit,4,6269,<p>annualized credit</p><br>,6
+282,finance term,tax bracket,2,5957,<p>tax bracket</p><br>,7
+282,finance term,fixed-rate mortgage,1,2875,<p>fixed-rate mortgage</p><br>,8
+282,finance term,home equity,5,2775,<p>home equity</p><br>,9
+282,finance term,revolving credit,5,3356,<p>revolving credit</p><br>,10
+282,finance term,vesting,2,2658,<p>vesting</p><br>,11
+282,finance term,retirement,5,6472,<p>retirement</p><br>,12
+282,finance term,stock options,1,2412,<p>stock options</p><br>,13
+282,finance term,inflation,6,3063,<p>inflation</p><br>,14
+282,finance term,private equity fund,3,3193,<p>private equity fund</p><br>,15
+282,finance term,interest rate,2,3319,<p>interest rate</p><br>,16
+282,finance term,Roth IRA,1,2565,<p>Roth IRA</p><br>,17
+282,finance term,whole life insurance,6,3271,<p>whole life insurance</p><br>,18
+282,self-rating,generalKnowledge,5,10583,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+282,self-rating,compareAmerican,5,5830,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+282,FLquiz,stocks,Don't know,154178,NA,19
+282,FLquiz,interest,Don't know,154178,NA,19
+282,FLquiz,mortgage,Don't know,154178,NA,19
+282,FLquiz,inflation,Less,154178,NA,19
+282,FLquiz,savingsAccount,More than $102,154178,NA,19
+283,finance term,pre-rated stocks,1,10188,<p>pre-rated stocks</p><br>,4
+283,finance term,fixed-rate deduction,3,7414,<p>fixed-rate deduction</p><br>,5
+283,finance term,annualized credit,3,5437,<p>annualized credit</p><br>,6
+283,finance term,tax bracket,7,4390,<p>tax bracket</p><br>,7
+283,finance term,fixed-rate mortgage,4,5079,<p>fixed-rate mortgage</p><br>,8
+283,finance term,home equity,2,7703,<p>home equity</p><br>,9
+283,finance term,revolving credit,2,8201,<p>revolving credit</p><br>,10
+283,finance term,vesting,1,4982,<p>vesting</p><br>,11
+283,finance term,retirement,7,4633,<p>retirement</p><br>,12
+283,finance term,stock options,1,5181,<p>stock options</p><br>,13
+283,finance term,inflation,7,4776,<p>inflation</p><br>,14
+283,finance term,private equity fund,1,4633,<p>private equity fund</p><br>,15
+283,finance term,interest rate,7,5794,<p>interest rate</p><br>,16
+283,finance term,Roth IRA,1,4136,<p>Roth IRA</p><br>,17
+283,finance term,whole life insurance,7,6267,<p>whole life insurance</p><br>,18
+283,self-rating,generalKnowledge,5,11692,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+283,self-rating,compareAmerican,7,12638,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+283,FLquiz,stocks,Don't know,93679,NA,19
+283,FLquiz,interest,Rise,93679,NA,19
+283,FLquiz,mortgage,True,93679,NA,19
+283,FLquiz,inflation,Same,93679,NA,19
+283,FLquiz,savingsAccount,Less than $102,93679,NA,19
+284,finance term,pre-rated stocks,1,6314,<p>pre-rated stocks</p><br>,2
+284,finance term,fixed-rate deduction,5,5108,<p>fixed-rate deduction</p><br>,3
+284,finance term,annualized credit,3,3936,<p>annualized credit</p><br>,4
+284,finance term,tax bracket,5,3498,<p>tax bracket</p><br>,5
+284,finance term,fixed-rate mortgage,6,3899,<p>fixed-rate mortgage</p><br>,6
+284,finance term,home equity,6,4532,<p>home equity</p><br>,7
+284,finance term,revolving credit,2,3419,<p>revolving credit</p><br>,8
+284,finance term,vesting,1,2228,<p>vesting</p><br>,9
+284,finance term,retirement,7,2336,<p>retirement</p><br>,10
+284,finance term,stock options,5,3132,<p>stock options</p><br>,11
+284,finance term,inflation,7,1965,<p>inflation</p><br>,12
+284,finance term,private equity fund,2,3465,<p>private equity fund</p><br>,13
+284,finance term,interest rate,7,2597,<p>interest rate</p><br>,14
+284,finance term,Roth IRA,1,3856,<p>Roth IRA</p><br>,15
+284,finance term,whole life insurance,5,3228,<p>whole life insurance</p><br>,16
+284,self-rating,generalKnowledge,3,4837,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+284,self-rating,compareAmerican,2,7873,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+284,FLquiz,stocks,Don't know,111986,NA,19
+284,FLquiz,interest,Don't know,111986,NA,19
+284,FLquiz,mortgage,True,111986,NA,19
+284,FLquiz,inflation,Less,111986,NA,19
+284,FLquiz,savingsAccount,More than $102,111986,NA,19
+285,finance term,pre-rated stocks,1,16402,<p>pre-rated stocks</p><br>,2
+285,finance term,fixed-rate deduction,6,19472,<p>fixed-rate deduction</p><br>,3
+285,finance term,annualized credit,2,31399,<p>annualized credit</p><br>,4
+285,finance term,tax bracket,6,20501,<p>tax bracket</p><br>,5
+285,finance term,fixed-rate mortgage,6,15224,<p>fixed-rate mortgage</p><br>,6
+285,finance term,home equity,6,24329,<p>home equity</p><br>,7
+285,finance term,revolving credit,2,35237,<p>revolving credit</p><br>,8
+285,finance term,vesting,3,16343,<p>vesting</p><br>,9
+285,finance term,retirement,7,2741,<p>retirement</p><br>,10
+285,finance term,stock options,5,2666,<p>stock options</p><br>,11
+285,finance term,inflation,7,2485,<p>inflation</p><br>,12
+285,finance term,private equity fund,1,17742,<p>private equity fund</p><br>,13
+285,finance term,interest rate,7,4669,<p>interest rate</p><br>,14
+285,finance term,Roth IRA,4,18092,<p>Roth IRA</p><br>,15
+285,finance term,whole life insurance,6,9539,<p>whole life insurance</p><br>,16
+285,self-rating,generalKnowledge,5,38009,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+285,self-rating,compareAmerican,7,8777,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+285,FLquiz,stocks,False,229446,NA,19
+285,FLquiz,interest,Rise,229446,NA,19
+285,FLquiz,mortgage,True,229446,NA,19
+285,FLquiz,inflation,Less,229446,NA,19
+285,FLquiz,savingsAccount,More than $102,229446,NA,19
+286,finance term,pre-rated stocks,2,13422,<p>pre-rated stocks</p><br>,2
+286,finance term,fixed-rate deduction,3,7242,<p>fixed-rate deduction</p><br>,3
+286,finance term,annualized credit,4,7494,<p>annualized credit</p><br>,4
+286,finance term,tax bracket,7,4626,<p>tax bracket</p><br>,5
+286,finance term,fixed-rate mortgage,7,5180,<p>fixed-rate mortgage</p><br>,6
+286,finance term,home equity,5,7664,<p>home equity</p><br>,7
+286,finance term,revolving credit,4,5805,<p>revolving credit</p><br>,8
+286,finance term,vesting,4,6106,<p>vesting</p><br>,9
+286,finance term,retirement,7,4390,<p>retirement</p><br>,10
+286,finance term,stock options,7,3962,<p>stock options</p><br>,11
+286,finance term,inflation,7,3654,<p>inflation</p><br>,12
+286,finance term,private equity fund,7,4033,<p>private equity fund</p><br>,13
+286,finance term,interest rate,7,6031,<p>interest rate</p><br>,14
+286,finance term,Roth IRA,5,6241,<p>Roth IRA</p><br>,15
+286,finance term,whole life insurance,6,4939,<p>whole life insurance</p><br>,16
+286,self-rating,generalKnowledge,5,28054,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+286,self-rating,compareAmerican,4,10039,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+286,FLquiz,stocks,Don't know,172250,NA,19
+286,FLquiz,interest,Rise,172250,NA,19
+286,FLquiz,mortgage,True,172250,NA,19
+286,FLquiz,inflation,Less,172250,NA,19
+286,FLquiz,savingsAccount,More than $102,172250,NA,19
+287,finance term,pre-rated stocks,1,9064,<p>pre-rated stocks</p><br>,4
+287,finance term,fixed-rate deduction,2,5981,<p>fixed-rate deduction</p><br>,5
+287,finance term,annualized credit,6,5447,<p>annualized credit</p><br>,6
+287,finance term,tax bracket,7,4800,<p>tax bracket</p><br>,7
+287,finance term,fixed-rate mortgage,7,4314,<p>fixed-rate mortgage</p><br>,8
+287,finance term,home equity,7,5014,<p>home equity</p><br>,9
+287,finance term,revolving credit,2,4815,<p>revolving credit</p><br>,10
+287,finance term,vesting,1,16249,<p>vesting</p><br>,11
+287,finance term,retirement,7,3632,<p>retirement</p><br>,12
+287,finance term,stock options,2,4748,<p>stock options</p><br>,13
+287,finance term,inflation,7,2698,<p>inflation</p><br>,14
+287,finance term,private equity fund,7,3831,<p>private equity fund</p><br>,15
+287,finance term,interest rate,7,2483,<p>interest rate</p><br>,16
+287,finance term,Roth IRA,1,4265,<p>Roth IRA</p><br>,17
+287,finance term,whole life insurance,7,3498,<p>whole life insurance</p><br>,18
+287,self-rating,generalKnowledge,6,8894,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+287,self-rating,compareAmerican,5,7500,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+287,FLquiz,stocks,Don't know,125001,NA,19
+287,FLquiz,interest,Don't know,125001,NA,19
+287,FLquiz,mortgage,True,125001,NA,19
+287,FLquiz,inflation,Less,125001,NA,19
+287,FLquiz,savingsAccount,More than $102,125001,NA,19
+288,finance term,pre-rated stocks,1,3661,<p>pre-rated stocks</p><br>,2
+288,finance term,fixed-rate deduction,1,2775,<p>fixed-rate deduction</p><br>,3
+288,finance term,annualized credit,2,2838,<p>annualized credit</p><br>,4
+288,finance term,tax bracket,2,2367,<p>tax bracket</p><br>,5
+288,finance term,fixed-rate mortgage,4,3366,<p>fixed-rate mortgage</p><br>,6
+288,finance term,home equity,4,3142,<p>home equity</p><br>,7
+288,finance term,revolving credit,3,2695,<p>revolving credit</p><br>,8
+288,finance term,vesting,2,2423,<p>vesting</p><br>,9
+288,finance term,retirement,7,3071,<p>retirement</p><br>,10
+288,finance term,stock options,2,2959,<p>stock options</p><br>,11
+288,finance term,inflation,6,1967,<p>inflation</p><br>,12
+288,finance term,private equity fund,3,3439,<p>private equity fund</p><br>,13
+288,finance term,interest rate,4,2431,<p>interest rate</p><br>,14
+288,finance term,Roth IRA,1,3599,<p>Roth IRA</p><br>,15
+288,finance term,whole life insurance,6,2831,<p>whole life insurance</p><br>,16
+288,self-rating,generalKnowledge,4,6854,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+288,self-rating,compareAmerican,3,5967,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+288,FLquiz,stocks,Don't know,91647,NA,19
+288,FLquiz,interest,Rise,91647,NA,19
+288,FLquiz,mortgage,Don't know,91647,NA,19
+288,FLquiz,inflation,Less,91647,NA,19
+288,FLquiz,savingsAccount,More than $102,91647,NA,19
+289,finance term,pre-rated stocks,2,8354,<p>pre-rated stocks</p><br>,4
+289,finance term,fixed-rate deduction,5,3196,<p>fixed-rate deduction</p><br>,5
+289,finance term,annualized credit,5,2852,<p>annualized credit</p><br>,6
+289,finance term,tax bracket,3,46820,<p>tax bracket</p><br>,7
+289,finance term,fixed-rate mortgage,6,3348,<p>fixed-rate mortgage</p><br>,8
+289,finance term,home equity,5,2163,<p>home equity</p><br>,9
+289,finance term,revolving credit,3,3484,<p>revolving credit</p><br>,10
+289,finance term,vesting,2,3332,<p>vesting</p><br>,11
+289,finance term,retirement,6,7844,<p>retirement</p><br>,12
+289,finance term,stock options,6,51572,<p>stock options</p><br>,13
+289,finance term,inflation,6,6996,<p>inflation</p><br>,14
+289,finance term,private equity fund,5,1982,<p>private equity fund</p><br>,15
+289,finance term,interest rate,6,7467,<p>interest rate</p><br>,16
+289,finance term,Roth IRA,2,3346,<p>Roth IRA</p><br>,17
+289,finance term,whole life insurance,5,2372,<p>whole life insurance</p><br>,18
+289,self-rating,generalKnowledge,5,4491,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+289,self-rating,compareAmerican,4,7923,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+289,FLquiz,stocks,True,134709,NA,19
+289,FLquiz,interest,Don't know,134709,NA,19
+289,FLquiz,mortgage,True,134709,NA,19
+289,FLquiz,inflation,Less,134709,NA,19
+289,FLquiz,savingsAccount,More than $102,134709,NA,19
+290,finance term,pre-rated stocks,3,6348,<p>pre-rated stocks</p><br>,4
+290,finance term,fixed-rate deduction,4,7342,<p>fixed-rate deduction</p><br>,5
+290,finance term,annualized credit,5,4161,<p>annualized credit</p><br>,6
+290,finance term,tax bracket,5,3787,<p>tax bracket</p><br>,7
+290,finance term,fixed-rate mortgage,6,3815,<p>fixed-rate mortgage</p><br>,8
+290,finance term,home equity,7,4770,<p>home equity</p><br>,9
+290,finance term,revolving credit,5,5410,<p>revolving credit</p><br>,10
+290,finance term,vesting,3,4160,<p>vesting</p><br>,11
+290,finance term,retirement,7,4017,<p>retirement</p><br>,12
+290,finance term,stock options,7,4151,<p>stock options</p><br>,13
+290,finance term,inflation,7,4276,<p>inflation</p><br>,14
+290,finance term,private equity fund,6,5617,<p>private equity fund</p><br>,15
+290,finance term,interest rate,7,4604,<p>interest rate</p><br>,16
+290,finance term,Roth IRA,2,4479,<p>Roth IRA</p><br>,17
+290,finance term,whole life insurance,6,4145,<p>whole life insurance</p><br>,18
+290,self-rating,generalKnowledge,7,10141,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+290,self-rating,compareAmerican,6,7468,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+290,FLquiz,stocks,False,138379,NA,19
+290,FLquiz,interest,Rise,138379,NA,19
+290,FLquiz,mortgage,False,138379,NA,19
+290,FLquiz,inflation,Less,138379,NA,19
+290,FLquiz,savingsAccount,More than $102,138379,NA,19
+333,finance term,pre-rated stocks,2,5320,<p>pre-rated stocks</p><br>,2
+333,finance term,fixed-rate deduction,3,2642,<p>fixed-rate deduction</p><br>,3
+333,finance term,annualized credit,5,2202,<p>annualized credit</p><br>,4
+333,finance term,tax bracket,4,2116,<p>tax bracket</p><br>,5
+333,finance term,fixed-rate mortgage,6,2460,<p>fixed-rate mortgage</p><br>,6
+333,finance term,home equity,5,2169,<p>home equity</p><br>,7
+333,finance term,revolving credit,5,1428,<p>revolving credit</p><br>,8
+333,finance term,vesting,1,2412,<p>vesting</p><br>,9
+333,finance term,retirement,7,1947,<p>retirement</p><br>,10
+333,finance term,stock options,6,1778,<p>stock options</p><br>,11
+333,finance term,inflation,7,1583,<p>inflation</p><br>,12
+333,finance term,private equity fund,5,2845,<p>private equity fund</p><br>,13
+333,finance term,interest rate,7,1956,<p>interest rate</p><br>,14
+333,finance term,Roth IRA,6,2121,<p>Roth IRA</p><br>,15
+333,finance term,whole life insurance,7,1982,<p>whole life insurance</p><br>,16
+333,self-rating,generalKnowledge,5,3699,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+333,self-rating,compareAmerican,5,4147,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+333,FLquiz,stocks,False,92552,NA,19
+333,FLquiz,interest,Don't know,92552,NA,19
+333,FLquiz,mortgage,True,92552,NA,19
+333,FLquiz,inflation,Less,92552,NA,19
+333,FLquiz,savingsAccount,More than $102,92552,NA,19
+371,finance term,pre-rated stocks,1,3713,<p>pre-rated stocks</p><br>,2
+371,finance term,fixed-rate deduction,5,2108,<p>fixed-rate deduction</p><br>,3
+371,finance term,annualized credit,3,2956,<p>annualized credit</p><br>,4
+371,finance term,tax bracket,1,2119,<p>tax bracket</p><br>,5
+371,finance term,fixed-rate mortgage,6,3259,<p>fixed-rate mortgage</p><br>,6
+371,finance term,home equity,1,2958,<p>home equity</p><br>,7
+371,finance term,revolving credit,6,2629,<p>revolving credit</p><br>,8
+371,finance term,vesting,1,3607,<p>vesting</p><br>,9
+371,finance term,retirement,7,2022,<p>retirement</p><br>,10
+371,finance term,stock options,3,3473,<p>stock options</p><br>,11
+371,finance term,inflation,5,2327,<p>inflation</p><br>,12
+371,finance term,private equity fund,1,3676,<p>private equity fund</p><br>,13
+371,finance term,interest rate,7,2684,<p>interest rate</p><br>,14
+371,finance term,Roth IRA,2,2174,<p>Roth IRA</p><br>,15
+371,finance term,whole life insurance,5,2275,<p>whole life insurance</p><br>,16
+371,self-rating,generalKnowledge,3,8693,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+371,self-rating,compareAmerican,5,3990,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+371,FLquiz,stocks,False,282345,NA,19
+371,FLquiz,interest,Don't know,282345,NA,19
+371,FLquiz,mortgage,True,282345,NA,19
+371,FLquiz,inflation,More,282345,NA,19
+371,FLquiz,savingsAccount,More than $102,282345,NA,19
+639,finance term,pre-rated stocks,2,5183,<p>pre-rated stocks</p><br>,2
+639,finance term,fixed-rate deduction,5,6534,<p>fixed-rate deduction</p><br>,3
+639,finance term,annualized credit,2,4343,<p>annualized credit</p><br>,4
+639,finance term,tax bracket,6,2247,<p>tax bracket</p><br>,5
+639,finance term,fixed-rate mortgage,5,2567,<p>fixed-rate mortgage</p><br>,6
+639,finance term,home equity,5,2559,<p>home equity</p><br>,7
+639,finance term,revolving credit,4,3215,<p>revolving credit</p><br>,8
+639,finance term,vesting,2,2607,<p>vesting</p><br>,9
+639,finance term,retirement,7,3151,<p>retirement</p><br>,10
+639,finance term,stock options,7,2607,<p>stock options</p><br>,11
+639,finance term,inflation,7,2503,<p>inflation</p><br>,12
+639,finance term,private equity fund,5,2487,<p>private equity fund</p><br>,13
+639,finance term,interest rate,7,2903,<p>interest rate</p><br>,14
+639,finance term,Roth IRA,1,4207,<p>Roth IRA</p><br>,15
+639,finance term,whole life insurance,6,2767,<p>whole life insurance</p><br>,16
+639,self-rating,generalKnowledge,5,12799,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+639,self-rating,compareAmerican,5,7143,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+639,FLquiz,stocks,False,65623,NA,19
+639,FLquiz,interest,Rise,65623,NA,19
+639,FLquiz,mortgage,True,65623,NA,19
+639,FLquiz,inflation,Less,65623,NA,19
+639,FLquiz,savingsAccount,More than $102,65623,NA,19
+666,finance term,pre-rated stocks,1,5407,<p>pre-rated stocks</p><br>,4
+666,finance term,fixed-rate deduction,2,4835,<p>fixed-rate deduction</p><br>,5
+666,finance term,annualized credit,5,13261,<p>annualized credit</p><br>,6
+666,finance term,tax bracket,6,8501,<p>tax bracket</p><br>,7
+666,finance term,fixed-rate mortgage,5,11397,<p>fixed-rate mortgage</p><br>,8
+666,finance term,home equity,2,45493,<p>home equity</p><br>,9
+666,finance term,revolving credit,1,15118,<p>revolving credit</p><br>,10
+666,finance term,vesting,5,133860,<p>vesting</p><br>,11
+666,finance term,retirement,6,19722,<p>retirement</p><br>,12
+666,finance term,stock options,1,89093,<p>stock options</p><br>,13
+666,finance term,inflation,5,4725,<p>inflation</p><br>,14
+666,finance term,private equity fund,1,106260,<p>private equity fund</p><br>,15
+666,finance term,interest rate,5,15065,<p>interest rate</p><br>,16
+666,finance term,Roth IRA,1,2301,<p>Roth IRA</p><br>,17
+666,finance term,whole life insurance,5,11202,<p>whole life insurance</p><br>,18
+666,self-rating,generalKnowledge,2,8107,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+666,self-rating,compareAmerican,3,63409,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+666,FLquiz,stocks,Don't know,341831,NA,19
+666,FLquiz,interest,Rise,341831,NA,19
+666,FLquiz,mortgage,True,341831,NA,19
+666,FLquiz,inflation,Less,341831,NA,19
+666,FLquiz,savingsAccount,More than $102,341831,NA,19
+709,finance term,pre-rated stocks,1,6974,<p>pre-rated stocks</p><br>,2
+709,finance term,fixed-rate deduction,1,6700,<p>fixed-rate deduction</p><br>,3
+709,finance term,annualized credit,1,4348,<p>annualized credit</p><br>,4
+709,finance term,tax bracket,7,18312,<p>tax bracket</p><br>,5
+709,finance term,fixed-rate mortgage,6,24700,<p>fixed-rate mortgage</p><br>,6
+709,finance term,home equity,7,3341,<p>home equity</p><br>,7
+709,finance term,revolving credit,5,20285,<p>revolving credit</p><br>,8
+709,finance term,vesting,1,5737,<p>vesting</p><br>,9
+709,finance term,retirement,7,3519,<p>retirement</p><br>,10
+709,finance term,stock options,7,3420,<p>stock options</p><br>,11
+709,finance term,inflation,6,3557,<p>inflation</p><br>,12
+709,finance term,private equity fund,2,8029,<p>private equity fund</p><br>,13
+709,finance term,interest rate,7,3107,<p>interest rate</p><br>,14
+709,finance term,Roth IRA,5,19615,<p>Roth IRA</p><br>,15
+709,finance term,whole life insurance,5,12311,<p>whole life insurance</p><br>,16
+709,self-rating,generalKnowledge,6,8363,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",17
+709,self-rating,compareAmerican,2,14882,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,18
+709,FLquiz,stocks,Don't know,247604,NA,19
+709,FLquiz,interest,Fall,247604,NA,19
+709,FLquiz,mortgage,Don't know,247604,NA,19
+709,FLquiz,inflation,Don't know,247604,NA,19
+709,FLquiz,savingsAccount,More than $102,247604,NA,19
+774,finance term,pre-rated stocks,2,5503,<p>pre-rated stocks</p><br>,4
+774,finance term,fixed-rate deduction,5,4334,<p>fixed-rate deduction</p><br>,5
+774,finance term,annualized credit,5,1776,<p>annualized credit</p><br>,6
+774,finance term,tax bracket,7,2751,<p>tax bracket</p><br>,7
+774,finance term,fixed-rate mortgage,6,3543,<p>fixed-rate mortgage</p><br>,8
+774,finance term,home equity,3,2719,<p>home equity</p><br>,9
+774,finance term,revolving credit,1,2288,<p>revolving credit</p><br>,10
+774,finance term,vesting,1,2008,<p>vesting</p><br>,11
+774,finance term,retirement,7,2295,<p>retirement</p><br>,12
+774,finance term,stock options,5,2391,<p>stock options</p><br>,13
+774,finance term,inflation,7,1328,<p>inflation</p><br>,14
+774,finance term,private equity fund,1,3080,<p>private equity fund</p><br>,15
+774,finance term,interest rate,7,1583,<p>interest rate</p><br>,16
+774,finance term,Roth IRA,1,1975,<p>Roth IRA</p><br>,17
+774,finance term,whole life insurance,5,1951,<p>whole life insurance</p><br>,18
+774,self-rating,generalKnowledge,5,3287,"<p>In general, how knowledgable would you say you are about personal finance?</p><br>",1
+774,self-rating,compareAmerican,4,4176,<p>How would you rate your general knowledge of personal finance compared to the average American?</p><br>,2
+774,FLquiz,stocks,Don't know,106328,NA,19
+774,FLquiz,interest,Fall,106328,NA,19
+774,FLquiz,mortgage,True,106328,NA,19
+774,FLquiz,inflation,Less,106328,NA,19
+774,FLquiz,savingsAccount,More than $102,106328,NA,19

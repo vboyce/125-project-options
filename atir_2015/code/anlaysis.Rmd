@@ -15,7 +15,7 @@ ParseJSONColumn <- function(x) {
     fromJSON(flatten = T)
 }
 dat_loc <- "atir_2015/data"
-raw <- read_csv(here(dat_loc, "pilot_B.csv")) %>% bind_rows(read_csv(here(dat_loc, "pilot_A.csv")))
+raw <- read_csv(here(dat_loc, "full_sample.csv")) #%>% bind_rows(read_csv(here(dat_loc, "pilot_A.csv")))
 
 
 processed <- raw %>% group_by(workerid) %>% 
@@ -40,7 +40,7 @@ quiz <- processed %>% filter(type=="FLquiz") %>%
     select(workerid, response, rt, stimulus, trial_index, type, question)
 
 all <- finance_terms %>% bind_rows(self_rating) %>% bind_rows(quiz) %>% arrange(workerid) %>% 
-  select(workerid, type, question, response, everything()) %>% write_csv(here(dat_loc, "pilot_data.csv"))
+  select(workerid, type, question, response, everything()) %>% write_csv(here(dat_loc, "full_data.csv"))
 ```
 
 Data description:

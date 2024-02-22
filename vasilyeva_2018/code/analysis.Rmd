@@ -10,14 +10,14 @@ library(here)
 library(jsonlite)
 
 raw_data_loc <- "vasilyeva_2018/data/"
-raw_raw <- read_csv(here(raw_data_loc, "raw_pilot_B.csv")) |> 
-  filter(StartDate!="Start Date") |> 
-  filter(!str_detect(StartDate, "ImportId")) |> 
+raw_raw <- read_csv(here(raw_data_loc, "raw_pilot_B.csv")) %>% 
+  filter(StartDate!="Start Date") %>% 
+  filter(!str_detect(StartDate, "ImportId")) %>% 
   select(-Status, -IPAddress, -Progress, -Finished, -starts_with("Recipient"),
          -ExternalReference, -starts_with("Location"), -DistributionChannel, -UserLanguage,
-         -`prolific-id`, -PROLIFIC_PID) |> 
-  mutate(StartDate=as.Date(StartDate)) |> 
-  #filter(StartDate > as.Date("2024-02-01")) |> 
+         -`prolific-id`, -PROLIFIC_PID) %>% 
+  mutate(StartDate=as.Date(StartDate)) %>% 
+  #filter(StartDate > as.Date("2024-02-01")) %>% 
   write_csv(here(raw_data_loc,"anon_pilot_B.csv"))
 ```
 
@@ -27,8 +27,8 @@ raw_dat <- read_csv(here(raw_data_loc, "anon_pilot_B.csv"), col_types=cols(.defa
 
 data <- raw_dat %>% 
   mutate(id = row_number()) %>% #create id row and bring it to the front
-  select(id, everything()) |> 
-  filter(Consent == "2") |> #consenting
+  select(id, everything()) %>% 
+  filter(Consent == "2") %>% #consenting
   # filter(Mch.z1 == 1,
   #        Mch.z2 == 1,
   #        Mch.d1 == 1,
@@ -48,7 +48,7 @@ data <- raw_dat %>%
                         "ResponseId",
                         "tableorder",
                         "cov"))) %>% 
-  pivot_longer(!c(id, task, moderator, starts_with("Comm"), Age, Gender), names_to = "question_type", values_to = "rating") |>  #turn table into longer
+  pivot_longer(!c(id, task, moderator, starts_with("Comm"), Age, Gender), names_to = "question_type", values_to = "rating") %>%  #turn table into longer
   mutate(presence_of_moderator = case_when(moderator == "drolyuyu" & grepl("d3", question_type) ~ "present", #create column indicating whether it was moderated or not
          moderator == "drolyuyu" & grepl("d4", question_type) ~ "present",
          moderator == "drolyuyu" & grepl("y3", question_type) ~ "present",
@@ -71,10 +71,10 @@ data <- raw_dat %>%
                                      grepl("CaTo", question_type) ~ "token",
                                      grepl("ExTo", question_type) ~ "token",
                                      grepl("Ty.CF", question_type) ~ "type",
-                                     grepl("To.CF", question_type) ~ "token")) |> 
+                                     grepl("To.CF", question_type) ~ "token")) %>% 
     mutate(rating=as.numeric(rating))
 
-data |> write_csv(here(raw_data_loc, "pilot_data.csv"))
+data %>% write_csv(here(raw_data_loc, "pilot_data.csv"))
 ```
 
 
@@ -104,27 +104,27 @@ but for the goodness of the rest of the code, we'll keep in the junk data just t
 ```{r}
 
 # how many participants total
-data |> distinct(id) |> nrow()
+data %>% distinct(id) %>% nrow()
 
 #make a data frame of participants who correctly answered all Mch questions
 # we do this by filtering for only the correct answers
 # and then checking if there are 8 rows / person (8 questions)
-all_correct <- data |> filter(str_detect(question_type, "Mch")) |> 
-  filter(rating==1) |> 
-  group_by(id) |> 
-  summarize(count=n()) |> 
+all_correct <- data %>% filter(str_detect(question_type, "Mch")) %>% 
+  filter(rating==1) %>% 
+  group_by(id) %>% 
+  summarize(count=n()) %>% 
   filter(count==8)
 
 # how many participants kept in?
-all_correct |> nrow()
+all_correct %>% nrow()
   
 
-data_filtered <- data |> #inner_join(all_correct) |> # you will want this in the real data, but to have both explanatory & causal include all the data for now
-  filter(!str_detect(question_type, "Mch")) |> #get rid of comp checks now
+data_filtered <- data %>% #inner_join(all_correct) %>% # you will want this in the real data, but to have both explanatory & causal include all the data for now
+  filter(!str_detect(question_type, "Mch")) %>% #get rid of comp checks now
   filter(!is.na(rating))
 
 #confirm filter
-data_filtered |> distinct(id) |> nrow()
+data_filtered %>% distinct(id) %>% nrow()
 
 ```
 
@@ -142,7 +142,7 @@ even though moderated and non-moderated relationships were equated for overall s
 # use ggplot to make a plot visualizing your data 
 # in a way that could be compared to Fig 2 in the paper
 
-data_filtered |> filter(causalexplanatoryCF %in% c("explanatory", "causal")) |> 
+data_filtered %>% filter(causalexplanatoryCF %in% c("explanatory", "causal")) %>% 
   ggplot(aes(x=presence_of_moderator, y=rating))+geom_jitter(width=.1, height=0)+
   stat_summary(fun.data="mean_cl_boot")+#mean + bootstrapped 95% CIs
   coord_cartesian(ylim=c(1,7))+
@@ -152,7 +152,7 @@ data_filtered |> filter(causalexplanatoryCF %in% c("explanatory", "causal")) |>
 
 ```{r}
 # run a linear model of the threeway interaction 
-mod <- lm(rating ~ presence_of_moderator * typetoken * causalexplanatoryCF, data=data_filtered |> filter(causalexplanatoryCF %in% c("explanatory", "causal")))
+mod <- lm(rating ~ presence_of_moderator * typetoken * causalexplanatoryCF, data=data_filtered %>% filter(causalexplanatoryCF %in% c("explanatory", "causal")))
 
 summary(mod)
 ```

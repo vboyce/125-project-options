@@ -1,0 +1,797 @@
+workerid,vignette,item_type,response,rt,trial_index
+537,crystal,non-cok,1,6891,3
+537,fish,non-cok,1,2779,5
+537,liquid helium,cok,1,3699,7
+537,glowing rock,cok,1,2687,9
+632,liquid helium,cok,1,5711,3
+632,glowing rock,cok,1,3359,5
+632,crystal,non-cok,1,3095,7
+632,fish,non-cok,1,7119,9
+545,glowing rock,cok,4,6163,3
+545,fish,non-cok,2,3996,5
+545,crystal,non-cok,4,1686,7
+545,liquid helium,cok,1,2334,9
+514,liquid helium,cok,1,8979,3
+514,crystal,non-cok,1,4415,5
+514,fish,non-cok,1,2262,7
+514,glowing rock,cok,1,3963,9
+454,liquid helium,cok,1,6870,3
+454,fish,non-cok,3,10367,5
+454,glowing rock,cok,6,3791,7
+454,crystal,non-cok,4,2487,9
+469,crystal,non-cok,1,24176,3
+469,liquid helium,cok,1,5220,5
+469,glowing rock,cok,2,5244,7
+469,fish,non-cok,1,5497,9
+486,fish,non-cok,1,7128,3
+486,crystal,non-cok,1,5923,5
+486,glowing rock,cok,1,7309,7
+486,liquid helium,cok,1,4012,9
+746,crystal,non-cok,1,7425,3
+746,liquid helium,cok,1,4712,5
+746,glowing rock,cok,2,13952,7
+746,fish,non-cok,1,4553,9
+595,crystal,non-cok,2,8358,3
+595,glowing rock,cok,4,2865,5
+595,fish,non-cok,4,2552,7
+595,liquid helium,cok,3,2184,9
+567,crystal,non-cok,1,14703,3
+567,glowing rock,cok,6,3316,5
+567,liquid helium,cok,7,2107,7
+567,fish,non-cok,2,2575,9
+645,crystal,non-cok,4,5276,3
+645,glowing rock,cok,2,4191,5
+645,fish,non-cok,3,2746,7
+645,liquid helium,cok,2,5044,9
+458,fish,non-cok,4,6072,3
+458,glowing rock,cok,6,3953,5
+458,crystal,non-cok,3,3839,7
+458,liquid helium,cok,3,3113,9
+625,liquid helium,cok,2,5526,3
+625,crystal,non-cok,3,15473,5
+625,fish,non-cok,4,16002,7
+625,glowing rock,cok,1,3782,9
+531,fish,non-cok,1,5482,3
+531,crystal,non-cok,1,5564,5
+531,liquid helium,cok,1,4468,7
+531,glowing rock,cok,2,3973,9
+192,crystal,non-cok,4,15560,3
+192,glowing rock,cok,4,5861,5
+192,liquid helium,cok,7,5109,7
+192,fish,non-cok,7,3077,9
+512,glowing rock,cok,1,3156,3
+512,crystal,non-cok,1,2534,5
+512,fish,non-cok,1,2047,7
+512,liquid helium,cok,1,1844,9
+504,crystal,non-cok,3,5118,3
+504,glowing rock,cok,6,2991,5
+504,liquid helium,cok,5,2799,7
+504,fish,non-cok,2,2678,9
+562,liquid helium,cok,5,5423,3
+562,fish,non-cok,5,5685,5
+562,glowing rock,cok,6,2202,7
+562,crystal,non-cok,5,1876,9
+623,fish,non-cok,4,72943,3
+623,crystal,non-cok,3,10262,5
+623,glowing rock,cok,3,8059,7
+623,liquid helium,cok,3,21734,9
+620,liquid helium,cok,4,12870,3
+620,glowing rock,cok,1,7416,5
+620,crystal,non-cok,1,4271,7
+620,fish,non-cok,4,4511,9
+635,fish,non-cok,1,5318,3
+635,glowing rock,cok,5,5150,5
+635,crystal,non-cok,2,3862,7
+635,liquid helium,cok,3,3338,9
+663,glowing rock,cok,1,8327,3
+663,fish,non-cok,2,7147,5
+663,liquid helium,cok,1,2802,7
+663,crystal,non-cok,1,1965,9
+583,fish,non-cok,2,10457,3
+583,glowing rock,cok,3,4046,5
+583,crystal,non-cok,1,3225,7
+583,liquid helium,cok,4,3661,9
+470,liquid helium,cok,1,6540,3
+470,glowing rock,cok,3,2969,5
+470,fish,non-cok,2,2687,7
+470,crystal,non-cok,4,2587,9
+646,glowing rock,cok,3,6135,3
+646,liquid helium,cok,1,5070,5
+646,fish,non-cok,1,4601,7
+646,crystal,non-cok,1,3228,9
+517,glowing rock,cok,4,12428,3
+517,crystal,non-cok,6,7454,5
+517,liquid helium,cok,4,2298,7
+517,fish,non-cok,2,2396,9
+495,fish,non-cok,1,10775,3
+495,glowing rock,cok,1,15096,5
+495,liquid helium,cok,1,5484,7
+495,crystal,non-cok,1,8146,9
+498,glowing rock,cok,1,5059,3
+498,fish,non-cok,1,4245,5
+498,crystal,non-cok,1,6015,7
+498,liquid helium,cok,1,2174,9
+451,fish,non-cok,2,9122,3
+451,glowing rock,cok,6,3600,5
+451,crystal,non-cok,3,4790,7
+451,liquid helium,cok,6,5367,9
+605,fish,non-cok,2,4731,3
+605,crystal,non-cok,2,1694,5
+605,liquid helium,cok,3,9013,7
+605,glowing rock,cok,5,1686,9
+176,glowing rock,cok,2,6913,3
+176,fish,non-cok,2,3530,5
+176,crystal,non-cok,1,3784,7
+176,liquid helium,cok,3,2281,9
+503,liquid helium,cok,1,8770,3
+503,crystal,non-cok,1,5162,5
+503,glowing rock,cok,7,1438,7
+503,fish,non-cok,4,3259,9
+571,fish,non-cok,1,7698,3
+571,crystal,non-cok,1,3737,5
+571,glowing rock,cok,1,4752,7
+571,liquid helium,cok,1,3665,9
+525,liquid helium,cok,1,7398,3
+525,glowing rock,cok,2,3633,5
+525,fish,non-cok,2,4115,7
+525,crystal,non-cok,1,5496,9
+593,crystal,non-cok,2,8529,3
+593,glowing rock,cok,3,7486,5
+593,fish,non-cok,1,3408,7
+593,liquid helium,cok,1,3871,9
+196,fish,non-cok,1,28118,3
+196,crystal,non-cok,1,8127,5
+196,liquid helium,cok,2,5599,7
+196,glowing rock,cok,4,8303,9
+558,liquid helium,cok,1,9045,3
+558,glowing rock,cok,2,4319,5
+558,fish,non-cok,2,8647,7
+558,crystal,non-cok,1,3369,9
+500,liquid helium,cok,2,9867,3
+500,glowing rock,cok,4,6181,5
+500,fish,non-cok,1,3535,7
+500,crystal,non-cok,3,8304,9
+665,glowing rock,cok,1,7681,3
+665,crystal,non-cok,1,4233,5
+665,liquid helium,cok,2,3647,7
+665,fish,non-cok,1,3477,9
+619,liquid helium,cok,5,8826,3
+619,fish,non-cok,1,4581,5
+619,crystal,non-cok,4,2344,7
+619,glowing rock,cok,5,3048,9
+464,glowing rock,cok,2,6094,3
+464,liquid helium,cok,1,2266,5
+464,fish,non-cok,1,4347,7
+464,crystal,non-cok,1,2613,9
+493,fish,non-cok,5,18757,3
+493,liquid helium,cok,3,7175,5
+493,glowing rock,cok,4,10134,7
+493,crystal,non-cok,1,5149,9
+551,crystal,non-cok,1,7317,3
+551,liquid helium,cok,1,3489,5
+551,glowing rock,cok,1,2641,7
+551,fish,non-cok,1,3829,9
+491,fish,non-cok,2,10203,3
+491,liquid helium,cok,1,6346,5
+491,glowing rock,cok,1,3254,7
+491,crystal,non-cok,1,4228,9
+462,fish,non-cok,1,4515,3
+462,glowing rock,cok,1,3619,5
+462,liquid helium,cok,1,3152,7
+462,crystal,non-cok,1,3356,9
+479,crystal,non-cok,3,6530,3
+479,glowing rock,cok,6,2909,5
+479,liquid helium,cok,6,5287,7
+479,fish,non-cok,2,4585,9
+568,crystal,non-cok,1,4481,3
+568,glowing rock,cok,1,3222,5
+568,fish,non-cok,1,2333,7
+568,liquid helium,cok,1,6437,9
+465,crystal,non-cok,1,8796,3
+465,fish,non-cok,1,4396,5
+465,glowing rock,cok,1,9320,7
+465,liquid helium,cok,1,3591,9
+526,liquid helium,cok,1,6369,3
+526,crystal,non-cok,1,4178,5
+526,glowing rock,cok,1,3399,7
+526,fish,non-cok,1,7596,9
+471,liquid helium,cok,1,13814,3
+471,crystal,non-cok,1,4287,5
+471,fish,non-cok,1,2346,7
+471,glowing rock,cok,1,2721,9
+589,glowing rock,cok,5,5671,3
+589,fish,non-cok,6,2191,5
+589,liquid helium,cok,6,2407,7
+589,crystal,non-cok,6,2607,9
+548,glowing rock,cok,4,7637,3
+548,liquid helium,cok,1,4345,5
+548,crystal,non-cok,3,2081,7
+548,fish,non-cok,3,2877,9
+507,crystal,non-cok,5,8030,3
+507,fish,non-cok,2,7007,5
+507,glowing rock,cok,5,3646,7
+507,liquid helium,cok,4,4300,9
+564,fish,non-cok,5,72963,3
+564,liquid helium,cok,5,6400,5
+564,glowing rock,cok,2,10325,7
+564,crystal,non-cok,1,5080,9
+518,crystal,non-cok,1,4271,3
+518,fish,non-cok,1,4195,5
+518,liquid helium,cok,1,3043,7
+518,glowing rock,cok,2,2771,9
+627,liquid helium,cok,3,17895,3
+627,glowing rock,cok,5,21772,5
+627,fish,non-cok,2,10284,7
+627,crystal,non-cok,6,13018,9
+461,fish,non-cok,2,9711,3
+461,glowing rock,cok,4,4531,5
+461,liquid helium,cok,1,5381,7
+461,crystal,non-cok,5,3427,9
+476,crystal,non-cok,3,3307,3
+476,liquid helium,cok,3,4263,5
+476,fish,non-cok,3,4569,7
+476,glowing rock,cok,5,2121,9
+655,crystal,non-cok,1,5459,3
+655,glowing rock,cok,5,2971,5
+655,fish,non-cok,3,2183,7
+655,liquid helium,cok,5,2635,9
+582,liquid helium,cok,3,5801,3
+582,fish,non-cok,5,4136,5
+582,crystal,non-cok,2,2639,7
+582,glowing rock,cok,6,1730,9
+188,glowing rock,cok,2,4470,3
+188,fish,non-cok,2,7855,5
+188,liquid helium,cok,1,2283,7
+188,crystal,non-cok,3,1744,9
+473,liquid helium,cok,1,8758,3
+473,crystal,non-cok,2,6424,5
+473,fish,non-cok,1,5175,7
+473,glowing rock,cok,2,8169,9
+631,glowing rock,cok,1,19653,3
+631,fish,non-cok,3,14116,5
+631,crystal,non-cok,2,11169,7
+631,liquid helium,cok,1,14553,9
+577,glowing rock,cok,6,13949,3
+577,crystal,non-cok,6,9262,5
+577,fish,non-cok,6,4318,7
+577,liquid helium,cok,5,6349,9
+193,fish,non-cok,1,7527,3
+193,crystal,non-cok,1,7556,5
+193,glowing rock,cok,1,7794,7
+193,liquid helium,cok,1,3805,9
+502,fish,non-cok,2,20140,3
+502,liquid helium,cok,1,5279,5
+502,crystal,non-cok,2,2897,7
+502,glowing rock,cok,2,5431,9
+524,glowing rock,cok,1,7773,3
+524,fish,non-cok,1,2585,5
+524,crystal,non-cok,1,2575,7
+524,liquid helium,cok,1,2326,9
+552,glowing rock,cok,5,5310,3
+552,crystal,non-cok,4,8295,5
+552,liquid helium,cok,6,5880,7
+552,fish,non-cok,6,3372,9
+554,liquid helium,cok,1,4462,3
+554,glowing rock,cok,2,3399,5
+554,crystal,non-cok,1,3943,7
+554,fish,non-cok,3,3919,9
+606,crystal,non-cok,1,6300,3
+606,glowing rock,cok,1,3124,5
+606,fish,non-cok,3,4561,7
+606,liquid helium,cok,3,1962,9
+588,liquid helium,cok,1,4827,3
+588,glowing rock,cok,1,3105,5
+588,fish,non-cok,1,2984,7
+588,crystal,non-cok,1,4801,9
+505,liquid helium,cok,1,8722,3
+505,fish,non-cok,1,6570,5
+505,glowing rock,cok,1,3972,7
+505,crystal,non-cok,1,5128,9
+616,liquid helium,cok,5,5200,3
+616,fish,non-cok,4,3422,5
+616,glowing rock,cok,5,3327,7
+616,crystal,non-cok,3,4030,9
+521,crystal,non-cok,3,8285,3
+521,glowing rock,cok,3,6100,5
+521,liquid helium,cok,1,8070,7
+521,fish,non-cok,2,5725,9
+602,glowing rock,cok,2,6982,3
+602,fish,non-cok,2,3850,5
+602,liquid helium,cok,3,3611,7
+602,crystal,non-cok,2,2091,9
+610,glowing rock,cok,1,6888,3
+610,crystal,non-cok,1,6898,5
+610,fish,non-cok,1,3789,7
+610,liquid helium,cok,1,10421,9
+640,fish,non-cok,3,4941,3
+640,glowing rock,cok,3,6882,5
+640,liquid helium,cok,3,4015,7
+640,crystal,non-cok,2,2425,9
+515,glowing rock,cok,3,4982,3
+515,fish,non-cok,4,5831,5
+515,liquid helium,cok,5,5639,7
+515,crystal,non-cok,5,4038,9
+599,fish,non-cok,6,7897,3
+599,glowing rock,cok,5,2983,5
+599,crystal,non-cok,2,4436,7
+599,liquid helium,cok,2,4836,9
+570,fish,non-cok,3,7136,3
+570,glowing rock,cok,4,1946,5
+570,crystal,non-cok,2,2211,7
+570,liquid helium,cok,2,3389,9
+186,glowing rock,cok,5,5932,3
+186,crystal,non-cok,3,3501,5
+186,liquid helium,cok,3,2517,7
+186,fish,non-cok,2,3459,9
+594,liquid helium,cok,1,6639,3
+594,fish,non-cok,1,5281,5
+594,glowing rock,cok,1,5722,7
+594,crystal,non-cok,1,5629,9
+614,liquid helium,cok,1,8269,3
+614,glowing rock,cok,1,5834,5
+614,fish,non-cok,1,4264,7
+614,crystal,non-cok,1,4147,9
+509,glowing rock,cok,2,8175,3
+509,crystal,non-cok,1,3931,5
+509,fish,non-cok,3,15759,7
+509,liquid helium,cok,1,11911,9
+544,glowing rock,cok,1,12076,3
+544,crystal,non-cok,1,6241,5
+544,fish,non-cok,3,26819,7
+544,liquid helium,cok,1,14722,9
+747,liquid helium,cok,1,28746,3
+747,fish,non-cok,1,28195,5
+747,crystal,non-cok,1,10173,7
+747,glowing rock,cok,2,14665,9
+473,crystal,non-cok,2,6667,3
+473,liquid helium,cok,3,4553,5
+473,fish,non-cok,3,3500,7
+473,glowing rock,cok,5,4252,9
+603,fish,non-cok,2,8933,3
+603,liquid helium,cok,1,4448,5
+603,crystal,non-cok,1,4461,7
+603,glowing rock,cok,2,3150,9
+638,crystal,non-cok,3,9684,3
+638,fish,non-cok,3,6457,5
+638,glowing rock,cok,3,10678,7
+638,liquid helium,cok,5,4315,9
+642,glowing rock,cok,2,3853,3
+642,liquid helium,cok,1,3662,5
+642,fish,non-cok,1,3838,7
+642,crystal,non-cok,1,1541,9
+492,glowing rock,cok,5,6615,3
+492,crystal,non-cok,5,5351,5
+492,liquid helium,cok,3,1854,7
+492,fish,non-cok,2,4687,9
+579,crystal,non-cok,1,5323,3
+579,glowing rock,cok,5,6374,5
+579,fish,non-cok,2,2829,7
+579,liquid helium,cok,6,1643,9
+630,crystal,non-cok,1,12993,3
+630,liquid helium,cok,1,26014,5
+630,glowing rock,cok,1,12850,7
+630,fish,non-cok,1,2065,9
+613,crystal,non-cok,2,6885,3
+613,fish,non-cok,2,3770,5
+613,liquid helium,cok,1,4941,7
+613,glowing rock,cok,2,2563,9
+477,glowing rock,cok,1,6885,3
+477,fish,non-cok,2,5943,5
+477,liquid helium,cok,3,5744,7
+477,crystal,non-cok,1,11071,9
+201,crystal,non-cok,1,12661,3
+201,fish,non-cok,1,34099,5
+201,liquid helium,cok,1,2223,7
+201,glowing rock,cok,2,2039,9
+636,glowing rock,cok,2,6794,3
+636,crystal,non-cok,1,8215,5
+636,fish,non-cok,2,4876,7
+636,liquid helium,cok,2,5039,9
+490,crystal,non-cok,2,5457,3
+490,fish,non-cok,2,4547,5
+490,glowing rock,cok,4,2272,7
+490,liquid helium,cok,4,1910,9
+455,liquid helium,cok,2,7338,3
+455,fish,non-cok,3,4598,5
+455,crystal,non-cok,4,4280,7
+455,glowing rock,cok,6,3967,9
+651,fish,non-cok,4,3470,3
+651,glowing rock,cok,6,3903,5
+651,liquid helium,cok,5,3299,7
+651,crystal,non-cok,6,4055,9
+555,crystal,non-cok,5,3486,3
+555,fish,non-cok,2,2998,5
+555,liquid helium,cok,1,2277,7
+555,glowing rock,cok,2,2230,9
+459,fish,non-cok,1,13972,3
+459,liquid helium,cok,1,5012,5
+459,crystal,non-cok,1,1706,7
+459,glowing rock,cok,2,3489,9
+592,liquid helium,cok,4,6723,3
+592,crystal,non-cok,6,2766,5
+592,glowing rock,cok,5,4275,7
+592,fish,non-cok,2,5175,9
+580,glowing rock,cok,1,6542,3
+580,liquid helium,cok,1,4243,5
+580,fish,non-cok,1,3738,7
+580,crystal,non-cok,1,3289,9
+547,crystal,non-cok,1,10572,3
+547,liquid helium,cok,2,2671,5
+547,fish,non-cok,1,2656,7
+547,glowing rock,cok,3,1746,9
+487,crystal,non-cok,2,8289,3
+487,liquid helium,cok,2,10227,5
+487,glowing rock,cok,4,3776,7
+487,fish,non-cok,1,3454,9
+591,crystal,non-cok,2,6872,3
+591,glowing rock,cok,1,5047,5
+591,liquid helium,cok,2,4127,7
+591,fish,non-cok,1,4861,9
+542,fish,non-cok,1,13629,3
+542,glowing rock,cok,5,6609,5
+542,crystal,non-cok,1,9609,7
+542,liquid helium,cok,2,17823,9
+488,liquid helium,cok,1,12948,3
+488,glowing rock,cok,1,6184,5
+488,fish,non-cok,4,20439,7
+488,crystal,non-cok,1,8604,9
+449,fish,non-cok,2,12535,3
+449,liquid helium,cok,1,3421,5
+449,crystal,non-cok,1,3241,7
+449,glowing rock,cok,1,4190,9
+576,liquid helium,cok,4,20768,3
+576,crystal,non-cok,4,3717,5
+576,fish,non-cok,4,4511,7
+576,glowing rock,cok,4,4522,9
+534,crystal,non-cok,3,6518,3
+534,glowing rock,cok,3,3582,5
+534,liquid helium,cok,4,2503,7
+534,fish,non-cok,2,4742,9
+513,glowing rock,cok,2,14454,3
+513,fish,non-cok,1,3954,5
+513,crystal,non-cok,1,4606,7
+513,liquid helium,cok,2,8053,9
+565,crystal,non-cok,1,10687,3
+565,liquid helium,cok,2,1939,5
+565,glowing rock,cok,5,3419,7
+565,fish,non-cok,2,2511,9
+543,liquid helium,cok,1,5652,3
+543,fish,non-cok,1,5427,5
+543,crystal,non-cok,1,5653,7
+543,glowing rock,cok,1,4733,9
+598,liquid helium,cok,1,5254,3
+598,fish,non-cok,1,4219,5
+598,glowing rock,cok,3,2645,7
+598,crystal,non-cok,1,5127,9
+578,glowing rock,cok,3,4670,3
+578,crystal,non-cok,2,1973,5
+578,liquid helium,cok,1,4511,7
+578,fish,non-cok,4,1927,9
+652,liquid helium,cok,3,10428,3
+652,glowing rock,cok,2,6544,5
+652,crystal,non-cok,1,6651,7
+652,fish,non-cok,6,2958,9
+506,fish,non-cok,1,5444,3
+506,crystal,non-cok,1,2672,5
+506,liquid helium,cok,1,2085,7
+506,glowing rock,cok,1,2222,9
+522,glowing rock,cok,4,38359,3
+522,crystal,non-cok,2,6383,5
+522,liquid helium,cok,1,5456,7
+522,fish,non-cok,3,4568,9
+622,crystal,non-cok,1,4838,3
+622,liquid helium,cok,1,5207,5
+622,glowing rock,cok,1,3623,7
+622,fish,non-cok,1,3739,9
+528,fish,non-cok,2,6851,3
+528,liquid helium,cok,1,5462,5
+528,crystal,non-cok,1,7243,7
+528,glowing rock,cok,1,3627,9
+611,crystal,non-cok,2,13165,3
+611,fish,non-cok,1,8422,5
+611,glowing rock,cok,4,9260,7
+611,liquid helium,cok,1,6759,9
+519,crystal,non-cok,5,5275,3
+519,glowing rock,cok,5,7612,5
+519,liquid helium,cok,4,14160,7
+519,fish,non-cok,5,11207,9
+501,glowing rock,cok,2,5974,3
+501,fish,non-cok,5,9562,5
+501,crystal,non-cok,3,2982,7
+501,liquid helium,cok,1,3080,9
+581,crystal,non-cok,1,3333,3
+581,liquid helium,cok,2,8343,5
+581,glowing rock,cok,2,5024,7
+581,fish,non-cok,1,2989,9
+481,fish,non-cok,1,7262,3
+481,glowing rock,cok,2,5535,5
+481,crystal,non-cok,4,6622,7
+481,liquid helium,cok,5,5203,9
+628,crystal,non-cok,2,17567,3
+628,fish,non-cok,1,4799,5
+628,glowing rock,cok,3,3343,7
+628,liquid helium,cok,3,3783,9
+516,liquid helium,cok,1,4035,3
+516,fish,non-cok,2,35340,5
+516,crystal,non-cok,1,6983,7
+516,glowing rock,cok,1,4179,9
+629,glowing rock,cok,1,8360,3
+629,fish,non-cok,1,20812,5
+629,crystal,non-cok,3,7475,7
+629,liquid helium,cok,2,9550,9
+539,fish,non-cok,2,10023,3
+539,crystal,non-cok,3,1275,5
+539,glowing rock,cok,2,2183,7
+539,liquid helium,cok,2,2395,9
+773,crystal,non-cok,1,5164,3
+773,glowing rock,cok,1,3584,5
+773,liquid helium,cok,1,2571,7
+773,fish,non-cok,1,2495,9
+586,glowing rock,cok,4,18219,3
+586,fish,non-cok,3,9614,5
+586,crystal,non-cok,2,10417,7
+586,liquid helium,cok,5,9093,9
+557,fish,non-cok,2,8151,3
+557,glowing rock,cok,4,3704,5
+557,liquid helium,cok,4,2616,7
+557,crystal,non-cok,1,2901,9
+484,crystal,non-cok,2,4311,3
+484,glowing rock,cok,1,4966,5
+484,fish,non-cok,1,2559,7
+484,liquid helium,cok,1,3463,9
+187,glowing rock,cok,3,5470,3
+187,crystal,non-cok,1,4015,5
+187,liquid helium,cok,1,4894,7
+187,fish,non-cok,1,2638,9
+560,crystal,non-cok,1,6267,3
+560,fish,non-cok,1,2846,5
+560,liquid helium,cok,1,8120,7
+560,glowing rock,cok,1,2666,9
+643,liquid helium,cok,5,42788,3
+643,crystal,non-cok,5,37572,5
+643,glowing rock,cok,6,10168,7
+643,fish,non-cok,3,12213,9
+546,glowing rock,cok,1,5843,3
+546,liquid helium,cok,1,2373,5
+546,fish,non-cok,2,2673,7
+546,crystal,non-cok,1,2763,9
+541,fish,non-cok,4,11001,3
+541,glowing rock,cok,3,14780,5
+541,crystal,non-cok,1,4535,7
+541,liquid helium,cok,1,2237,9
+460,liquid helium,cok,4,9645,3
+460,fish,non-cok,5,5790,5
+460,crystal,non-cok,3,3846,7
+460,glowing rock,cok,2,6223,9
+608,liquid helium,cok,3,22184,3
+608,crystal,non-cok,2,9208,5
+608,fish,non-cok,2,3333,7
+608,glowing rock,cok,2,4179,9
+587,crystal,non-cok,1,3058,3
+587,liquid helium,cok,1,2878,5
+587,fish,non-cok,1,2726,7
+587,glowing rock,cok,1,2908,9
+637,crystal,non-cok,1,7169,3
+637,fish,non-cok,4,17528,5
+637,glowing rock,cok,2,7323,7
+637,liquid helium,cok,1,18942,9
+585,crystal,non-cok,1,5915,3
+585,fish,non-cok,1,3265,5
+585,liquid helium,cok,1,3716,7
+585,glowing rock,cok,1,7518,9
+194,crystal,non-cok,4,7971,3
+194,liquid helium,cok,2,7955,5
+194,glowing rock,cok,2,6288,7
+194,fish,non-cok,5,2226,9
+668,fish,non-cok,1,6700,3
+668,glowing rock,cok,2,6598,5
+668,crystal,non-cok,3,7781,7
+668,liquid helium,cok,1,4046,9
+536,glowing rock,cok,1,7216,3
+536,crystal,non-cok,2,5041,5
+536,fish,non-cok,1,5772,7
+536,liquid helium,cok,1,3055,9
+570,crystal,non-cok,1,9062,3
+570,liquid helium,cok,1,4018,5
+570,glowing rock,cok,1,3390,7
+570,fish,non-cok,1,4835,9
+615,crystal,non-cok,2,6055,3
+615,glowing rock,cok,3,1863,5
+615,fish,non-cok,5,2973,7
+615,liquid helium,cok,5,1630,9
+612,glowing rock,cok,1,3632,3
+612,fish,non-cok,3,4221,5
+612,crystal,non-cok,1,4593,7
+612,liquid helium,cok,1,3261,9
+561,fish,non-cok,1,14591,3
+561,liquid helium,cok,2,11762,5
+561,glowing rock,cok,1,5132,7
+561,crystal,non-cok,3,15258,9
+775,glowing rock,cok,3,7608,3
+775,crystal,non-cok,3,4444,5
+775,liquid helium,cok,5,4420,7
+775,fish,non-cok,3,2650,9
+563,glowing rock,cok,1,6128,3
+563,liquid helium,cok,1,3787,5
+563,fish,non-cok,1,4652,7
+563,crystal,non-cok,3,7677,9
+653,crystal,non-cok,1,42219,3
+653,glowing rock,cok,2,3569,5
+653,fish,non-cok,1,4271,7
+653,liquid helium,cok,2,3791,9
+553,liquid helium,cok,1,13078,3
+553,glowing rock,cok,2,8378,5
+553,fish,non-cok,1,3371,7
+553,crystal,non-cok,1,2823,9
+533,crystal,non-cok,1,4648,3
+533,fish,non-cok,1,5593,5
+533,glowing rock,cok,1,3736,7
+533,liquid helium,cok,1,3566,9
+590,glowing rock,cok,2,7366,3
+590,liquid helium,cok,1,3966,5
+590,crystal,non-cok,1,4336,7
+590,fish,non-cok,3,3396,9
+494,liquid helium,cok,4,16452,3
+494,fish,non-cok,5,7732,5
+494,glowing rock,cok,3,4782,7
+494,crystal,non-cok,2,4484,9
+634,fish,non-cok,1,7733,3
+634,glowing rock,cok,1,4898,5
+634,crystal,non-cok,1,1922,7
+634,liquid helium,cok,1,5241,9
+633,glowing rock,cok,5,4923,3
+633,liquid helium,cok,2,3612,5
+633,fish,non-cok,3,2417,7
+633,crystal,non-cok,5,2100,9
+485,glowing rock,cok,2,21174,3
+485,fish,non-cok,3,5647,5
+485,liquid helium,cok,1,3103,7
+485,crystal,non-cok,1,1927,9
+641,glowing rock,cok,2,4926,3
+641,liquid helium,cok,4,6278,5
+641,crystal,non-cok,3,5452,7
+641,fish,non-cok,1,4887,9
+523,crystal,non-cok,1,11140,3
+523,glowing rock,cok,1,4645,5
+523,fish,non-cok,1,2557,7
+523,liquid helium,cok,1,3101,9
+609,glowing rock,cok,5,10323,3
+609,fish,non-cok,2,5862,5
+609,liquid helium,cok,4,7624,7
+609,crystal,non-cok,1,9908,9
+566,glowing rock,cok,2,7745,3
+566,liquid helium,cok,2,2621,5
+566,fish,non-cok,1,2061,7
+566,crystal,non-cok,6,1920,9
+549,glowing rock,cok,2,10575,3
+549,liquid helium,cok,2,2630,5
+549,crystal,non-cok,1,4820,7
+549,fish,non-cok,2,5606,9
+607,glowing rock,cok,1,7875,3
+607,fish,non-cok,3,6023,5
+607,liquid helium,cok,6,5165,7
+607,crystal,non-cok,2,4905,9
+480,liquid helium,cok,3,12537,3
+480,glowing rock,cok,4,6993,5
+480,fish,non-cok,2,4631,7
+480,crystal,non-cok,3,4684,9
+601,fish,non-cok,3,5801,3
+601,crystal,non-cok,2,3132,5
+601,glowing rock,cok,3,3797,7
+601,liquid helium,cok,1,2909,9
+626,liquid helium,cok,1,14011,3
+626,crystal,non-cok,2,6670,5
+626,glowing rock,cok,3,6663,7
+626,fish,non-cok,2,5486,9
+510,glowing rock,cok,2,5999,3
+510,fish,non-cok,1,6245,5
+510,crystal,non-cok,5,13782,7
+510,liquid helium,cok,3,8627,9
+597,glowing rock,cok,2,14779,3
+597,crystal,non-cok,2,2611,5
+597,liquid helium,cok,6,3574,7
+597,fish,non-cok,1,3903,9
+456,glowing rock,cok,2,7027,3
+456,fish,non-cok,2,4208,5
+456,crystal,non-cok,2,3988,7
+456,liquid helium,cok,2,3005,9
+508,crystal,non-cok,3,5914,3
+508,glowing rock,cok,4,3613,5
+508,fish,non-cok,2,8159,7
+508,liquid helium,cok,4,5403,9
+527,fish,non-cok,5,6541,3
+527,crystal,non-cok,2,6143,5
+527,liquid helium,cok,7,2967,7
+527,glowing rock,cok,6,5551,9
+532,crystal,non-cok,2,8095,3
+532,glowing rock,cok,1,4583,5
+532,liquid helium,cok,1,5183,7
+532,fish,non-cok,2,4225,9
+474,fish,non-cok,6,11061,3
+474,liquid helium,cok,3,6512,5
+474,crystal,non-cok,3,3998,7
+474,glowing rock,cok,5,3274,9
+556,crystal,non-cok,2,13621,3
+556,fish,non-cok,1,5216,5
+556,liquid helium,cok,1,3137,7
+556,glowing rock,cok,1,4739,9
+584,crystal,non-cok,1,6230,3
+584,liquid helium,cok,7,4300,5
+584,glowing rock,cok,7,2653,7
+584,fish,non-cok,3,8231,9
+772,fish,non-cok,1,17306,3
+772,glowing rock,cok,1,9419,5
+772,crystal,non-cok,1,7805,7
+772,liquid helium,cok,1,5669,9
+538,crystal,non-cok,3,24843,3
+538,fish,non-cok,4,13243,5
+538,liquid helium,cok,2,5752,7
+538,glowing rock,cok,3,5857,9
+575,crystal,non-cok,2,5665,3
+575,fish,non-cok,2,3101,5
+575,liquid helium,cok,3,4385,7
+575,glowing rock,cok,2,6043,9
+621,glowing rock,cok,5,4411,3
+621,crystal,non-cok,3,2064,5
+621,liquid helium,cok,4,2221,7
+621,fish,non-cok,2,3506,9
+452,liquid helium,cok,4,22442,3
+452,crystal,non-cok,1,4208,5
+452,fish,non-cok,1,3048,7
+452,glowing rock,cok,1,6688,9
+572,glowing rock,cok,3,5097,3
+572,crystal,non-cok,2,5080,5
+572,liquid helium,cok,3,3107,7
+572,fish,non-cok,4,2528,9
+573,crystal,non-cok,1,5862,3
+573,liquid helium,cok,2,4346,5
+573,glowing rock,cok,4,5058,7
+573,fish,non-cok,3,3868,9
+540,crystal,non-cok,5,2993,3
+540,glowing rock,cok,3,3197,5
+540,fish,non-cok,6,4723,7
+540,liquid helium,cok,4,5670,9
+463,liquid helium,cok,2,7870,3
+463,crystal,non-cok,5,10039,5
+463,glowing rock,cok,1,4277,7
+463,fish,non-cok,1,6403,9
+600,crystal,non-cok,3,12582,3
+600,liquid helium,cok,4,8740,5
+600,glowing rock,cok,5,2944,7
+600,fish,non-cok,3,6195,9
+624,crystal,non-cok,5,7969,3
+624,glowing rock,cok,6,4567,5
+624,liquid helium,cok,5,1981,7
+624,fish,non-cok,2,5011,9
+617,liquid helium,cok,1,6902,3
+617,glowing rock,cok,2,4291,5
+617,crystal,non-cok,1,16378,7
+617,fish,non-cok,1,3667,9
+457,glowing rock,cok,1,3430,3
+457,crystal,non-cok,2,5440,5
+457,fish,non-cok,2,2506,7
+457,liquid helium,cok,2,5085,9
+569,glowing rock,cok,3,10132,3
+569,liquid helium,cok,2,9035,5
+569,fish,non-cok,2,23881,7
+569,crystal,non-cok,2,6209,9
+520,glowing rock,cok,2,3792,3
+520,fish,non-cok,1,2796,5
+520,crystal,non-cok,1,2922,7
+520,liquid helium,cok,1,4562,9
+497,liquid helium,cok,1,10358,3
+497,crystal,non-cok,2,4136,5
+497,glowing rock,cok,2,7102,7
+497,fish,non-cok,3,3168,9
+483,glowing rock,cok,2,8517,3
+483,fish,non-cok,1,4635,5
+483,liquid helium,cok,1,2182,7
+483,crystal,non-cok,1,2210,9
+574,glowing rock,cok,1,3646,3
+574,liquid helium,cok,1,2756,5
+574,fish,non-cok,3,2387,7
+574,crystal,non-cok,2,2690,9
+475,glowing rock,cok,1,6848,3
+475,liquid helium,cok,5,38216,5
+475,fish,non-cok,1,6784,7
+475,crystal,non-cok,1,8749,9
