@@ -10,7 +10,7 @@ library(here)
 library(jsonlite)
 
 
-dat_loc <- "chopra_2019/data/pilotB"
+dat_loc <- "chopra_2019/data/full_data"
 
 df_scores <- read_csv(here(dat_loc,"scores.csv"))
 df_tests <- read_csv(here(dat_loc, "tests.csv"))
@@ -41,6 +41,10 @@ label_rule = function(rule_idx) {
   }
 }
 
+pilots <- c("7930-bed65240-b8a7-4125-8b58-f411f2638aae", "3333-1efe6616-ef5a-4dc8-bf0f-059e1c5d6c85", "8029-23ce2010-d3fb-4ace-988e-39214734a122", "9111-3146f1fc-79b6-4029-8d10-afdd88e67845", 
+"7850-b851d977-d228-42b3-81bc-224c6519ff36",
+"2748-d7b45954-988c-4082-b6c4-2d92067ec2c3",
+"1238-0ae11de8-a557-4d5a-83c0-504fd7db0166")
 
 explorer_tests <- df_tests %>%
   filter(role == "explorer") %>%
@@ -52,12 +56,10 @@ student_tests <- df_tests %>%
 
 combined_tests <- explorer_tests %>%
   inner_join(student_tests, by=c("game_id", "round_num", "rule_idx", "stim_num")) %>% 
-  mutate(rule_type=map_chr(rule_idx, label_rule)) %>% write_csv(here(dat_loc, "pilot_data.csv"))
+  mutate(rule_type=map_chr(rule_idx, label_rule)) %>% 
+  filter(!game_id %in% pilots) |> write_csv(here(dat_loc, "full_data.csv"))
 
 
-"8029-23ce2010-d3fb-4ace-988e-39214734a122"
-"2748-d7b45954-988c-4082-b6c4-2d92067ec2c3"
-"1238-0ae11de8-a557-4d5a-83c0-504fd7db0166" # pilots to exclude, also see if there's a by date filter somewhere!
 
 ```
 
